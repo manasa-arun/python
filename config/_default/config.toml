@@ -1,5 +1,5 @@
-baseURL = "https://learnjavascript.guru/"
-title = "Learn JavaScript"
+baseURL = "https://pythontutorial.wiki/"
+title = "Python Tutorial"
 theme = "zdoc"
 
 defaultContentLanguage = "en"
