@@ -1,0 +1,3 @@
+{{ $main_template := resources.Get "sass/main.min.css" }}
+<link rel="stylesheet" href="{{ $main_template.RelPermalink }}">
+

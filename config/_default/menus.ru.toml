@@ -1,0 +1,17 @@
+#[[main]]
+#  identifier = "technology"
+#  name = "technology"
+#  url = "technology"
+#  weight = 1
+
+#[[main]]
+#  identifier = "updates"
+#  name = "Updates"
+#  url = "updates"
+#  weight = 2
+
+#[[main]]
+#  identifier = "tips"
+#  name = "Tips"
+#  url = "tips"
+#  weight = 2

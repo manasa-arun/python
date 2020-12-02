@@ -1,0 +1,30 @@
+{{ $js := .Site.Data.lib.js }}
+{{ $css := .Site.Data.lib.css }}
+
+{{ $getParents := resources.Get "js/helper/getParents.js" | resources.Minify }}
+<script defer src="{{ $getParents.RelPermalink }}"></script>
+{{ $closest := resources.Get "js/helper/closest.js" | resources.Minify }}
+<script defer src="{{ $closest.RelPermalink }}"></script>
+{{ $prev := resources.Get "js/helper/prev.js" | resources.Minify }}
+<script defer src="{{ $prev.RelPermalink }}"></script>
+{{ $prop := resources.Get "js/helper/prop.js" | resources.Minify }}
+<script defer src="{{ $prop.RelPermalink }}"></script>
+{{ $fadeinout := resources.Get "js/helper/fadeinout.js" | resources.Minify }}
+<script defer src="{{ $fadeinout.RelPermalink }}"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    'use strict';
+    
+    // ======================== markdown table =========================
+    var tables = document.querySelectorAll('.single__contents > table');
+    for (let i = 0; i < tables.length; i++) {
+      var table = tables[i];
+      var wrapper = document.createElement('div');
+      wrapper.className = 'table-wrapper';
+      table.parentElement.replaceChild(wrapper, table);
+      wrapper.appendChild(table);
+    }
+    // =================================================================
+});
+</script>

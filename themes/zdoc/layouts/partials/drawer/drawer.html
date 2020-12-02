@@ -1,0 +1,18 @@
+<div id="myDrawer" class="drawer" style="{{ if eq ($.Param "languagedir") "rtl" }}right: -100%{{ end }}">
+  <div class="drawer__header">
+    <a href="/" class="drawer__header--text">
+      {{ .Site.Params.logoText }}
+    </a>
+    <div class="grow"></div>
+    <div class="drawer__close">
+      {{ partial "svgs/close.svg" (dict "width" 22 "height" 22) }}
+    </div>
+  </div>
+
+  <div class="drawer__body">
+    {{ if $.Param "enableMenu" }}
+    {{ partial "main/sections/list-menu.html" . }}
+    {{ end }}
+  </div>
+</div>
+<div id="myModal" class="modal" style="{{ if eq ($.Param "languagedir") "rtl" }}opacity: 0; right: -100%{{ end }}"></div>
