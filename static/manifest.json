@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Learn JavaScript",
-  "short_name": "Learn JavaScript",
+  "name": "Python Tutorial",
+  "short_name": "Python Tutorial",
   "version": "1.0.0",
   "default_locale": "en",
-  "description": "Learn JavaScript",
+  "description": "Python Tutorial",
   "start_url": "/",
    "icons": [
   {

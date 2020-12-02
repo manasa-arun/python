@@ -5,7 +5,7 @@ date: 2020-01-26T04:15:05+09:00
 draft: true
 ---
 
-**"Learn JavaScript"** is a free online tool to check whether a website is down or not.
+**"Python Tutorial"** is a free online tool to check whether a website is down or not.
 
 Further it helps you find out whether the website **is down for everyone or just you**.
 
