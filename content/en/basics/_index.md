@@ -2,7 +2,7 @@
 title: JavaScript Basics
 description: A breif introduction of JavaScript Programming language.
 date: 2020-01-26T04:15:05+09:00
-draft: false
+draft: true
 link: Basics
 weight: -100
 collapsible: true
