@@ -1,5 +1,5 @@
-baseURL = "https://pythontutorial.wiki/"
-title = "Python Tutorial"
+baseURL = "https://python.shiksha/"
+title = "Python Shiksha"
 theme = "zdoc"
 
 defaultContentLanguage = "en"
