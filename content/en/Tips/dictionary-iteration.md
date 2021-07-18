@@ -11,6 +11,7 @@ link: "Iterating through Directories/Files"
 `Dictionaries` are considered to be one of the most important Data Structures in `Python`, reason being they can store limitless amount of information. The keys of a dictionary are always immutable, since they need to be kept `unique` throughout the dictionary. In this article, we are going to dive deep into iterating through a dictionary for extracting data of that dictionary.
 
 Simple example of a Dictionary:
+
 ```
 sample_dict = {"India": 'Delhi', "USA”: 'Washington D.C', "Russia”: 'Moscow’}
 
@@ -19,7 +20,8 @@ where `keys` are India, USA, and Russia and the `values` being Delhi, Washington
 
 ## Methods of Iterating through a Dictionary:
 
-###  • Iterating through keys directly
+### Iterating through keys directly
+
 Since **Dictionaries** are considered as mapping objects in **python**, Therefore, they already have access to the default ` __iter__` method which returns a iterator object than can iterate through all the objects of the structure. In case of Dictionaries, the `__iter__` method is set to be the keys of the dictionary. This implies that putting a dictionary into a for loop will by default iterate through its keys.  
 
 ```
@@ -50,8 +52,10 @@ Moscow
 ```
 Thus, in this way we can get access to the keys and corresponding values of a dictionary directly by the help of Python’s `__iter__` method.
 
-###   • Iterating using .keys() method
+### Iterating using .keys() method
+
 If there is a need to extract only the keys from a dictionary, then we can simply iterate through the keys by calling the `.keys()` method which gives us a dynamic view object of all the keys of that dictionary.
+
 If we see:
 ```
 >>> print(sample_dict.keys())
@@ -88,16 +92,21 @@ Moscow
 ```
 Thus, we got an idea about how to access the keys and corresponding values of a dictionary by the help of the `.keys()` method.
 
-###  • Iterating using .values() method
+### Iterating using .values() method
+
 Similar to the `.keys()` method, if there is a need to extract only the values of a dictionary then we can iterate through the values of a dictionary using the `.values()` method. Like `.keys()`, this method also gives us a dynamic view object of all the values of that dictionary. 
 Like:
+
 ```
 >>> print(sample_dict.values())
 ```
+
 OUTPUT:
+
 ```
 dict_values(['Delhi', 'Washington D.C', 'Moscow'])
 ```
+
 Here, we can see that this returns a dynamic object view of the values of the dictionary and we can easily iterate through this object to get access to the values of that dictionary using a **For** loop.
 
 ```
@@ -128,7 +137,8 @@ Russia
 ```
 At this time, this might seem to be a complicated, but Python also has an easier way of accessing both the values at the same time and easily playing around with them.
 
-###  • Iterating using .items() method
+### Iterating using .items() method
+
 When you’re a lazy programmer, then you always prefer to use both keys and values at the same time instead of using them individually. Thus, to ease the work of programmers, Python has the `.items()` method. This method can be used to access both the keys and values of a dictionary. 
 Let’s see how,
 
