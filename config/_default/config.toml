@@ -44,5 +44,5 @@ disableKinds = ["taxonomyTerm"]
 
 [taxonomies]
   tag = "tags"
-  author = "authors"
+
 

@@ -1,0 +1,23 @@
+<div class="mid">
+    <div class="divider">
+      
+      <nav id="single-menu" class="l" data-dir="ltr">
+        
+      </nav>
+  
+      <article id="list-main" class="m" data-dir="ltr">
+        {{ partial "main/component/toggle-sidebar.html" . }}
+        {{ partial "main/sections/list-authors.html" . }}
+        {{ partial "main/component/pagination-single.html" . }}
+        {{ partial "comments/comments.html" . }}
+      </article>
+      
+      <section id="list-side" class="r" data-dir="ltr">
+        
+      </section>
+  
+    </div>
+  </div>
+  
+  <!-- {{ partial "script/single-script.html" . }} -->
+  
