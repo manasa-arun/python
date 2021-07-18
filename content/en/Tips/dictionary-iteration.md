@@ -1,6 +1,6 @@
 ---
 title: "Iterate through a Dictionary using ‘for’ loops"
-description: "Useful Python language Tips & tricks"
+description: "Various methods of iterating through a dictionary in Python"
 date: "2020-01-26T04:15:05+09:00"
 draft: false
 link: "Iterating through Directories/Files"
