@@ -7,7 +7,13 @@
   
       <article id="list-main" class="m" data-dir="ltr">
         {{ partial "main/component/toggle-sidebar.html" . }}
-        {{ partial "main/sections/list-authors.html" . }}
+
+        <div class="single" data-display="block">
+          <article class="single__contents" data-dir="ltr">
+            {{ partial "main/sections/authors-meta.html" . }}
+            {{ partial "main/sections/authors-post.html" . }}
+          </article>
+        </div>  
         {{ partial "main/component/pagination-single.html" . }}
         {{ partial "comments/comments.html" . }}
       </article>
