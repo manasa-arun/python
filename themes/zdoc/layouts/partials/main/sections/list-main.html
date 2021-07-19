@@ -10,5 +10,16 @@
 
   <article class="single__contents" data-dir="ltr">
     {{ .Content }}
+    
+    {{ $path := printf "authors/%s/" .Params.author }}
+
+{{ with .Site.GetPage $path }}
+{{ partial "main/sections/authors-meta.html" . }}
+{{ end }}
+
+
   </article>
+
+
 </div>
+
