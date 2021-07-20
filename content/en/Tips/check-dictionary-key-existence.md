@@ -1,9 +1,9 @@
 ---
-title: "Check is a key exists in a dictionary"
-description: "How to check if a key exists in a Dictionary by using various methods and Functions."
+title: "Check if a Key exists in a Python Dictionary"
+description: "How to check if a key exists in a Python Dictionary by using various methods and Functions."
 date: "2021-07-19T04:15:05+09:00"
 draft: false
-link: "Check dictionary Key existence"
+link: "Check Dictionary Key existence"
 author: "dmohanty"
 ---
 
@@ -15,7 +15,7 @@ Like other data structures in python, Dictionaries/Map also contains indexes cal
 
 Keys can be both numeric as well as string but it can’t be of the form of a **mutable sequence** or object. 
 
-In this article we will briefly discuss the various methods to check if a key exists in a dictionary and which method is more reliable.
+In this article we will briefly discuss the various methods to **check if a key exists in a Python Dictionary** and which method is more reliable.
 
 For that, we will use a reference dictionary i.e.:
 
@@ -23,7 +23,7 @@ For that, we will use a reference dictionary i.e.:
 sample_dict = {'oranges': 1, 'mango': 2, 'cherry': 2}
 ```
 
-### Checking using in operator
+## Checking using "in" operator
 
 This is the simplest way of checking if a key exists in a dictionary. 
 
@@ -55,7 +55,7 @@ This is the most preferable way of achieving the desired result.
 
 This method takes the help of python’s default method, `__contains()__` , which we will discuss in the coming sections of this article, to check if a key exists `in` a dictionary.
 
-### Using the .keys() method
+## Using the .keys() method
 
 Python in-built `.keys()` method can also be used to check if a key exists in a dictionary. 
 
@@ -92,7 +92,7 @@ Key Present
 Key not present
 
 ```
-### Using the __contains__() function (For Python 3.X+ users)
+## Using the __contains__() function (For Python 3.X+ users)
 
 Python has a shortcut method to ease the work of programmers i.e., instead of manually searching for the key inside of a dictionary we can simply use the inbuilt `__contains__()` function.
 
@@ -122,7 +122,7 @@ Key not present
 
 ```
 
-### Using has_key() function (For Python 2.X users)
+## Using has_key() function (For Python 2.X users)
 
 We can simply use the inbuilt `has_key()` function which takes the key to be searched as a parameter and returns a `Boolean` value according to the existence of the key.
 
@@ -151,7 +151,7 @@ Key not present
 ```
 
 
-### Using the get() method
+## Using the get() method
 
 Python’s `get()` method can be used to assure the existence of a key in a dictionary. 
 
@@ -199,7 +199,7 @@ Key not Present
 
 ```
 
-### Handling KeyError exception
+## Handling KeyError exception
 
 There might be various methods to get the keys from the dictionary but in order to handle the **exception** of a non-existent key we can use the famous `try` and `except` clause to get rid of the **Key Error**.
 

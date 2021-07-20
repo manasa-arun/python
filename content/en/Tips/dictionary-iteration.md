@@ -1,6 +1,6 @@
 ---
-title: "Iterate through a Dictionary using ‘for’ loops"
-description: "Various methods of iterating through a dictionary in Python"
+title: 'Iterate through a Python Dictionary key values using "for" loop'
+description: "Various methods of iterating through a dictionary key values in Python"
 date: "2021-07-19T04:15:05+09:00"
 draft: false
 link: "Iterating Dictionary"
@@ -23,9 +23,7 @@ sample_dict = {"India": 'Delhi', "USA”: 'Washington D.C', "Russia”: 'Moscow�
 ```
 where `keys` are India, USA, and Russia and the `values` being Delhi, Washington D.C and Moscow.
 
-## Methods of Iterating through a Dictionary
-
-### Iterating through keys directly
+## Iterating through keys directly
 
 Since **Dictionaries** are considered as mapping objects in **python**, Therefore, they already have access to the default ` __iter__` method which returns a iterator object that can iterate through all the objects of the structure. 
 
@@ -67,7 +65,7 @@ Moscow
 ```
 Thus, in this way we can get access to the keys and corresponding values of a dictionary directly by the help of Python’s `__iter__` method.
 
-### Iterating using .keys() method
+## Iterating using .keys() method
 
 If there is a need to extract only the keys from a dictionary, then we can simply iterate through the keys by calling the `.keys()` method which gives us a dynamic view object of all the keys of that dictionary.
 
@@ -108,7 +106,7 @@ Moscow
 ```
 Thus, we got an idea about how to access the keys and corresponding values of a dictionary by the help of the `.keys()` method.
 
-### Iterating using .values() method
+## Iterating using .values() method
 
 Similar to the `.keys()` method, if there is a need to extract only the values of a dictionary then we can iterate through the values of a dictionary using the `.values()` method. 
 
@@ -156,7 +154,7 @@ Russia
 ```
 At this time, this might seem to be a complicated, but Python also has an easier way of accessing both the values at the same time and easily playing around with them.
 
-### Iterating using .items() method
+## Iterating using .items() method
 
 When you’re a lazy programmer, then you always prefer to use both keys and values at the same time instead of using them individually. 
 
