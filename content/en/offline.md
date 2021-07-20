@@ -1,5 +1,6 @@
 ---
 title: Oops, you are offline.
+author: "dummy"
 
 ---
 Thanks to Service Workers, you can still visit the pages you’ve visited already.

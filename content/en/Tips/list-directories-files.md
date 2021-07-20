@@ -1,14 +1,17 @@
 ---
-title: "Listing down files and directories in a folder"
+title: "Listing all files/directories inside a folder in Python"
 description: "Useful Python language Tips & tricks"
-date: "2020-01-26T04:15:05+09:00"
-draft: false
+date: "2021-07-19T04:15:05+09:00"
+draft: true
 link: "List Directories/Files"
+author: "dmohanty"
 ---
 
 ## Introduction
 
-All the Python files can be listed into a Directory or into sub-Directories by using various methods that are discussed below. Some of the major methods are by using the `os.walk()`, `os.listdir()`,glob module etc.
+We can list down all files or directories inside a folder in Python by using various methods that are discussed below. 
+
+Some of the major methods are by using the `os.walk()`, `os.listdir()`,glob module etc.
 
 Python’s by-default module i.e., the OS module allows user to get access to various functions to interact with the file system.
 
@@ -150,7 +153,7 @@ We can also use the previously used methods in order to filter our entries by us
 
 This method becomes really useful when we have to iterate over a list of files. 
 
-The `Glob.glob()` method returns an iterator over the list of pathnames that match a specified pattern.
+The `Glob.glob()` method returns an iterator over the list of path names that match a specified pattern.
 
 The `glob()` function searches for a list of files filtered on the basis of a specified pathname pattern. 
 
