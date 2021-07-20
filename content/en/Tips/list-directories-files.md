@@ -1,10 +1,10 @@
 ---
 title: "Listing down files and directories in a folder"
 description: "Useful Python language Tips & tricks"
-date: "2020-01-26T04:15:05+09:00"
+date: "2021-07-19T04:15:05+09:00"
 draft: false
 link: "List Directories/Files"
-author: "arun"
+author: "dmohanty"
 ---
 
 ## Introduction
