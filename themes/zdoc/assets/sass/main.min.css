@@ -4497,8 +4497,8 @@ table:not(.lntable) td code {
     align-items: flex-start;
 }
 .author-card .portrait {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
     border-radius: 50%;
     object-fit: cover;
@@ -4524,6 +4524,18 @@ table:not(.lntable) td code {
     margin-bottom: 20px;
 	line-height: 1.7;
 }
+
+.card-text a{
+	word-break: break-word;
+}
+
+
+.author-card p {
+    color: rgba(0,0,0,.76);
+    font-size: 16px;
+    margin-bottom: 20px;
+	line-height: 1.7;
+}
 ul.network-icon {
     display: inline-flex;
     flex-direction: row;
@@ -4536,4 +4548,8 @@ ul.network-icon {
 .network-icon svg {
     height: 30px;
     fill: #007d9c;
+}
+
+.network-icon li{
+	margin-right: 5px;
 }
