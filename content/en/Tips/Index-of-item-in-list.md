@@ -45,12 +45,13 @@ list2 = ['cat', 'bat', 'mat', 'cat',’pat’, 'cat', 'sat', ‘tat’]
  
 #/Will print index of 'cat' in sub list having index from 2 to 6
 print(list2.index('cat', 4, 8 ))
-` ` `
+```
 **Output**
+
 ```
 5
 [Finished in 152ms]
-` ` `
+```
 
 Now, what if we pass a value that does not exist in the list? Well, here is an example of this case.
 **Example 3**
