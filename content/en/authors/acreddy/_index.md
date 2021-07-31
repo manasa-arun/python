@@ -1,7 +1,7 @@
 ---
 title: "Arjuna Reddy"
 user: "acreddy"
-photo: "/images/authors/ACR.jpg"
+photo: "/images/authors/ACR.jpeg"
 twitter: "reddy_one8"
 linkedin: "arjuna-reddy-c"
 github: "redlocker97"
