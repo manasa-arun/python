@@ -1,7 +1,7 @@
 ---
 title: "Getting a index of an item from in a list"
 description: "How to obtain the value of the index of an item in a list."
-date: "2021-07-31 13:00:30.993349"
+date: "2021-07-19T04:15:05+09:00"
 draft: false
 link: "Finding the Index"
 author: "acreddy"
