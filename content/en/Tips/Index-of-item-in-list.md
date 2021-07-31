@@ -9,25 +9,31 @@ author: "acreddy"
 
 ## Introduction
 
-You can use the ** index() ** function of the List class with the element passed as an argument to get the index of the first occurrence of an element in a specified Python List.
-` ` `
+You can use the **index()** function of the List class with the element passed as an argument to get the index of the first occurrence of an element in a specified Python List.
+
+```
 Index=test_list.index(element)
-` ` `
-In the above code, the test_list is the list in which we are to find the first occurrence of the element. The** index() ** method returns the value of the index which corresponds to the first occurrence of the element in the list.
+```
+
+In the above code, the test_list is the list in which we are to find the first occurrence of the element. The **index()** method returns the value of the index which corresponds to the first occurrence of the element in the list.
+
 The  ** index() **  method also accepts additional parameters, such as, the start index and end index. The start and end indices are to indicate if one requires to find an element in a portion of a long list. The syntax is as follows – 
-` ` `
+
+```
 Index =mylist.index(element,start_index,end_index)
-` ` `
+```
+
 The start and the end indices are optional. 
 Next , we can look at a few examples on the use of the ** index() ** function.
 **Example 1**
-` ` `
+
+```
 list1 = [1, 2, 33, 4, 1, 19, 1, 4, 25]
- 
-print(list1.index(4))
-` ` `
+ print(list1.index(4))
+` `
 **Output**
-` ` `
+
+```
 3
 ` ` `
 **Example 2**
