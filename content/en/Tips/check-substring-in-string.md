@@ -1,15 +1,16 @@
 ---
-title: "Checking for a Substring in a String"
+title: "5 Python methods to check if a substring exists in a Given string"
 description: "Different methods of checking for a substring inside a string in python."
 date: "2021-07-19T04:15:05+09:00"
 draft: false
-link: "Check Substring in a String"
+link: "Substring Check"
 author: "dmohanty"
 ---
 
-In this article, we will briefly discuss about the different methods that we can use to check if a substring is present inside a string along with some shortcuts that can make our coding efficient.
+In this article, we will briefly discuss about the **different python methods that we can use to check if a substring is present inside a string** along with some shortcuts that can make our coding efficient.
 
 ## Overview of Strings in Python
+
 **Strings** are an array of Unicode characters occupying a storage of few bytes. 
 
 If you come from a different language, there are high chances of your interaction with the `char` keyword, but in python there is no such `char` keyword and thus we can say that a single letter inside quotation marks in python is a string with length 1.
@@ -22,11 +23,12 @@ Examples of Strings in python:
 ```
 ‘python’ , ‘coding’ , ‘py’ , ‘d’ , ‘xyz’ , ‘Python is a good language’
 ```
-## Diving deep
 
-Let's start exploring the various methods starting with the powerful and most common `in` operator.
+## Different Substring Check methods in Python 
 
-### Using the in operator
+Let's start exploring the various python methods starting with the powerful and most common `in` operator.
+
+## Using the in operator
 
 The `in` operator is one of the fastest and most generic method adopted by python programmers as they know the power of the `in` operator and its value in python. 
 
@@ -34,26 +36,28 @@ The `in` operator evaluates the presence of a substring inside a string and retu
 
 ```
 main_string = "Python is a good programming language"
-sub_1 = "good"
-sub_2 = "not"
+sub_string1 = "good"
+sub_string2 = "not"
 
-if sub_1 in main_string:
+if sub_string1 in main_string:
     print("Substring Found !")
 else:
     print("Substring not Found !")
     
 
-print(sub_2 in main_string)
+print(sub_string2 in main_string)
 
 ```
 OUUTPUT:
+
 ```
 Substring Found !
 False
 ```
+
 Thus, we would now have a fair idea as of why `in` is so valuable in python.
 
-### Using the find() method
+## Using the find() method
 
 Python’s default `find()` method is used to check if a substring is present in a string and this method looks for the lowest index at which the substring is found.
 
@@ -61,17 +65,17 @@ It returns the **particular index** if the substring is present else returns `-1
 
 ```
 main_string = "Python is a good programming language"
-sub_1 = "good"
-sub_2 = "not"
+sub_string1 = "good"
+sub_string2 = "not"
 
-result = main_string.find(sub_1)
+isFound = main_string.find(sub_string1)
 
-if result >= 0:
+if isFound >= 0:
     print("Substring Found !")
 else:
     print("Substring not Found !")
 
-print(main_string.find(sub_2))
+print(main_string.find(sub_string2))
 
 ```
 OUTPUT:
@@ -91,10 +95,10 @@ print( main_string.find(sub_string , starting index , ending index ))
 ```
 main_string = "Python is a good programming language"
 
-sub_1 = "good"
+sub_string1 = "good"
 
-print(main_string.find(sub_1,1,10))
-print(main_string.find(sub_1,10,30))
+print(main_string.find(sub_string1,1,10))
+print(main_string.find(sub_string1,10,30))
 
 ```
 OUTPUT:
@@ -104,26 +108,26 @@ OUTPUT:
 ```
 As discussed, we can clearly see that since the index of *good* is `12` therefore when we specify indices from 1-10, we get `-1` as result but when we search in indices from 10-30, we get the output as `12`.
 
-### Using the count() method
+## Using the count() method
 
-The `count()` is one of those generic programming methods which return binary value as output.
+The `count()` is one of those generic python programming methods which return binary value as output.
 
 This method searches for the occurrence of a substring inside a string and returns `1` if substring is present else returns `0` when substring is not present.
 
 ```
 main_string = "Python is a good programming language"
 
-sub_1 = "good"
-sub_2 = "not"
+sub_string1 = "good"
+sub_string2 = "not"
 
-result = main_string.count(sub_1)
+isExists = main_string.count(sub_string1)
 
-if result == 1 :
+if isExists == 1 :
     print("Substring Found !")
 else:
     print("Substring not Found !")
 
-print(main_string.count(sub_2))
+print(main_string.count(sub_string2))
 
 ```
 OUTPUT:
@@ -132,28 +136,28 @@ Substring Found !
 0
 ```
 
-### Using the index() method
+## Using the index() method
 
 The `index()` method is also one of the unique methods of achieving the result.
 
-Unlike other methods, this doesn’t return a value as output but instead it returns a `ValueError` if a substring is not present inside a string & if a substring is present then it returns the **lowest index** of that substring.
+Unlike other methods, this doesn't return a value as output but instead it returns a `ValueError` if a substring is not present inside a string & if a substring is present then it returns the **lowest index** of that substring.
 
 Hence, **Handling exception** is the only way to evaluate the existence of a substring inside of a string. 
 
 ```
 main_string = "Python is a good programming language"
 
-sub_1 = "good"
-sub_2 = "not"
+sub_string1 = "good"
+sub_string2 = "not"
 
 try:
-    result = main_string.index(sub_1)
+    result = main_string.index(sub_string1)
     print("Substring Found !")
 except ValueError as e:
     print("Error Code:",e)
 
 try:
-    result = main_string.index(sub_2)
+    result = main_string.index(sub_string2)
     print("Substring Found")
 except ValueError as e:
     print("Error Code:",e)
@@ -165,7 +169,7 @@ Substring Found !
 Error Code: substring not found
 ```
 
-### Using the operator.contains() method
+## Using the operator.contains() method
 
 The hidden method / barely used method for searching substring inside a string is the `operator.contains()` method.
 
@@ -178,16 +182,16 @@ import operator
 
 main_string = "Python is a good programming language"
 
-sub_1 = "good"
-sub_2 = "not"
+sub_string1 = "good"
+sub_string2 = "not"
  
 
-if operator.contains(main_string,sub_1) :
+if operator.contains(main_string,sub_string1) :
     print("Substring Found !")
 else:
     print("Substring not Found !")
 
-print(operator.contains(main_string,sub_2))
+print(operator.contains(main_string,sub_string2))
 
 ```
 OUTPUT:
@@ -195,6 +199,7 @@ OUTPUT:
 Substring Found !
 False
 ```
+
 Since, we have discussed all the methods for evaluating the existence of a substring inside a string now it’s the time to discuss the performance of all our methods and which method should we use in order to make our programming faster.
 
 ## Discussing Performance
