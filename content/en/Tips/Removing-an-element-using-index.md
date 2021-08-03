@@ -14,6 +14,7 @@ The data is enclosed in square brackets ([]), with commas between the values (,)
 Remove(), pop(), and clear() are the three techniques. 
 You can remove items from a list using the del keyword in addition to the list methods.
 Let us take an example of a list and see how each of the above methods work.
+
 ``` 
 My_list=[‘Arjun’,66,3.1415,’Reddy’, 99,[‘A’ ,’B’ , ‘C’] , 85]
 
@@ -28,6 +29,7 @@ The syntax is as follows –
 
 ``` 
 List_name.remove(element)
+
 ```
 
 This removes the first occurrence of the element is the specified list. The remove() method does not return any value.  It is worthwhile to note that -
@@ -42,6 +44,7 @@ This removes the first occurrence of the element is the specified list. The remo
 my_list = [1,22,44,66,'Tim','Queens',100,'Queens','Cook',44,66,32]
 my_list.remove(22) # it will remove the element 22 at the start.
 print(my_list)
+
 ```
 
 **Output**
@@ -49,6 +52,7 @@ print(my_list)
 ```
 [1, 44, 66, 'Tim', 'Queens', 100, 'Queens', 'Cook', 44, 66, 32]
 [Finished in 146ms]
+
 ```
 Even when we have multiple elements with the same name , the element with the smallest index will be removed first.
 
@@ -58,6 +62,7 @@ Even when we have multiple elements with the same name , the element with the sm
 my_list = [1,22,44,66,'Tim','Queens',100,'Cook',44,66,'Queens',32]
 my_list.remove('Queens') # will remove the first Queen from the list
 print(my_list)
+
 ``` 
 
 Here the first occurrence of the element “Queens” is at index 5. This is the only occurrence that is removed from the list. The other occurrence of “Queens” at index 10 remains as it is. We can use other functions to remove all the occurrences of an element from the list, as shown further in the tutorial.
@@ -67,7 +72,6 @@ Here the first occurrence of the element “Queens” is at index 5. This is the
 The pop() method removes an element from the list based on the parameter that is passed. The syntax for the pop() method is as follows –
 
 ```
-
 Popped=my_list.pop(index)
 
 ```
