@@ -11,6 +11,11 @@
       {{ partial "main/component/toggle-sidebar.html" . }}
       {{ partial "main/sections/list-main.html" . }}
       {{ partial "main/component/pagination-single.html" . }}
+      {{ $path := printf "authors/%s/" .Params.author }}
+
+{{ with .Site.GetPage $path }}
+{{ partial "main/sections/authors-meta.html" . }}
+{{ end }}
       {{ partial "comments/comments.html" . }}
     </article>
     

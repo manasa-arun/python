@@ -1,10 +1,9 @@
 
 <div class="media author-card">
-      <img class="portrait mr-3" width="200px" height="200px" src="{{.Page.Params.photo}}" alt="Avatar">
+      <img class="portrait mr-3"src="{{.Page.Params.photo}}" alt="Avatar">
       <div class="media-body">
-         <h4 class="card-title"></h4>
-         <p class="card-text">{{ .Content }}</p>
-         <p><a href="{{.Permalink}}" target="_blank">{{.Permalink}}</a></p>
+         <p class="card-text">{{ .Page.Params.description }}</p>
+         <p class="card-text"><a href="{{.Permalink}}" target="_blank">{{.Permalink}}</a></p>
          <ul class="network-icon" aria-hidden="true">
             <li>
                <a href="{{.Page.Params.blog}}" target="_blank" rel="noopener">
