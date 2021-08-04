@@ -1,13 +1,13 @@
 ---
-title: "Check if a file exists without exception."
+title: "Check if a file exists or not without exception in Python"
 description: "How to check if a file exists without exception in Python."
 date: "2021-07-19T04:15:05+09:00"
-draft: true
-link: "Check if a file exists without exception"
+draft: falses
+link: "file exists check"
 author: "dmohanty"
 ---
 
-In this article, we will briefly discuss about the different python scripting methods with the help of which we can check if a file exists without exception. 
+In this article, we will briefly discuss about the different python scripting methods with the help of which we can check if a file exists or not without exception. 
 
 While we are working with python scripting, many times we may have to perform a certain task on if a particular file or directory exists and thus, in the upcoming sections we will discuss the solutions to our problem.
 
@@ -56,11 +56,11 @@ This is because the above method is the least likely to be used method, because 
 
 For e.g.: While checking for existence, there might be another process running which tries to delete the same file and by using the *try* and *except* block, we are ignoring the  **Race** conditions.
 
-## Methods to check existence of file without exception
+## Python Methods to check existence of file without exception
 
 There are a few methods by the help of which we can effectively evaluate the existence of a file.
 
-### Using the os module
+## Using the os module
 
 We can evaluate the existence of a file/directory by using the `exists()` method of the `os.path` module. 
 
@@ -94,7 +94,7 @@ False
 
 This method is a go-to use method if there are no simultaneous actions being performed on the same file like deleting the file or copying the file.
 
-### Using the pathlib module
+## Using the pathlib module
 
 This method can only be used by programmers using Python version equivalent or more than *Python 3.4*. 
 
@@ -136,7 +136,7 @@ pip install pathlib2
 
 The main difference between using the **os** and **pathlib** module is that *pathlib* allows the user to work with the filesystem paths as `Path` objects while *os* works with the paths as simple `string` objects.
 
-### Using the glob module
+## Using the glob module
 
 Python’s Glob module allows the user to interact with the filesystem. The main advantage of using the **glob** module is because of its **ability to match a pattern**.
 
@@ -165,7 +165,7 @@ Since we have discussed all the different methods of using Python scripting to c
 
 Now, it’s the time that we should discuss some *important usecases* of these methods. 
 
-### Check if all files of a list exist
+## Check if all files of a list exist
 
 Suppose, you have multiple files in a directory and you want to check if some particular files exist in that directory or not. 
 
@@ -192,7 +192,7 @@ OUTPUT:
 All files exist
 ```
 
-### Check if a file is empty or not
+## Check if a file is empty or not
 
 Sometimes we may come across *usecases* where our provided contains a file which is empty.
 
@@ -221,7 +221,7 @@ File exists and Empty
 11
 ```
 
-### Check if a file exists with an extension
+## Check if a file exists with an extension
 
 We can achieve the above result by using the regular expression & the **Glob** module.
 
