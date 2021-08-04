@@ -204,6 +204,8 @@ Since, we have discussed all the methods for evaluating the existence of a subst
 
 ## Discussing Performance
 
+Now we will see the performance aspects of different methods
+
 ```
 import timeit
 code_setup = """
@@ -211,6 +213,7 @@ main_string = "Python is a good programming language"
 sub_1 = "good"
 """
 
+## With in operator
 code_1 = """
 if sub_1 in main_string:
     # print("Substring Found !")
@@ -220,6 +223,7 @@ else:
     pass
 """
 
+## With find method
 code_2 = """
 result = main_string.find(sub_1)
 
@@ -232,6 +236,7 @@ else:
 
 """
 
+## With count method
 code_3 = """
 result = main_string.count(sub_1)
 
@@ -243,7 +248,8 @@ else:
     pass
 
 """
-  
+
+## With index method  
 code_4 = """
 try:
     result = main_string.index(sub_1)
@@ -254,6 +260,8 @@ except ValueError as e:
     pass
 
 """
+
+## With Contains Method
 code_5 = """
 import operator
 
@@ -264,20 +272,21 @@ else:
     # print("Substring not Found !")
     pass
 """
-print('Time of code_1: ', timeit.timeit(setup = code_setup , stmt= code_1, number= 10000000))
-print('Time of code_2: ', timeit.timeit(setup = code_setup , stmt= code_2, number= 10000000))
-print('Time of code_3: ', timeit.timeit(setup = code_setup , stmt= code_3, number= 10000000))
-print('Time of code_4: ', timeit.timeit(setup = code_setup , stmt= code_4, number= 10000000))
-print('Time of code_5: ', timeit.timeit(setup = code_setup , stmt= code_5, number= 10000000))
+print('Time With in operator: ', timeit.timeit(setup = code_setup , stmt= code_1, number= 10000000))
+print('Time With find method: ', timeit.timeit(setup = code_setup , stmt= code_2, number= 10000000))
+print('Time With count method: ', timeit.timeit(setup = code_setup , stmt= code_3, number= 10000000))
+print('Time With index method: ', timeit.timeit(setup = code_setup , stmt= code_4, number= 10000000))
+print('Time With Contains Method: ', timeit.timeit(setup = code_setup , stmt= code_5, number= 10000000))
+
 
 ```
 OUTPUT:
 ```
-Time of code_1:  0.44903029999932187
-Time of code_2:  2.168837199999871
-Time of code_3:  1.6836650999994163
-Time of code_4:  1.3308642000001782
-Time of code_5:  1.7949675999998362
+Time With in operator:  0.5566656999999999
+Time With find method:  2.0406945999999997
+Time With count method:  2.0501952000000006
+Time With index method:  1.8084388000000002
+Time With Contains Method:  2.2768479
 ```
 From the output, it is clearly visible that our mighty `in` operator stands out above all other methods and hence `in` adds one more time-saving usability into itself. 
 
