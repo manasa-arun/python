@@ -5,6 +5,8 @@ date: "2021-07-19T04:15:05+09:00"
 draft: false
 link: "Add keys to Dictionary"
 author: "dmohanty"
+image: "images/featured/addNewKeysPythonDictionary.png"
+
 ---
 
 Dictionaries have been a very important Data structure in python.
