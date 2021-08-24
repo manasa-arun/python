@@ -1,9 +1,9 @@
 ---
-title: "Determine the type of a Variable"
-description: "Two important methods of determining the type of a variable in Python."
+title: "2 ways to check type of a variable in Python"
+description: "Two important methods for determining the type of a variable in Python."
 date: "2021-07-19T04:15:05+09:00"
-draft: true
-link: "Determine type of a Variable"
+draft: false
+link: "check type of a Variable"
 author: "dmohanty"
 ---
 
@@ -57,11 +57,11 @@ g={1,2,3,4}
 
 ```
 
-## Extracting the type of a variable.
+## Extracting the type of a variable in Python.
 
-Let's start discussing both the method in detail:
+Let's start discussing both the methods in detail
 
-### Using the type() method
+## Using the type() method
 
 Python has a built-in `type()` method , which gives the class type of the variable as an output.
 
@@ -76,29 +76,29 @@ e=(12,56)
 f={"India":1, "France":2}
 g={1,2,3,4}
 
-print("The Type is: ", type(a))
-print("The Type is: ", type(b))
-print("The Type is: ", type(c))
-print("The Type is: ", type(d))
-print("The Type is: ", type(e))
-print("The Type is: ", type(f))
-print("The Type is: ", type(g))
+print("The Type of Variable is: ", type(a))
+print("The Type of Variable is: ", type(b))
+print("The Type of Variable is: ", type(c))
+print("The Type of Variable is: ", type(d))
+print("The Type of Variable is: ", type(e))
+print("The Type of Variable is: ", type(f))
+print("The Type of Variable is: ", type(g))
 ```
 
 Output:
 ```
-The Type is:  <class 'int'>
-The Type is:  <class 'float'>
-The Type is:  <class 'str'>
-The Type is:  <class 'list'>
-The Type is:  <class 'tuple'>
-The Type is:  <class 'dict'>
-The Type is:  <class 'set'>
+The Type of Variable is:  <class 'int'>
+The Type of Variable is:  <class 'float'>
+The Type of Variable is:  <class 'str'>
+The Type of Variable is:  <class 'list'>
+The Type of Variable is:  <class 'tuple'>
+The Type of Variable is:  <class 'dict'>
+The Type of Variable is:  <class 'set'>
 ```
 
 We have seen the use of the `type()` method for all the data types. Now let’s hop onto the other method i.e. the `isinstance()` method.
 
-### Using the isinstance() method
+## Using the isinstance() method
 
 `isinstance()` is another in-built Python method which can be used to extract the data type of a variable in python.
 
@@ -115,27 +115,27 @@ e=(12,56)
 f={"India":1, "France":2}
 g={1,2,3,4}
 
-print("The Type is Integer: ", isinstance(a,int))
-print("The Type is String: ", isinstance(b,str))
-print("The Type is String: ", isinstance(c,str))
-print("The Type is List: ", isinstance(d,list))
-print("The Type is Set: ", isinstance(e,set))
-print("The Type is Dictionary: ", isinstance(f,dict))
-print("The Type is Float: ", isinstance(g,float))
+print("The Variable Type is Integer: ", isinstance(a,int))
+print("The Variable Type is String: ", isinstance(b,str))
+print("The Variable Type is String: ", isinstance(c,str))
+print("The Variable Type is List: ", isinstance(d,list))
+print("The Variable Type is Set: ", isinstance(e,set))
+print("The Variable Type is Dictionary: ", isinstance(f,dict))
+print("The Variable Type is Float: ", isinstance(g,float))
 ```
 
 Output:
 ```
-The Type is Integer:  True
-The Type is String:  False
-The Type is String:  True
-The Type is List:  True
-The Type is Set:  False
-The Type is Dictionary:  True
-The Type is Float:  False
+The Variable Type is Integer:  True
+The Variable Type is String:  False
+The Variable Type is String:  True
+The Variable Type is List:  True
+The Variable Type is Set:  False
+The Variable Type is Dictionary:  True
+The Variable Type is Float:  False
 ```
 
-## Difference between type() & isinstance()
+## Difference between type() & isinstance() methods
 
 Since both the methods are equally useful for getting the desired result, we can use either of the method but we should now look at some of the differences between both these methods.
 
