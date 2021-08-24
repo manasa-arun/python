@@ -1,8 +1,8 @@
 ---
-title: "Parse a String to int or float"
+title: "How to Parse a String to int or float in Python"
 description: "How to convert a String into float or int in python"
 date: "2021-07-19T04:15:05+09:00"
-draft: true
+draft: false
 link: "Parsing a String"
 author: "dmohanty"
 ---
@@ -45,11 +45,11 @@ We will discuss how to convert a string into whole numbers and floating-point nu
 
 Let’s get started:
 
-## String to Float
+## Convert String to Float
 
 In this section we will discuss about how we can convert our string to floating-point numbers.
 
-### Using float() method
+## Using float() method
 
 `float()` is an inbuilt function in python that allows us to convert any data type into floating-point numbers.
 
@@ -88,7 +88,7 @@ ValueError: could not convert string to float: 'Convert'
 
 Then it will result in an `ValueError` because the in-built `float()` is not configured to take alphabets as its parameter.
 
-### Using Decimal() method
+## Using Decimal() method
 
 Since we are only focused on converting strings into floating-point numbers, then we can import the **decimal** module explicitly and then use the `Decimal()` method in order to convert the string into a floating-point number.
 
@@ -152,11 +152,11 @@ This wraps up our Parsing the string into float section.
 
 We can now discuss about how can we convert a string into int in python in the following section.
 
-## String to Int
+## Convert String to Int
 
 In a similar way as like of `float()`, we can use the inbuilt `int()` method to convert a *string* to *integer/whole number*.
 
-### Using int() method
+## Using int() method
 
 `int()` is an inbuilt function in python that allows us to convert any data type into **whole numbers / integers**.
 

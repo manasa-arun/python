@@ -1,8 +1,8 @@
 ---
-title: "Sort a Dictionary by values"
+title: "5 ways to sort a dictionary by value in Python"
 description: "How can we Sort a Dictionary by values using different methods ?"
 date: "2021-07-19T04:15:05+09:00"
-draft: true
+draft: false
 link: "Sort dictionary by value"
 author: "dmohanty"
 ---
@@ -31,11 +31,11 @@ Output:
 [('India', 'Delhi'), (‘England’,’London’), ('Australia', 'Canberra'), ('Russia', 'Moscow')]
 ```
 
-## Different Methods of sorting a dictionary
+## Different Methods of sorting a Python dictionary
 
 Let's dive in deeper onto discussing the various methods of sorting a Dictionary by value.
 
-### Sort using Bubble sort
+## Sort using Bubble sort
 
 After getting the above output, we have the freedom that the items can now be rearranged since they are inside a list and thus, we can use the **bubble sort** method to arrange the tuples.
 
@@ -63,7 +63,7 @@ But the question that arises is that, Is this method feasible ?
 
 Answer is **No**. Then, we can use the `sorted()` method.
 
-### Sort using sorted() method
+## Sort using sorted() method
 
 We can use Python’s inbuilt `sorted()` method to sort our dictionaries. 
 
@@ -92,7 +92,7 @@ Here the function `sorted(sample_dict, key=sample_dict.get)` returns a list of k
 
 Using python’s inbuilt method `sorted()` has reduced the code to a great extent and improved the performance but this `sorted()` method can be combined with another method called `itemgetter()` to further improve the performance.
 
-### Sort using the sorted function and operator module
+## Sort using the sorted function and operator module
 
 The **operator** module consists of the `itemgetter()` function which returns a callable object that returns an item from an object.
 
@@ -130,7 +130,7 @@ With less lines of code and improved runtime performance, we can easily sort the
 
 But since we ate using the key function, there is another method that we can use other than `itemgetter()`, that is `lambda` that is discussed in the next section.
 
-### Sort using lambda function
+## Sort using lambda function
 
 Don’t want to import a module explicitly for using its method, what if there is an alternative for the same with the same computation time and better runtime performance.
 
@@ -156,7 +156,7 @@ All the above discussed methods are applicable only to **Python 3.7+** only. Wha
 
 We also have a crack for the users of lower versions of python.
 
-### Using OrderedDict 
+## Using OrderedDict 
 
 Dictionaries have been buffed after **Python 3.7** but in versions *prior* to 3.7, Dictionaries were not sorted according to order of insertion.
 
