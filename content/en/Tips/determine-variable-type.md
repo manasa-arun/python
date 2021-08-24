@@ -2,7 +2,7 @@
 title: "Determine the type of a Variable"
 description: "Two important methods of determining the type of a variable in Python."
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Determine type of a Variable"
 author: "dmohanty"
 ---

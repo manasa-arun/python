@@ -2,7 +2,7 @@
 title: "Parse a String to int or float"
 description: "How to convert a String into float or int in python"
 date: "2021-07-19T04:15:05+09:00"
-draft: false
+draft: true
 link: "Parsing a String"
 author: "dmohanty"
 ---
