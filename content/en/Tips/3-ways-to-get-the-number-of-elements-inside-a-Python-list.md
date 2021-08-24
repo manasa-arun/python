@@ -1,13 +1,13 @@
 ---
-title: "Get the number of elements in a list"
+title: "3 ways to get the number of elements inside a Python list"
 description: "Different methods and functions to extract the number of elements inside a list"
 date: "2021-07-19T04:15:05+09:00"
-draft: true
+draft: false
 link: "Get number of elements in a list"
 author: "dmohanty"
 ---
 
-In this article, we will discuss about the different methods around which we can count the number of elements inside of a list containing strings, lists and numbers.
+In this Python article, we will discuss about the different methods around which we can count the number of elements inside of a Python list containing strings, lists and numbers.
 
 ## What is a List ?
 
@@ -21,13 +21,13 @@ Example of a list:
 sample_list = [ 'apples','oranges','grapes','mangoes','bananas']
 ```
 
-## Extracting number of elements from a list
+## Extracting number of elements from a Python list
 
 After we have an overview of what a list looks like, let us dive deep into methods
 
-### Using the for loop
+## Using the for loop
 
-The simplest method that can be used to extract the number of elements inside a list is by using the `for` loop. 
+The simplest method that can be used to extract the number of elements inside a Pyton list is by using the `for` loop. 
 
 We can use the for loop to iterate through the list using a `for` loop and can use a counter to keep track of the number of the elements inside the list by increasing the counter by 1 on each iteration.
 
@@ -44,7 +44,7 @@ Output:
 5
 ```
 
-### Using the len() method
+## Using the len() method
 
 Python has an inbuilt `len()` function for calculating the number of elements inside a list.
 
@@ -67,9 +67,9 @@ When a object is passed to the `len()` function as an argument, the internal `__
 
 Surprisingly, this `len()` functions works on every *sequential data structure* of Python, be it list or dictionary or tuple or string, this method got all of them covered.
 
-### Using the list.__len__() method
+## Using the `list.__len__()` method
 
-In the previous section, we saw that `__len__()` is the internal function that is called upon using `len()` but we can also use the internal method **directly** to extract the number of elements.
+In the previous section, we saw that `__len__()` is the internal function that is called upon using `len()` but we can also use the Python internal method **directly** to extract the number of elements in a list.
 
 ```
 sample_list = [ 'apples','oranges','grapes','mangoes','bananas']
@@ -107,7 +107,7 @@ Then is the `len()` method broken ?
 
 **No**, it isn’t. We have to use this method in a careful manner in order to achieve our result.
 
-### Using for loop
+## Using for loop
 
 We can use the `for` loop for extracting the total number of elements inside the parent list. 
 
@@ -158,7 +158,7 @@ Output:
 6
 ```
 
-### Using the list comprehension method
+## Using the list comprehension method
 
 Instead of using a for loop, a counter, then adding the length of each element to our counter and then achieving our final result. Too much lines of code ?
 
