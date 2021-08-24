@@ -1,8 +1,8 @@
 ---
-title: "Limiting floats up to two decimal places"
+title: "3 Python ways to Limit float up to two decimal places"
 description: "How to get a float with only up to two decimal places."
 date: "2021-07-19T04:15:05+09:00"
-draft: true
+draft: false
 link: "Limiting float upto 2 decimals"
 author: "dmohanty"
 ---
@@ -34,11 +34,11 @@ Output:
 13.5  &  25.758
 ```
 
-## Methods of limiting float up to 2 decimal places
+## Methods of limiting float up to 2 decimal places in Python
 
 Now let's dive deep into detail of the methods
 
-### Using the round() function
+## Using the round() function
 
 We can use Python’s inbuilt `round()` function to round off our numbers which are passed into the constructor as a parameter.
 
@@ -76,7 +76,7 @@ Output:
 
 Pretty simple and a go-to method in order to constraint our floats up to two decimal places.
 
-### Using the % operator
+## Using the % operator
 
 If you come from a **C language** background, then you must be very familiar with using the `%` operator in print statements. 
 
@@ -95,7 +95,7 @@ Output:
 19.57
 ```
 
-### Using the str.format() method
+## Using the str.format() method
 
 `format()` is a very useful method while programming in python and thus, it also has its usage in limiting floats up to decimals.
 
