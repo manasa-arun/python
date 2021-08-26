@@ -27,6 +27,7 @@ print(" A random integer in range 0 to 9 :- " ,random.randint(0,9))
 ## Output
 
 ```
+
 Random integer from 0 to 9 :-  3
 
 ```
@@ -34,16 +35,19 @@ Random integer from 0 to 9 :-  3
 ## Example 2 – generating more than one number
 
 ```
+
 #with a loop
 import random
 print('5 random numbers between 0 and 9')
 for i in range(5):
 	print(random.randint(0,9))
+
 ```
 
 ## Output
 
 ```
+
 5 random numbers between 0 and 9
 9
 2
