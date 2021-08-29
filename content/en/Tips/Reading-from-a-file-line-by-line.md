@@ -39,7 +39,7 @@ The strip() method is used to remove any whitespaces that might be encountered i
 ```
 with open('test.txt') as f:
     Contents = f.readlines()
-# you may also want to remove whitespace characters like `\n` at the end of each line
+# we may also want to remove whitespaces like `\n` at the end of each line
 li = [x.strip() for x in Contents]
 print(li)
 
@@ -110,7 +110,7 @@ The function splitlines() returns lines separated by a comma.
 ```
 with open('/Users/acreddy/Downloads/Python/test.txt', 'r') as infile:
     data = infile.read()  # Read the contents of the file into memory.
-# Return a list of the lines, breaking at line boundaries.
+# Returns a list of the lines, breaking at the line boundaries.
 li = data.splitlines()
 print(li)
 

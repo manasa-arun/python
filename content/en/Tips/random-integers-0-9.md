@@ -66,7 +66,7 @@ The randrange() function has three inputs: start, stop, and step. This function 
 ```
 import random
 
-print("Random numbers from 0 to 9 - ")
+print("Random numbers between 0 to 9 - ")
 for i in range(10):
     print(random.randrange(10))
 ```
@@ -128,7 +128,7 @@ To generate random numbers, we can use the secrets module's randbelow() function
 ```
 from secrets import randbelow
 
-print("Random integers from 0 to 9 :-")
+print("Random integers from 0 - 9 :-")
 for i in range(9):
     print(randbelow(9))
 

@@ -32,7 +32,7 @@ List_name.remove(element)
 
 ```
 
-This removes the first occurrence of the element is the specified list. The remove() method does not return any value.  It is worthwhile to note that -
+This removes the first occurrence of the element is the specified list. The remove() method does not return any value.  It is beneficial to note that -
 •	When there are duplicate elements in a list, the first element that matches the provided element is eliminated.
 •	If the supplied element does not exist in the list, an error will be thrown stating that the element does not exist in the list.
 •	There is no value returned by the remove () function.
@@ -288,7 +288,7 @@ print(my_list)
 
 ## 5.	The Long Method
 
-Pop and del, as previously discussed, are efficient techniques to delete an item from a specified index. When working with Python lists, this will be the slowest approach, but it may be handy when working with user-defined objects that don't have pop and del functions. However, for the sake of exploring possibilities (since the same thing can be done via many ways in Python) . This can be illustrated with the following example.
+Pop and del, as previously discussed, are efficient techniques to delete an item from a specified index. When working with Python lists, this will be the slowest approach, but it may be handy when working with user-defined objects that don't have pop and del functions. However, for the sake of exploring possibilities (since the same thing can be done via many ways in Python) . This can be demonstrated with the following example.
 
 **Example**
 
