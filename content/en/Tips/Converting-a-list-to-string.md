@@ -7,6 +7,7 @@ link: " Convert a list to string "
 author: "acreddy"
 ---
 
+## Introduction
 
 When a list is given and we convert it to a string, we may encounter a variety of situations.
 For example, converting a list of strings or an integer list to a string. 

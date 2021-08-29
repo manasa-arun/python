@@ -7,6 +7,8 @@ link: " Remove all whitespace in a string "
 author: "acreddy"
 ---
 
+## Introduction
+
 In Python, a string can contain large amounts of whitespace. You may need to delete all of these white spaces in Python at some point during your programming. We can't change the value of a Python String because it's immutable. Any function that manipulates a string value returns a new string, which must be explicitly assigned to the string; otherwise, the string value will remain unchanged. 
 
 In Python, there are several methods for removing spaces from a string. This article aims to give a quick overview of the many functions available for removing whitespace from a string. 

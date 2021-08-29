@@ -8,6 +8,8 @@ author: "acreddy"
 ---
 
 
+## Introduction
+
 We'll learn how to create random integers between 0 and 9 in Python in this tutorial. We'll make use of certain Python built-in functions as well as some custom code. Let's have a look at several different methods for generating random numbers. Python has a number of functions for generating random integers in certain ranges. We'll go over how to use Python's built-in random module to generate random integers. Randint() and randrange() are two important functions in the random module for generating random integers (). We'll also look at how the random module handles float values. To produce random values, an additional module called secrets can also be utilised. 
 
 ## Method 1 - Randint() function

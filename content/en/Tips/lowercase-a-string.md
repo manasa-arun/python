@@ -7,6 +7,9 @@ link: " A string to Lowercase "
 author: "acreddy"
 ---
 
+
+## Introduction
+
 You might want to transform the contents of a string to lowercase while working with it in Python.
 You might be designing a sign-up form that transforms a user's email address to lowercase.
 Because strings are case-sensitive, this is a common procedure to ensure that another account cannot be established using the same email in uppercase.

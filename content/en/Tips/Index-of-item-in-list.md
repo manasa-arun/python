@@ -7,6 +7,7 @@ link: "Finding the Index"
 author: "acreddy"
 ---
 
+## Introduction
 
 You can use the ** index() ** function of the List class with the element passed as an argument to get the index of the first occurrence of an element in a specified Python List.
 

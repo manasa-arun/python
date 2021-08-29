@@ -7,6 +7,7 @@ link: "Concatenating two lists"
 author: "acreddy"
 ---
 
+## Introduction
 
 Python Lists are used to store homogeneous elements and perform transformations on them. Concatenation, in general, is the process of linking the elements of a data structure from beginning to conclusion. 
 Let's look at how to concatenate two lists in Python using different approaches.
