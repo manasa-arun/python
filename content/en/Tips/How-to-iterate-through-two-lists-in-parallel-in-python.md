@@ -34,6 +34,7 @@ After iteration our list is
 5	e
 ```
 
+
 ## using `zip()` function to iterate 2 list parallel in python
 
 We can use `zip()` function, which is a built-in python function used to iterates tuples and lists.
