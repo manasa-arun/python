@@ -19,12 +19,12 @@ Example:
 
 ```
 List1 =[1,2,3,4,5]
-List=[‘a’,’b’,’c’,’d’,’e’]
+List2=[‘a’,’b’,’c’,’d’,’e’]
 ```
 
-These are the 2 lists to iterate on, after the iteration process  we should have 1 clear list.
+These are the two lists to iterate on, after the iteration process  we should have one clear list.
 
-After iteration our list is
+After iteration our list is 
 
 ```
 1	a
@@ -37,7 +37,7 @@ After iteration our list is
 
 ## using `zip()` function to iterate 2 list parallel in python
 
-We can use `zip()` function, which is a built-in python function used to iterates tuples and lists.
+We can use `zip()` function, which is a built-in python function used to iterates tuples and lists in python.
 
 To iterate two lists, use `zip()` function as explained below
 
@@ -60,13 +60,21 @@ banana  potato
 papaya  carrot
 ```
 
-Like this, we have 1 list that is favorite fruits and vegetables. 
+Like this, we have one list that is favorite fruits and vegetables. 
 
-Iteration is done in such a way that the first item from the first list and the first item from the second list are paired, and the next second item from the first list and the second item from the second list are paired, and so on until all items in those two lists are completed.
+`Iteration` is done in such a way that the `first` item from the `first` list, 
 
-We have one disadvantage in that if we have the same number of items in the two lists, it is no problem to pair to that particular item. 
+and the `first` item from the `second` list are paired,
 
-The problem here is that if we have 4 items in the first list and 3 items in the second list, that 4th item wants to pair to some particular item, but that is not possible. 
+and the next `second` item from the `first` list and the `second` item from the `second` list are paired, 
+ 
+and so on until all of the items on the two lists are checked off.
+
+We have one disadvantage in this, if we have the `same number` of items in the two lists, it is no problem to pair to that particular item. 
+
+The problem here is that if we have `four` items in the first list and `three`items in the second list, 
+
+`fourth` item wants to pair to some particular item, but that is not possible. 
 
 
 ```
@@ -87,8 +95,9 @@ papaya  carrot
 ```
 
 
-List1 has four items, but the fourth item i.e., `guava` is not displayed. 
+List1 has four items, but the `fourth` item i.e., `guava` is not displayed. 
 
+## using itertools.zip_longest():
 
 To avoid this, we use the `itertools` method, which run through all of the elements in an iteration.
 
@@ -110,8 +119,13 @@ banana  potato
 papaya  carrot
 guava  None
 ```
+in python 3 `itertools.zip_longest()` is used to stops when all items in the list dispalyed.
 
-We successfully obtained an output in which all items were displayed.
+`zip_longest yields` in list or tuple can display with `none` value
+
+as we get output for `guava` is paired with `none`.
+
+We successfully obtained an output in which all items were displayed now
 
 
 ## To iterate two lists, use for loop in python
@@ -170,3 +184,6 @@ output:
 [(0,apple),(1,banana),(2,papaya)]
 
 ```
+x list items can starts counting from 'zero' and so on up to the items completed in that list.
+
+like this we can easily  iterate two lists in parallely.

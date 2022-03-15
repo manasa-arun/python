@@ -72,9 +72,13 @@ How to use zip() in dictionaries:
 In this dictionaries also zip() is used same in list in
 python.
 Example:
+```
 names =["saanvi","vamshi","santhosh"]
 city =["hyderabad","mumbai","secundrabad"]
 zipped=dict(zip(names,city))
 print(zipped)
+```
 output:
+```
 [(‘saanvi’,’Hyderabad’),(‘Vamshi’,’mumbai’),(‘santhosh’ ‘secundrabad’)]
+```
