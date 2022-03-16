@@ -13,7 +13,7 @@ Iteration is a general term for going through each item of something one by one.
 
 we can expect a list with columns or rows.
 
-**Two lists Iteration in parallely**
+**Two lists Iteration in parallel**
 We can iterate 2 python lists in parallel by using this three methods.
 
 1. using zip()
@@ -42,7 +42,7 @@ After iteration our list is
 ```
 
 
-## using `zip()` in initeration:
+## using `zip()` in iteration:
 
 We can use `zip()` function, which is a built-in python function used to iterates tuples and lists in python.
 
