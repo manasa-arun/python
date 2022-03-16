@@ -7,7 +7,9 @@ link: "remove elements while iteration"
 ---
 
 ## Remove elements from list while iteration
-**What is ITERATION**
+
+**Introduction**
+
 **Iteration** is a process of taking elements from list one after another in specified manner.
 
 **Example**:
@@ -88,7 +90,7 @@ print(marks)
 ```
 list is clear now only four subjects passed,remaining two subjects failed.
 
-## 2.list comprehension method to remove elements from list:
+## 2.list comprehension
 
 by using `comprehension` method very easy to  remove failed subjects from student list to do this.
 

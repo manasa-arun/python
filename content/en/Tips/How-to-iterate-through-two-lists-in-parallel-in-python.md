@@ -191,6 +191,13 @@ output:
 [(0,apple),(1,banana),(2,papaya)]
 
 ```
-x list items can starts counting from 'zero' and so on up to the items completed in that list.
+x list items can starts counting from `zero` and so on up to the items completed in that list.
 
 like this we can easily  iterate two lists in parallel.
+
+## Conclusion:
+
+In this article, we briefly discussed the various methods for iterating two lists in parallel using simple examples and Python code in python language. 
+
+
+
