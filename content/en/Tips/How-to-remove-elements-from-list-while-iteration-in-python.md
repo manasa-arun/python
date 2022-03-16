@@ -1,10 +1,9 @@
 ---
 title: "How to remove elements from list while iteration"
 description: "Three important methods for removing elements in list while iteration in python"
-date: "2022-03-15T012:15:05+09:00"
+date: "2022-03-14T12:15:05+09:00"
 draft: false
-link: "iteration"
-author: "dmohanty"
+link: "remove elements while iteration"
 ---
 
 ## Remove elements from list while iteration

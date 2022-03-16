@@ -2,7 +2,7 @@
 title: "zip() function in Python"
 description: "In this tutorial we learn how to use zip() function in Python"
 date: "2022-03-12T00:00:00+00:00"
-draft: false
+draft: true
 link: "zip()"
 ---
 
