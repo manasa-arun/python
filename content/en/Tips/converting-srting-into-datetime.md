@@ -126,6 +126,60 @@ instead of using `jan we can use %b` like this in python 3 this format codes are
 
 like this every module have its own speciality to get user preferenced format.
 
+##  String to date object:
+
+To convert a string to a date object, we can use the date() and
+strptime() functions. 
+
+`dateobj = date(year, month, day)`
+
+```
+date_str = '05-29-2017'
+
+date_object = datetime.strptime(date_str, '%m-%d-%Y').date()
+print(type(date_object))
+print(date_object)
+```
+output:
+```
+<class 'datetime.date'>
+2017-05-29
+```
+so we got a output like year,month,date as mentioned in time object syntax.
+
+## String to time object:
+
+To convert a string to a time object, we can use the time() and
+strptime() functions. 
+
+`timeobj = time(hour, minute, second)`
+
+** example:
+
+```
+time_str = '07::35::25'
+time_object = datetime.strptime(time_str, '%H::%M::%S').time()
+print(type(time_object))
+print(time_object)
+
+```
+
+Output:
+```
+7:35:25
+```
+so we got a output like hour,minute and second,as mentioned in time object syntax.
+
+## conclusion:
+
+like this we can easily convert string to datetime,date and time.
+`strptime()`is mainly used in this string to datetime converting method.
+
+and all such modules `%h,%b..`etc are very useful to get exact output that user expected.
+
+
+
+
 
 	
 
