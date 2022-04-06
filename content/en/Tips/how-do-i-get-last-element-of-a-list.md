@@ -34,7 +34,7 @@ each element in a list has an index tht specifies its position in the list.
 
 Indexing starts from`0` so the index of first element is `0`
 
-we can also use negative indexes to access elements from the `end to begning`. The index of the last element in the list starts from `-1`
+we can also use negative indexes to access elements from the `end to begin `. The index of the last element in the list starts from `-1`
 i.e.
  
 example:
@@ -149,8 +149,51 @@ output:
 Last element:  guava
 exampleList:  ['apple', 'orange', 'papaya', 'guava']
 ```
-## 
+## using built in functions:
 
+We'll utilise two built-in Python methods in this method: `reversed()` and `next ()`.
+
+`reversed()` takes a list as an argument and returns the list's reversed iterator, which means that the iteration is done backwards, from the final element to the first. 
+
+`next()` takes an iterator and returns the iterator's next element.
+
+```
+exampleList =['apple','orange', 'papaya', 'guava']
+reversedIterator = reversed(exampleList)
+
+lastElement = next(reversedIterator)
+print("Last element: ", lastElement)
+
+```
+output:
+```
+last element: guava
+
+```
+
+## using list length:
+
+To get the last element of a list, we can first find the length of the list using the len() function.
+
+Then we can access the last element of the list at the index `listLen-1` as follows.
+
+```
+exampleList = ['apple','orange', 'papaya', 'guava']
+print("Given List is:", exampleList)
+listLen = len(exampleList)
+lastElement = exampleList[listLen - 1]
+print("Last element of the list is:", lastElement)
+```
+output:
+```
+Given List is: ['apple', 'orange', 'papaya', 'guava']
+Last element of the list is: guava
+```
+
+## conclusion:
+
+These are the methods to get the last element of a list in python.
+in these `indexing`  and `slicing` methods are very simple to get element and `pop()` method is also simple but Remember that the `pop()` method also deletes the element which is accessed. So, Use this method only when you also want to delete the last element of the list. 
 
 
 
