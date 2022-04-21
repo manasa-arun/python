@@ -108,7 +108,11 @@ Note: Before concatenating a non-string variable with a string, you must first t
 
 The repetition can not be done with two strings(string+string).
 The repetition can be done with (string+int).
-## 
+
+## conclusion:
+
+This three techniques are best to concatenate items in a list to a single string,explained in a detailed information and with simple python programs to understand every user.
+
 
 
 
