@@ -20,7 +20,7 @@ In this article we will briefly discuss the various methods to **How to return d
 
 For that, we will use a reference dictionary i.e.:
 
-emp_id = {'harika':'1234','saanvi':'1235','santhosh'='1236'}
+emp_id = {'harika':'1234','saanvi':'1235','santhosh':'1236'}
 
 ## using dict.keys():
 
