@@ -26,6 +26,7 @@ A program that has been written with each task in its own function is called a `
  
 **Define a Function:**
 To create a Function we write its definition using `def` keyword.
+A Function name to uniquely identify it.
 
 Here is the general for format of a function definition in python
 

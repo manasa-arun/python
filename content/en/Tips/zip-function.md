@@ -8,7 +8,6 @@ link: "zip()"
 
 In Python zip() is a in-built function, it connects multiple lists in to one simple list. 
 
-adsfasdfasdfasdfasdf
 
 ## How to use Zip() in Python list
 
