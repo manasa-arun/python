@@ -19,131 +19,174 @@ Functions are mainly two types in python
 1.Predefined functions
 2.user defined functions
 
-1.Predefined Functions:
+## 1.Predefined Functions:
 Predefined Functions is also call as `Built-in Functions`.
 
 Python built-in functions are functions that have pre-defined functionality in Python.
 
 The Python interpreter has a number of functions that are always available for use.
 
-These are referred to as Built-in Functions.
 Python has several built-in functions, which are listed below: 
 
+There are 68 Built in Functions are there in python.
 
-1.Python len() Function:
+1.`chr()`is used for `Returns a character from the specified Unicode code`.
 
-Python has an Built-in function `len()` function for calculating the number of elements inside a list.
+2.`classmethod()` is usd for	`Converts a method into a class method`
 
-This function takes in the string whose length is to be calculated as the argument and this function returns an integer value as the output i.e., the **length** of the string.
+3.`compile()` is used for `Returns the specified source as an object`, ready to be executed
 
-## how the len() can work:
+4.`complex()` is used for `Returns a complex number`.
 
-1.create a list with any data type
-2.find out the `length` of the list with len()
- After this if the list `length`  is `0`then the list is empty.
-Otherwise list have something in it.
+5.`delattr()` is used for `Deletes the specified attribute`(property or method) from the specified object.
 
-**example**
-```
-list1=[]
-if len(list1)==0:
-    print("list is empty")
+6.`dict()`is used for `Returns a dictionary (Array)`.
 
-```
-**output:**
-```
-list is empty
-```
-we successfully checked the list is empty with `len()` but this is not recommended by PEP8.
+7.`dir()` is used for `Returns a list of the specified object's properties and methods`.
 
-## 2.bool()
+8.`divmod()` is usd for	`Returns the quotient and the remainder when argument1 is divided by argument2`
 
-Python bool() function is used to return or convert a value to a Boolean value i.e., True or False, using the standard truth testing procedure.
+9.`enumerate()` is used for `Takes a collection (e.g. a tuple) and returns it as an enumerate object`.
 
-```
-bool([])
-```
-**output**
-```
-false
-```
-one more
-```
-bool([none])
-```
-**output**
-```
-true
-```
+10.`eval()` is used for	`Evaluates and executes an expression`.
 
-## 3. abs()
-The `abs()` function in Python is used to return the absolute value of a number.
+11.`exec()`is used for	`Executes the specified code (or object)`.
 
-It only accepts one argument, a number whose absolute value should be returned.
+12.`filter()` is used for `Use a filter function to exclude items in an iterable object`.
 
-An integer or a floating-point number can be used as the argument.
+13.`float()` is used for `Returns a floating point number`.
 
-If the argument is a complex number, `abs()` returns the magnitude of that number. 
+14.`abs()` is used for `Returns the absolute value of a number`.
 
-**Example**:
-# integer number
-```
-integer = -50  
-print('Absolute value of -50 is:', abs(integer))  
-```
-**output:**
-```
-Absolute value of -50 is: 50
-```
-# floating number
-```
-floating = -63.29  
-print('Absolute value of -63.29 is:', abs(floating))  
-```
-**output:**
-```
-Absolute value of -63.29 is: 63.29
-```
-# 4. bin()
-The python `bin()` function is used to return the binary representation of a specified integer.
+15.`all()` is used for `Returns True if all items in an iterable object are true`
 
-The result always starts with the prefix `0b`.
+16.`any()` is used for	`Returns True if any item in an iterable object is true`.
+
+17.`ascii()` is used for `Returns a readable version of an object`. Replaces none-ascii characters with escape character
+
+18.`bin()` is used for	`Returns the binary version of a number`.
+
+19.`bool()` is used for	`Returns the boolean value of the specified object`.
+
+20.`bytearray()` is used for `Returns an array of bytes`.
+
+21.`bytes()` is used for `Returns a bytes object`.
+
+22.`callable()` is used for `Returns True if the specified object is callable, otherwise False`.
+
+23.`list()` is used for `Returns a list`.
+
+24.`locals()` is used for `Returns an updated dictionary of the current local symbol table`.
+
+25.`map()` is used for	`Returns the specified iterator with the specified function applied to each item`.
+
+26.`max()` is used for	`Returns the largest item in an iterable`.
+
+27.`memoryview()` is used for `Returns a memory view object`.
+
+28.`min()` is used for	`Returns the smallest item in an iterable`.
+
+29.`next()` is used for `Returns the next item in an iterable`.
+
+30.`object()` is used for	`Returns a new object`.
+
+31.`oct()` is used for	`Converts a number into an octal`.
+
+32.`open()` is used for `Opens a file and returns a file object`.
+
+33.`ord()` is usd for `Convert an integer representing the Unicode of the specified character`.
+
+34.`pow()` is used for 	`Returns the value of x to the power of y`.
+
+35.`print()` is used for `Prints to the standard output device`.
+
+36.`property()` is used for Gets, sets, `deletes a property`.
+
+37.`range()` is usd for `Returns a sequence of numbers`, starting from 0 and increments by 1 (by default).
+
+38.`repr()`is used for `Returns a readable version of an object`.
+
+39.`reversed()` is usd for `Returns a reversed iterator`.
+
+40.`round()` is used for `Rounds a numbers`.
+
+41.`set()` is used for	`Returns a new set object`.
+
+42.`setattr()` is used for `Sets an attribute (property/method) of an object`.
+
+43.`slice()` is used for `Returns a slice object`.
+
+44.`sorted()` is used for`Returns a sorted list`.
+
+45.`staticmethod()` is used for	`Converts a method into a static method`.
+
+46.`str()` is used for	`Returns a string object`.
+
+
+47.`super()` is used for `Returns an object that represents the parent class`.
+
+48.`tuple()` is used for `Returns a tuple`.
+
+49.`type()` is used for	`Returns the type of an object`.
+
+50.`vars()` is used for	`Returns the __dict__ property of an object`.
+
+51.`zip()` is used for `Returns an iterator, from two or more iterators`.
+
+52.`eval()` is used for	`Evaluates and executes an expression`.
+
+53.`exec()` is used for	`Executes the specified code (or object)`.
+
+54.`format()` is used for `Formats a specified value`.
+
+55.`frozenset()` is used for `Returns a frozenset object`.
+
+56.`getattr()`is used for `Returns the value of the specified attribute (property or method)`.
+
+57.`globals()` i used for `Returns the current global symbol table as a dictionary`.
+
+58.`hasattr()` is used for	`Returns True if the specified object has the specified attribute (property/method)`.
+
+59.`hash()` is used for	`Returns the hash value`of a specified object.
+
+60.`help()` is used for `Executes the built-in help system`.
+
+61.`hex()` is used for	`Converts a number into a hexadecimal value`.
+
+62.`id()` is used for `Returns the id of an object`.
+
+63.`input()` is used for `Allowing user input`.
+
+64.`int()` is used for	`Returns an integer number`.
+
+65.`isinstance()` is used for `Returns True if a specified object is an instance of a specified object`.
+
+66.`issubclass()` is used for `Returns True if a specified class is a subclass of a specified object`.
+
+67.`iter()` is used for `Returns an iterator object`.
+
+68.`len()` is usd for `Returns the length of an object`.
+
+
+## 2.Userdefined Functions:
+
+User-defined functions are functions that we define ourselves to perform a specific task. 
+
+A function is a block of code that performs a specific task.
 
 **Example:**
 ```
-x =  75   
-y =  bin(x) 
-print (y)  
-```
-**output:**
-```
-0b1001011
-```
-# 5. bytes()
-Python's `bytes()` function is used to return a bytes object.
-It's a static version of the `bytearray()` function.
+def greet():
+    print("hello i hope you are doing well,")
 
-It is capable of producing an empty bytes object of the specified size. 
+greet()
+```
+**output:**
+```
+hello i hope you are doing well,
+```
+like this a user can create his own functions to get exact output hat a user can required.
 
-**Example**
-```
-string = "hello python world"  
-array = bytes(string, 'utf-8')  
-print(array)
-```
-**output:**
-```  
-b'hello python world'
-```
-# 6.sum():
-`sum()` is used to add numbers in a list
-**Example**
-```
-b= sum([5,9,3,6])
-print(b)
-```
-**output:**
-```
-23
-```
-6.
+
+
+
