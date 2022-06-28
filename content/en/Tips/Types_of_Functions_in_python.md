@@ -44,7 +44,7 @@ There are 68 Built in Functions are there in python.
 
 7.`dir()` is used for `Returns a list of the specified object's properties and methods`.
 
-8.`divmod()` is usd for	`Returns the quotient and the remainder when argument1 is divided by argument2`
+8.`divmod()` is used for	`Returns the quotient and the remainder when argument1 is divided by argument2`
 
 9.`enumerate()` is used for `Takes a collection (e.g. a tuple) and returns it as an enumerate object`.
 
