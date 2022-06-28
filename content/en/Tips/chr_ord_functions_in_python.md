@@ -1,7 +1,7 @@
 ---
-title: "Types of functions in python"
-description: "Two important types in functions in python"
-date: "2022-06-24T04:15:05+09:00"
+title: "chr and ord functions in python"
+description: "how to use  chr and ord functions in python"
+date: "2022-06-28T011:00:05+09:00"
 draft: false
 link: "functions"
 author: "harika"
