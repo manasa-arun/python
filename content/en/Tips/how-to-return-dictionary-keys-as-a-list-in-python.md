@@ -36,7 +36,7 @@ output:
 ```
 dict_keys(['harika', 'saanvi', 'santhosh'])
 ```
-in this python code creted a dictionary with `emp_id` in that keys are employee names and values are employee id's.
+in this python code created a dictionary with `emp_id` in that keys are employee names and values are employee id's.
 
 `emp_id.keys` is used to display keys in dictionary,we have keys here employee names 
 harika,saanvi,santhosh
