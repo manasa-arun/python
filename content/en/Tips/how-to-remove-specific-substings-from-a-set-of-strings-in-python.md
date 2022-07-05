@@ -4,7 +4,7 @@ title: "how to remove specific substring from a set of strings in python"
 description: " Best and easy methods how to remove specific substring from a set of strings in python"
 date: "2022-05-20 T010:07:05+09:00"
 draft: false
-link: "JSON"
+link: "remove substring from string"
 author: "harika"
 ---
 
