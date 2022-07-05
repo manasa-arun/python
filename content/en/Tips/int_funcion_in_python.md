@@ -3,7 +3,7 @@ title: "int function in python"
 description: "int built in functions in python"
 date: "2022-06-29T007:40:05+09:00"
 draft: false
-link: "functions"
+link: "int() built-in functions"
 author: "harika"
 ---
 

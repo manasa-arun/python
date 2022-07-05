@@ -3,7 +3,7 @@ title: "bool() function in Python"
 description: "In this tutorial we learn how to use bool() function in Python"
 date: "2022-06-26T07:40:00+00:00"
 draft: true
-link: "bool()"
+link: "bool() built-in function in python"
 author: "harika"
 ---
 

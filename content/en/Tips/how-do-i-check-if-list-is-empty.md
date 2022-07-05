@@ -3,7 +3,7 @@ title: "How do I check if a list is empty"
 description: "Python has a number of techniques for determining whether a list is empty"
 date: "2022-03-19T02:26:05+09:00"
 draft: false
-link: "list"
+link: "checking list is empty"
 author: "harika"
 ---
 

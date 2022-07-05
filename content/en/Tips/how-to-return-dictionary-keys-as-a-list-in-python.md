@@ -4,7 +4,7 @@ title: "How to return dictionary keys as a list in python"
 description: " Three techniques for return dictionary keys as a list in python"
 date: "2022-05-04 T010:32:05+09:00"
 draft: false
-link: "dictionary"
+link: "return dictionary keys as a list"
 author: "harika"
 ---
 

@@ -4,7 +4,7 @@ title: "How do I get last element of a list"
 description: " six techniques for getting last element of a list"
 date: "2022-04-05 T010:32:05+09:00"
 draft: false
-link: "list"
+link: "getting last element of a list"
 author: "harika"
 ---
 

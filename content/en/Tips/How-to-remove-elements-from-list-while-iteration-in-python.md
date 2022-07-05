@@ -4,6 +4,7 @@ description: "Three important methods for removing elements in list while iterat
 date: "2022-03-14T12:15:05+09:00"
 draft: false
 link: "remove elements while iteration"
+author: "harika"
 ---
 
 ## Remove elements from list while iteration

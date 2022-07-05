@@ -3,7 +3,7 @@ title: "dict function in python"
 description: "dict built in functions in python"
 date: "2022-06-29T007:40:05+09:00"
 draft: false
-link: "functions"
+link: "dict() built-in functions in python"
 author: "harika"
 ---
 ## dict() function:

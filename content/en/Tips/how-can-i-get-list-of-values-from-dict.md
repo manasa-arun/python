@@ -4,7 +4,7 @@ title: "How can i get list of values from dict"
 description: "  Three techniques for getting list of values from dict"
 date: "2022-04-22 T010:32:05+09:00"
 draft: false
-link: "dictionary"
+link: "getting values from dictionary"
 author: "harika"
 ---
 

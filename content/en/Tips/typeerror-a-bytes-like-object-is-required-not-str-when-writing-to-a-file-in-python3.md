@@ -4,7 +4,7 @@ title: " python typeError: a bytes-like object is required,not'str'when writing 
 description: " range function can solve  "
 date: "2022-05-10 T009:35:05+09:00"
 draft: false
-link: "strings"
+link: "range function to solve typerror in python"
 author: "harika"
 ---
 ## introduction:

@@ -3,7 +3,7 @@ title: "converting string into datetime"
 description: "Learn how to convert string to datetime"
 date: "2022-03-24T02:11:05"
 draft: false
-link: "Add keys to Dictionary"
+link: "string into datetime conversion"
 author: "harika"
 image: "images/featured/addNewKeysPythonDictionary.png"
 

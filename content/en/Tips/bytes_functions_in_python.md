@@ -2,8 +2,8 @@
 title: "bytes() function in Python"
 description: "In this tutorial we learn how to use bytes() function in Python"
 date: "2022-06-26T07:30:00+00:00"
-draft: true
-link: "bytes()"
+draft: false
+link: "bytes() built-in functions in python"
 author: "harika"
 ---
 

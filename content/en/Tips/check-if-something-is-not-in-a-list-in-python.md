@@ -3,7 +3,7 @@ title: "check if something is not in a list in python"
 description: "Three  methods of check if something is not in a list in python"
 date: "2022-05-16T04:40:05+09:00"
 draft: false
-link: "list"
+link: "something is not in a list"
 author: "harika"
 ---
 

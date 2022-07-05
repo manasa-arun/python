@@ -3,7 +3,7 @@ title: "Types of functions in python"
 description: "Two important types in functions in python"
 date: "2022-06-24T04:15:05+09:00"
 draft: false
-link: "functions"
+link: "Types of unctions"
 author: "harika"
 ---
 

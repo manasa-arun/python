@@ -3,7 +3,7 @@ title: "how to use functions in python"
 description: " Introduction of functions and how to use functions in python"
 date: "2022-06-23T11:35:05+09:00"
 draft: false
-link: "functions"
+link: "how to use functions"
 author: "harika"
 ---
 

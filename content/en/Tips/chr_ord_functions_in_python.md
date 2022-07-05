@@ -3,7 +3,7 @@ title: "chr and ord functions in python"
 description: "how to use  chr and ord functions in python"
 date: "2022-06-28T011:00:05+09:00"
 draft: false
-link: "functions"
+link: "chr() ord() built-in functions in python"
 author: "harika"
 ---
 

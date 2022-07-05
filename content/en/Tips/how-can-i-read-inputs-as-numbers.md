@@ -3,7 +3,7 @@ title: "How can i read inputs as numbers"
 description: "Python has a two methods to read inputs as numbers"
 date: "2022-04-29T02:26:05+09:00"
 draft: false
-link: "input"
+link: " read input as numbers"
 author: "harika"
 ---
 

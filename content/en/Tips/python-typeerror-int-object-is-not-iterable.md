@@ -4,7 +4,7 @@ title: " python typeerror int object is not iterable "
 description: " range function can solve python typeerror int object is not iterable "
 date: "2022-05-09 T019:05:05+09:00"
 draft: false
-link: "strings"
+link: "typeerror int obj is njot iterable"
 author: "harika"
 ---
 ## introduction:

@@ -4,7 +4,7 @@ title: "Rules for declaring a variables in python"
 description: "declaring variables "
 date: "2022-06-09 T010:32:05+09:00"
 draft: false
-link: "variables"
+link: "declaring a variables"
 author: "harika"
 ---
 

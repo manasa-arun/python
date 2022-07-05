@@ -5,6 +5,7 @@ description: "we can iterate 2 python lists in parallel by using 3 methods, usin
 date: "2022-03-09T00:00:00+00:00"
 draft: false
 link: "iterate  through two lists in parallel"
+author: "harika"
 ---
 
 **what is iteration**

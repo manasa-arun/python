@@ -3,7 +3,7 @@ title: "How to make a flat list out of a lists"
 description: "Python has a number of techniques to make a flat list out of a lists"
 date: "2022-04-16T02:26:05+09:00"
 draft: false
-link: "list"
+link: "making flat list out of a lists"
 author: "harika"
 ---
 
