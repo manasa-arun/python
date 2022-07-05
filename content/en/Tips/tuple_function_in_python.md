@@ -3,7 +3,7 @@ title: "tuple function in python"
 description: "tuple built in functions in python"
 date: "2022-07-01T003:30:05+09:00"
 draft: false
-link: "functions"
+link: "tuple"
 author: "harika"
 ---
 
@@ -23,7 +23,7 @@ iterable​ (optional) - an iterable (list, range, etc.) or an iterator object.
 
 If the iterable is not passed to tuple(), the function returns an empty tuple.
 
-## Example:**
+## Example:
 1. To create empty tuple:
 ```
 t1 = tuple()
