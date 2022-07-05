@@ -3,7 +3,7 @@ title: "Types of functions in python"
 description: "Two important types in functions in python"
 date: "2022-06-24T04:15:05+09:00"
 draft: false
-link: "Types of unctions"
+link: "Types of functions"
 author: "harika"
 ---
 
@@ -32,7 +32,7 @@ There are 68 Built in Functions are there in python.
 
 1.`chr()`is used for `Returns a character from the specified Unicode code`.
 
-2.`classmethod()` is usd for	`Converts a method into a class method`
+2.`classmethod()` is used for `Converts a method into a class method`
 
 3.`compile()` is used for `Returns the specified source as an object`, ready to be executed
 
