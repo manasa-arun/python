@@ -46,6 +46,13 @@ print(x)
 ```
 meghana
 ```
-
-
-
+# Example:3
+```
+list = [1.9, 2.24,9.9,6.8,7.05]
+max_value = max(list)
+print(max_value)
+```
+# output:
+```
+9.9
+```
