@@ -1,5 +1,5 @@
 ---
-title: "Get Unique values from a list"
+title: "4 ways to Get Unique values from a list in Python"
 description: "Different methods of fetching unique values from a list"
 date: "2021-07-19T04:15:05+09:00"
 draft: false
@@ -7,13 +7,14 @@ link: "Get Unique values"
 author: "dmohanty"
 ---
 
-There are a lot of use cases in programming where we would require to fetch unique values from a list.
+There are a lot of use cases in `python` programming where we would require to fetch unique values from a list.
 
 If stuck with this problem  Don’t worry ! We got you covered.
 
-In this article we will discuss briefly about the different methods with the help of which we can get unique values from inside of a list.
+In this article we will discuss briefly about the different methods fetching unique values from a list in `Python` language.
 
-## Overview of Lists
+## Overview of Lists in Python
+
 List contains a group of elements of a different data type separated by commas, and enclosed inside square brackets `[ ]`. 
 Example of a list:
 
@@ -21,16 +22,17 @@ Example of a list:
 sample_list = [1,2,5,2,6,1,4,3,6,3,9,8,2]
 ```
 
-## Mthods to fetch Unique values from a List
+## Methods to fetch Unique values from a Python List
 
 There are a lot of cases wherein we would be required to get unique values from a list.
+
 Therefore, lets dive deep into the different methods
 
 ### Using the for loop and a new list
 
 Starting with the most basic and simplest method, we can simply use a `for` loop and a new list to solve this problem.
 
-We can simply iterate through the existing list and append the unique values on to a new empty list.
+We can simply iterate through the existing `python` list and append the unique values on to a new empty list.
 
 This is the **novice method** for solving this and probably preferred by the beginners.
 
@@ -52,13 +54,13 @@ Pretty Simple and easy method.
 
 But if you are enthusiastic about programming, then this is not for you.
 
-### Using set() method
+### Using `python set()` method
 
 **Sets** are a unique kind of Data structures in Python.
 
-They have a property that they allow only one occurrence of each element and thus are a *sequential memory location* of only unique values.
+They have a property that they allow only one occurrence of each element and thus are a sequential memory location of only unique values.
 
-Thus, converting the list to set using `set()` in order to fetch only unique values and then converting the set to the list using `list()`.
+Thus, converting the `python` list to `set` using `set()` method in order to fetch only unique values and then converting the set to the list using `list()`.
 
 ```
 sample_list = [1,2,5,2,6,1,4,3,6,3,9,8,2]
@@ -75,7 +77,7 @@ This would also improve the runtime performance and thus is a good approach for 
 
 But this method has a small disadvantage i.e. it **doesn’t preserve the order** of elements in the output.
 
-### Using numpy.unique
+### Using `numpy.unique`
 
 If you don’t belong to Python background, then Numpy might sound very unfamiliar to you.
 
@@ -83,7 +85,7 @@ But don’t worry, it’s just like any other module in python like collections,
 
 We have to explicitly *import* the modules before using them inside of our program.
 
-Using this methods consists of two parts, first being to convert the list into a **numpy array** and then using `numpy.unique`, which returns a list of only unique values from the array.
+Using this methods consists of two parts, first being to convert the list into a **numpy array** and then using `numpy.unique`, which returns a list of only unique values from the list.
 
 ```
 import numpy as numpy
@@ -99,9 +101,9 @@ Output:
 [1 2 3 4 5 6 8 9]
 ```
 
-This method returns a **sorted** list containing all the unique values from the input.
+This method returns a **sorted** list containing all the unique values from the list.
 
-### Using the Counter() method
+### Using the python Counter() method
 
 If we are using explicitly calling a module for our use case, then why not using our favorite **collections** module.
 
@@ -124,11 +126,6 @@ This method returns a **sequence of unique values** from the list, but not neces
 
 ## Conclusion
 
-In this article we discussed about the various methods by the help of which we can get the unique values from a list.
+In this article we discussed about the various methods by the help of which we can get the unique values from a python list.
 
 We started off by discussing the novice method and then slowly increasing the complexity of the code by using external python modules and classes.
-
-
-
-
-
