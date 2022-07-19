@@ -5,6 +5,8 @@ date: "2022-07-18T00:00:05+09:00"
 draft: false
 link: "Get Unique values from a python list"
 author: "dmohanty"
+image: "/images/featured/get-unique-items-from-python-list.png"
+
 ---
 
 There are a lot of use cases in `python` programming where we would require to fetch unique values from a list.
