@@ -28,7 +28,7 @@ There are a lot of cases wherein we would be required to get unique values from 
 
 Therefore, lets dive deep into the different methods
 
-### Using the for loop and a new list
+## Using the for loop and a new list
 
 Starting with the most basic and simplest method, we can simply use a `for` loop and a new list to solve this problem.
 
@@ -54,7 +54,7 @@ Pretty Simple and easy method.
 
 But if you are enthusiastic about programming, then this is not for you.
 
-### Using `python set()` method
+## Using `python set()` method
 
 **Sets** are a unique kind of Data structures in Python.
 
@@ -77,7 +77,7 @@ This would also improve the runtime performance and thus is a good approach for 
 
 But this method has a small disadvantage i.e. it **doesn’t preserve the order** of elements in the output.
 
-### Using `numpy.unique`
+## Using `numpy.unique` method
 
 If you don’t belong to Python background, then Numpy might sound very unfamiliar to you.
 
@@ -103,11 +103,11 @@ Output:
 
 This method returns a **sorted** list containing all the unique values from the list.
 
-### Using the python Counter() method
+## Using the `python Counter()` method
 
-If we are using explicitly calling a module for our use case, then why not using our favorite **collections** module.
+If we are using explicitly calling a module for our use case, then why not using our favorite `collections` module.
 
-The **collections** module contains a method called `Counter()` which prints all the unique values from the input list.
+The `collections` module contains a method called `Counter()` which prints all the unique values from the input list.
 
 We can carry out this functionality with the help of `*` operator.
 
@@ -126,6 +126,6 @@ This method returns a **sequence of unique values** from the list, but not neces
 
 ## Conclusion
 
-In this article we discussed about the various methods by the help of which we can get the unique values from a python list.
+In this article we discussed about the various methods by the help of which we can get the unique values from a `python` list.
 
-We started off by discussing the novice method and then slowly increasing the complexity of the code by using external python modules and classes.
+We started off by discussing the novice method and then slowly increasing the complexity of the code by using external `python` modules and classes.
