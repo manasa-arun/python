@@ -1,9 +1,9 @@
 ---
 title: "4 ways to Get Unique values from a list in Python"
-description: "Different methods of fetching unique values from a list"
-date: "2021-07-19T04:15:05+09:00"
+description: "Different methods of fetching unique values from a python list"
+date: "2022-07-18T00:00:05+09:00"
 draft: false
-link: "Get Unique values"
+link: "Get Unique values from a python list"
 author: "dmohanty"
 ---
 
