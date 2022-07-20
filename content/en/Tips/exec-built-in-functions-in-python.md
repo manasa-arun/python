@@ -1,3 +1,4 @@
+
 ---
 title: "exec built-in function in python"
 description: "exec built in functions in python"
@@ -6,7 +7,6 @@ draft: false
 link: "exec() Built-in functions"
 author: "harika"
 ---
-
 ## exec() function in python:
 
 The `exec()` function is a one of the built-in functions in python.
