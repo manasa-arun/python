@@ -1,7 +1,7 @@
 ---
 title: "next() function in Python"
 description: "In this tutorial we learn how to use next() function in Python"
-date: "2022-07-27T02::58+09:00"
+date: "2022-07-27T02:58+09:00"
 draft: false
 link: "next() built-in functions"
 author: "harika"
