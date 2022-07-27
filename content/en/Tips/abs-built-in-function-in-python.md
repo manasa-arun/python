@@ -1,7 +1,7 @@
 ---
 title: "abs built-in function in python"
 description: "abs built-in functions in python"
-date: "2022-07-07 T003:40:05+09:00"
+date: "2022-07-07T03:40:05+09:00"
 draft: false
 link: "abs() Built-in functions"
 author: "harika"

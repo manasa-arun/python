@@ -1,7 +1,7 @@
 ---
 title: "How to extract numbers from a string in python"
 description: "four methods to learn How to extract numbers from a string in python"
-date: "2022-05-12 T010:11:25+09:00"
+date: "2022-05-12T10:11:25+09:00"
 draft: false
 link: "extracting numbers from string"
 author: "harika"

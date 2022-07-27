@@ -2,7 +2,7 @@
 title: "How to iterate  through two lists in parallel in Python"
 description: "we can iterate 2 python lists in parallel by using 3 methods, using zip(),using for loop,using enumerate
 "
-date: "2022-03-09T00:00:00+00:00"
+date: "2022-03-09T11:20:00+09:00"
 draft: false
 link: "iterate  through two lists in parallel"
 author: "harika"

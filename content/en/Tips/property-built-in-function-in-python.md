@@ -1,8 +1,8 @@
 ---
 title: "property built-in function in python"
 description: "property built in functions in python"
-date: "2022-07-26 T011:00:40+09:00"
-draft: true
+date: "2022-07-26T11:00:40+09:00"
+draft: false
 link: "property() Built-in functions"
 author: "harika"
 ---

@@ -2,7 +2,7 @@
 
 title: "How do I concatenate items in a list to a single string"
 description: "  Three techniques for concatenate items in a list to a single string"
-date: "2022-04-20 T010:32:05+09:00"
+date: "2022-04-20T10:32:05+09:00"
 draft: false
 link: "concatenate items in list"
 author: "harika"

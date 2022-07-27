@@ -1,7 +1,7 @@
 ---
 title: "range function in python"
 description: "range built in functions in python"
-date: "2022-06-28T011:25:05+09:00"
+date: "2022-06-28T11:25:05+09:00"
 draft: false
 link: "range() built-in functions"
 author: "harika"

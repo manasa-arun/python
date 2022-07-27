@@ -2,7 +2,7 @@
 ---
 title: "exec built-in function in python"
 description: "exec built in functions in python"
-date: "2022-07-05 T005:00:05+09:00"
+date: "2022-07-05T05:00:05+09:00"
 draft: false
 link: "exec() Built-in functions"
 author: "harika"

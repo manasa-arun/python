@@ -1,7 +1,7 @@
 ---
 title: "type function in python"
 description: "type built in functions in python"
-date: "2022-06-29T011:25:05+09:00"
+date: "2022-06-29T11:25:05+09:00"
 draft: false
 link: "type() built-in function"
 author: "harika"

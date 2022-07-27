@@ -1,7 +1,7 @@
 ---
 title: "max() built-in function in python"
 description: "max() built in functions in python"
-date: "2022-07-08 T004:30:05+09:00"
+date: "2022-07-08T04:30:05+09:00"
 draft: false
 link: "max() Built-in functions"
 author: "harika"

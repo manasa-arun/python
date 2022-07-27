@@ -1,8 +1,7 @@
 ---
-
 title: "python create list with numbers between 2 values"
 description: " range function can use to create list with numbers between 2 values in python"
-date: "2022-04-29 T010:32:05+09:00"
+date: "2022-04-29T10:32:05+09:00"
 draft: false
 link: "creating list with numbers strings"
 author: "harika"

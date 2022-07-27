@@ -2,7 +2,7 @@
 title: "ascii() function in Python"
 description: "In this tutorial we learn how to use ascii() function in Python"
 date: "2022-07-21T10:00:00+00:00"
-draft: true
+draft: false
 link: "ascii() built-in functions"
 author: "harika"
 ---

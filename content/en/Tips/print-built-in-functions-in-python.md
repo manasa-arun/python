@@ -1,8 +1,8 @@
 ---
 title: "print built-in function in python"
 description: "print built in functions in python"
-date: "2022-07-25 T011:10:40+09:00"
-draft: true
+date: "2022-07-25T11:10:40+09:00"
+draft: false
 link: "print() Built-in functions"
 author: "harika"
 ---

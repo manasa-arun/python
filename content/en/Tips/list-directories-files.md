@@ -2,7 +2,7 @@
 title: "Listing all files/directories inside a folder in Python"
 description: "Useful Python language Tips & tricks"
 date: "2021-07-19T04:15:05+09:00"
-draft: true
+draft: false
 link: "List Directories/Files"
 author: "dmohanty"
 ---

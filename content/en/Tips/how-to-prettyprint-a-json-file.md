@@ -2,7 +2,7 @@
 
 title: "How to prettyprint a json file in python"
 description: " Best and easy method to  prettyprint a json file in python"
-date: "2022-05-05 T010:09:50+09:00"
+date: "2022-05-05T10:09:50+09:00"
 draft: false
 link: "JSON"
 author: "harika"

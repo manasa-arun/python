@@ -1,7 +1,7 @@
 ---
 title: "min() built-in function in python"
 description: "min() built in functions in python"
-date: "2022-07-08 T004:30:05+09:00"
+date: "2022-07-08T04:30:05+09:00"
 draft: false
 link: "min() Built-in functions"
 author: "harika"

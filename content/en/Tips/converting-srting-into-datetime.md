@@ -1,7 +1,7 @@
 ---
 title: "converting string into datetime"
 description: "Learn how to convert string to datetime"
-date: "2022-03-24T02:11:05"
+date: "2022-03-24T02:11:05+09:00"
 draft: false
 link: "string into datetime conversion"
 author: "harika"

@@ -1,8 +1,8 @@
 ---
 title: "id() function in Python"
 description: "In this tutorial we learn how to use id() function in Python"
-date: "2022-07-19T10:30:00+00:00"
-draft: true
+date: "2022-07-19T10:30:00+09:00"
+draft: false
 link: "id() built-in functions"
 author: "harika"
 ---

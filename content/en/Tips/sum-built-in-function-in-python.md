@@ -1,7 +1,7 @@
 ---
 title: "sum() function in Python"
 description: "In this tutorial we learn how to use sum() function in Python"
-date: "2022-06-26T07:30:00+00:00"
+date: "2022-06-26T07:30:00+09:00"
 draft: true
 link: "sum() built-in functions"
 author: "harika"

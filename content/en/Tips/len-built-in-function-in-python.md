@@ -1,8 +1,8 @@
 ---
 title: "len() function in Python"
 description: "In this tutorial we learn how to use len() function in Python"
-date: "2022-06-26T07:30:00+00:00"
-draft: true
+date: "2022-06-26T07:30:00+09:00"
+draft: false
 link: "len() built-in function"
 author: "harika"
 ---

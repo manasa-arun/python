@@ -2,7 +2,7 @@
 title: "all() function in Python"
 description: "In this tutorial we learn how to use all() function in Python"
 date: "2022-07-20T03:58:00+00:00"
-draft: true
+draft: false
 link: "all() built-in functions"
 author: "harika"
 ---

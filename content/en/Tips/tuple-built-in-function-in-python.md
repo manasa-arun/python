@@ -1,7 +1,7 @@
 ---
 title: "tuple function in python"
 description: "tuple built in functions in python"
-date: "2022-07-01T003:30:05+09:00"
+date: "2022-07-01T03:30:05+09:00"
 draft: false
 link: "tuple() built-in function "
 author: "harika"

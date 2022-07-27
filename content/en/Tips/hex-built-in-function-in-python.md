@@ -1,8 +1,8 @@
 ---
 title: "hex() function in Python"
 description: "In this tutorial we learn how to use hex() function in Python"
-date: "2022-07-19T11:30:00+00:00"
-draft: true
+date: "2022-07-19T11:30:00+09:00"
+draft: false
 link: "hex() built-in functions"
 author: "harika"
 ---

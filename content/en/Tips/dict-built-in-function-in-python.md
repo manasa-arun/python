@@ -1,7 +1,7 @@
 ---
 title: "dict function in python"
 description: "dict built in functions in python"
-date: "2022-06-29T007:40:05+09:00"
+date: "2022-06-29T07:40:05+09:00"
 draft: false
 link: "dict() built-in functions in python"
 author: "harika"

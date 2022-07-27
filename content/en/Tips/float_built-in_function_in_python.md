@@ -1,7 +1,7 @@
 ---
 title: "float built-in function in python"
 description: "float built in functions in python"
-date: "2022-07-20 T003:30:05+09:00"
+date: "2022-07-20T03:30:05+09:00"
 draft: false
 link: "float() Built-in functions"
 author: "harika"

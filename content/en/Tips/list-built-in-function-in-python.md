@@ -1,8 +1,8 @@
 ---
 title: "list built-in function in python"
 description: "list built in functions in python"
-date: "2022-07-21 T011:55:05+09:00"
-draft: true
+date: "2022-07-21 T11:55:05+09:00"
+draft: false
 link: "list() Built-in functions"
 author: "harika"
 ---

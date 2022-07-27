@@ -2,7 +2,7 @@
 title: "any() function in Python"
 description: "In this tutorial we learn how to use any() function in Python"
 date: "2022-07-21T10:00:00+00:00"
-draft: true
+draft: false
 link: "any() built-in functions"
 author: "harika"
 ---
