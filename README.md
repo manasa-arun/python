@@ -30,3 +30,9 @@ The site should be running on
 ```
 http://localhost:1313/
 ```
+
+## Adding new Python Tip
+
+Follow the existing articles in python tips folder for the mark down structure of the article. 
+
+
