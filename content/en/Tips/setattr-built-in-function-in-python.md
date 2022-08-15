@@ -1,7 +1,7 @@
 ---
 title: "setattr built-in function in python"
 description: "setattr built in functions in python"
-date: "2022-08-15T006:49:05+09:00"
+date: "2022-08-15T06:49:05+09:00"
 draft: false
 link: "setattr() Built-in functions"
 author: "harika"
