@@ -20,6 +20,9 @@
     "author": {
       "@type": "Person",
       "name": {{ . }}
+      {{ with $.Param "authorurl" -}}
+      ,"url":{{ . }}
+      {{end}}
     },
     {{ end -}}
     "mainEntityOfPage": {
