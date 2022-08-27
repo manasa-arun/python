@@ -7,7 +7,7 @@ link: "staticmethod()Built-in functions"
 author: "harika"
 ---
 
-## staticmethod() function in python:
+# staticmethod() function in python:
 The `staticmethod()` function is a one of the built-in functions in python.
 `staticmethod()` is used for `Converts a method into a static method`.
 
@@ -18,8 +18,9 @@ As a result, they are not affected by the state of the object.
 
 The difference between a static method and a class method is:
 
-    Static method knows nothing about the class and just deals with the parameters.
-    Class method works with the class since its parameter is always the class itsel
+Static method knows nothing about the class and just deals with the parameters.
+    
+Class method works with the class since its parameter is always the class itsel
 
 # Syntax of @staticmethod is:
 ```
