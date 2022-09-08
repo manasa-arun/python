@@ -40,7 +40,7 @@ variable name doesn't match with these keywords.
 You can only run a block of code if a condition is True by using the `if` keyword to create conditional statements (also known as if statements).
 To run code if the condition is False, use the `else` keyword.
 
-# Example:1 for if keyord
+# Example:1 for 'if' keyword
 ```
 even_numbers = [0,2,4,6,8]
 
