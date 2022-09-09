@@ -1,9 +1,9 @@
 ---
-title: "control keywords in python"
-description: "if,elif,else keywords in detail"
+title: "control flow  keywords in python"
+description: "if, elif, else keywords in detail"
 date: "2022-09-08T11:30:05+09:00"
 draft: false
-link: "python control keywords"
+link: "python control flow keywords"
 author: "harika"
 ---
 
@@ -31,9 +31,9 @@ break               for                 not
 
 you can use help() again by passing in the specific keyword that you need more information about. 
 
-# control keywords:
+# control flow keywords:
 control keywords include three of the Thirty-five  total keywords. 
-if,elif,else these three are the control keywords in python.
+if,elif,else these three are the control flow keywords in python.
 variable name doesn't match with these keywords.
 
 # if, else keywords:
@@ -56,6 +56,7 @@ it is an even number
 
 In this example1 '4' is an even number so if condition satisfied then if condition block executed and give out put as 'it is an even number'
 
+ 'NO'
 # Example:2 for 'else' keyword
 ```
 x = 55
@@ -68,8 +69,7 @@ else:
 ```
 NO
 ```
-In this Example 'x is 55' next if condition is 'x is greater than 60' condition is 'not satisfied' and it jump to else condition and execute this 'else' condition and give output as 'NO'
-
+In this Example 'x is 55' next if condition is 'x is greater than 60' condition is 'not satisfied' and it jump to else condition and execute this 'else' condition and give output as 'NO'.
 # elif keyword in python:
 The 'elif' is a control keyword in python.
 
