@@ -1,7 +1,7 @@
 ---
 title: "structure keywords in python"
 description: " def, class, with, as, pass, lambda keywords in detail"
-date: "2022-09-09T8:30:05+09:00"
+date: "2022-09-20T11:00:05+09:00"
 draft: false
 link: "python structure keywords"
 author: "harika"
