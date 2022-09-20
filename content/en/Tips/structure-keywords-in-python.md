@@ -136,8 +136,15 @@ print(x(7, 9, 15))
 Verify this Example.
 Multiple attributes are allowed here, and lambda has no function name and an expression that only spans one line. 
 
-# with keyword in python:
-The advantage of using 'with' keyword in program it is automatically close the file with out any using close operation in it.
+# with  and as keywords in python:
+The advantage of using `with` keyword in program it is automatically close the file with out any using close operation in it.
+
+The `as` keyword is used to create an alias.
+
+instead of using whole name of the particular objects we can rename with simple letters w,r like
+w for write
+r for read
+ 
 
 # Example: with out using `with` keyword
 ```
@@ -192,4 +199,5 @@ with open("demo.txt","r") as fr:
 ```
 example for with keyword
 ```
-In this example after writing the program also we can not use close the file here,
+In this example after writing the program also we can not use close the file here.
+
