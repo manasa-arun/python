@@ -11,12 +11,12 @@ author: "harika"
 The `abs()` function is a one of the built-in functions in python.
 `abs()` is used for `Returns the absolute value of a number`.
 
-Syntax: 
+# Syntax: 
 
 ```
 abs(number)
 ```
-parameters:
+# parameters:
 number: Can be an integer, a floating-point number or a complex number
 
 If the argument is an integer or floating-point number, abs() returns the absolute value in integer or float.
