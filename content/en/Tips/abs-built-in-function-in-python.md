@@ -1,6 +1,6 @@
 ---
 title: "Python abs() function syntax, usage & example"
-description: "abs() built-in functions in python"
+description: "The abs() function is a one of the built-in functions in python"
 date: "2022-07-07T03:40:05+09:00"
 draft: false
 link: "abs() Built-in functions"
@@ -30,7 +30,6 @@ number can be an integer, a floating-point number or a complex number
 If the argument is an integer or floating-point number, `abs()` returns the absolute value in integer or float.
 
 In the case of a complex number, `abs()` returns only the magnitude part and that can also be a floating-point number.
-
 
 
 ## Python `abs()` Examples
