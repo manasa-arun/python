@@ -1,35 +1,34 @@
 ---
 title: "next() function in Python"
-description: "In this tutorial we learn how to use next() function in Python"
+description: "next() function syntax,parameters,examples in python"
 date: "2022-07-27T02:58+09:00"
 draft: false
 link: "next() built-in functions"
 author: "harika"
 ---
 
-## next() in python:
+## `next()` function in python
 The `next()` function is one of the built-in functions in python.
 `next()` is used for `Returns the next item in an iterable`.
 
-
-# next() Syntax:
-```
+## `next()` function Syntax
+```python
 next(iterator, default)
 ```
-next() Parameters:
+## `next()` Parameters
+`next()` function can take two parameters
 
-  iterator - next() retrieves next item from the iterator
-  default (optional) - this value is returned if the iterator is exhausted (there is no next item)
+1. iterator - next() retrieves next item from the iterator
+2. default (optional) - this value is returned if the iterator is exhausted (there is no next item)
 
-# next() Return Value:
+## `next()` function Return Value
 
-   The next() function returns the next item from the iterator.
+1. The `next()` function returns the next item from the iterator.
    If the iterator is exhausted, it returns the default value passed as an argument.
-   
-   If the default parameter is omitted and the iterator is exhausted, it raises the StopIteration exception.
+2. If the default parameter is omitted and the iterator is exhausted, it raises the StopIteration exception.
 
-# Exmaple:
-```
+### `next()` function Exmaple:
+```python
 mylist = [10, 2.3, 'parrot']
 
 # converting the list to an iterator
@@ -50,8 +49,8 @@ print(next(mylist_iterator))
 # iterator is exhausted
 print(next(mylist_iterator))
 ```
-output:
-```
+output
+```python
 <list_iterator object at 0x0133F628>
 10
 2.3
@@ -60,5 +59,7 @@ Traceback (most recent call last):
     print(next(mylist_iterator))
 StopIteration
 ```
+## Summary
+In this tutorial we learnt about Python `next()` function with simple examples
 
 

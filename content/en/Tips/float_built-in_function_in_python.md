@@ -1,51 +1,51 @@
 ---
-title: "float built-in function in python"
-description: "float built in functions in python"
+title: "python float()function "
+description: "float() function syntax,parameters,examples in python"
 date: "2022-07-20T03:30:05+09:00"
 draft: false
 link: "float() Built-in functions"
 author: "harika"
 ---
 
-## float():
+## float() function in python
 The `float()` function converts the specified value into a floating point number.
 
-# Syntax:
-```
+## `float()`Syntax
+```python
 float(value)
 ```
-where,
+##  `float()` parameters
+ `float()` can take only one parameter
 value- A number or a string that can be converted into a floating point number
 
-# Example:
-
-float with `infinity`
-```
+### `float()` Example: python `float()` function with infinity
+```python
 print(float("infinity"))
 ```
-output:
+output
 ```
 inf
 ```
 
-# Example:
-float with integer
-```
+### `float()` Example: python `float()` with integer
+```python
 print(float("29"))
 ```
-output:
-```
+output
+```python
 29.0
 ```
 
-# Example:
-float with string
-```
+### `float()` Example: python `float()` with string
+```python
 print(float("python"))
 ```
-output:
-```
+output
+```python
 print(float("python"))
 ValueError: could not convert string to float: 'python'
 ```
 it gives error because 'python' is a string not an integer or decimal.
+
+## Summary
+In this tutorial we learnt about Python `float()` function with simple examples.

@@ -7,52 +7,58 @@ link: "max() Built-in functions"
 author: "harika"
 ---
 
-## max() function in python:
-The `max()` function is one of the built-in function in python. 
-The `max()` function can return highest number in the list or dict.
+## `max()` function in python:
+1. The `max()` function is one of the built-in function in python. 
+2. The `max()` function can return highest number in the list or dict.
 If the values are strings, an alphabetically comparison is done.
 
-# syntax:
-```
+
+## `max()` function syntax
+```python
 max(a1,a2,a3,a4...an)
 ```
-a1,a2..an - items present in list to do compare
-
-            (or)
-```
+(or)
+```python
 max(iterable)            
 ```
+##  `max()` function parameters
+a1,a2..an - items present in list to do compare
+
 iterable - one or more items in list to do compare
 
-# Example: 1
-```
+### `max()` function Examples:
+
+let's go through some of examples to understand `max()` function in python
+
+### `max()` function Example 1:  if list is integer type
+```python
 student_marks = (71, 95, 83, 59,88,96)
 x = max(student_marks) 
 print("highest marks scored:", x)
 ```
-# output:
-```
+output
+```python
 highest marks scored:96
 ```
-# Example: 2
-
-if list is with string type
+### `max()` function Example 2: if list is with string type
 ```
 friends_list = ("kathya", "chandu", "meghana")
 x = max(friends_list) 
 print(x)
 ```
-# output:
-```
+output
+```python
 meghana
 ```
-# Example:3
+### `max()` function Example 3: if list has float values
 ```
 list = [1.9, 2.24,9.9,6.8,7.05]
 max_value = max(list)
 print(max_value)
 ```
-# output:
-```
+output
+```python
 9.9
 ```
+## Summary
+In this tutorial we learnt about Python `max()` function with simple examples

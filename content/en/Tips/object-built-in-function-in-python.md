@@ -1,26 +1,27 @@
 ---
-title: "object built-in function in python"
-description: "object built in functions in python"
+title: "object() function in python"
+description: "object() function syntax,parameter,examples in python"
 date: "2022-08-05T11:50:05+09:00"
 draft: false
 link: "object() Built-in functions"
 author: "harika"
 ---
 
-## object():
-The `object()` function is a one of the built-in functions in python.
-`object()` is used for	`Returns a new object`. returns an empty object.
+## `object()` function in python
+1. The `object()` function is a one of the built-in functions in python.
+2. The `object()` is used for	`Returns a new object`. returns an empty object.
 
-In python, each variable to which we assign a value/container is treated as an object. Object in itself is a class.
+3. In python, each variable to which we assign a value/container is treated as an object. Object in itself is a class.
 
-# Syntax:
-```
+## `object()` function Syntax
+```python
 object()
 ```
+## `object()` function function parameter
 no parameters for this object function.
 
-# Example:
-```
+### `object()` function Example:
+```python
 obj = object()
  
 # printing its type
@@ -31,13 +32,15 @@ print(type(obj))
 print("The attributes of its class are : ")
 print(dir(obj))
 ```
-output:
-```
+output
+```python
 The type of object class object is :
 <class 'object'>
 The attributes of its class are :
 ['__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
 ```
 
+## Summary
+In this tutorial we learnt about Python `object()` function with simple examples
 
 

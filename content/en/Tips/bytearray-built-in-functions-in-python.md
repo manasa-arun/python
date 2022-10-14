@@ -1,22 +1,20 @@
 ---
-title: "bytearray built-in function in python"
-description: "bytearray built in functions in python"
+title: "python bytearray built-in function"
+description: "bytearray() function syntax,parameter,examples in python"
 date: "2022-07-26T11:00:40+09:00"
 draft: false
 link: "bytearray() Built-in functions"
 author: "harika"
 ---
 
-## iter() in python:
-The `iter()` function is one of the built-in function in python.
-`bytearray()` is used for `Returns an array of bytes`.
+## bytearray() function in python:
+1. The `bytearray()` function is one of the built-in function in python.
+2. The `bytearray()` is used for `Returns an array of bytes`.
 
-# syntax:
-```
+# `bytearray()` syntax:
+```python
 bytearray([source[, encoding[, errors]]])
 ```
-bytearray() method returns a bytearray object (i.e. array of bytes) which is mutable (can be modified) sequence of integers in the range 0 <= x < 256.
-
 # bytearray() Parameters:
 
 bytearray() takes three optional parameters:
@@ -41,19 +39,31 @@ bytearray() Return Value
 
 The bytearray() method returns an array of bytes of the given size and initialization values.
 
-# Example 1:
-```
+## `bytearray()` return type
+
+bytearray() method returns a bytearray object (i.e. array of bytes) which is mutable (can be modified) sequence of integers in the range 0 <= x < 256.
+
+
+### `bytearray()` Examples
+
+let's go through couple of examples to understand `bytaarray()` function in python
+
+
+### Example 1: `bytaarray()` for string
+```python
+# welcome to Pythonshiksha
 str = "pythonshiksha"
 array = bytearray(str, 'utf-16')
 print(array)
 ```
-output:
-```
+output
+```python
 bytearray(b'\xff\xfep\x00y\x00t\x00h\x00o\x00n\x00s\x00h\x00i\x00k\x00s\x00h\x00a\x00')
 ```
 
-# Example 2: To find length of array
-```
+## Example 2: `bytaarray()` To find length of array
+```python
+# welcome to Pythonshiksha
 my_list = [29,31,11,4,24]
   
 array = bytearray(my_list)
@@ -61,9 +71,13 @@ array = bytearray(my_list)
 print(array)
 print("Count of bytes:", len(array))
 ```
-output:
-```
+output
+```python
 Count of bytes: 5
 ```
 Note:
-If you want the immutable version, use the bytes() method.
+If you want the immutable version, use the `bytes()` method.
+
+## Summary
+
+In this tutorial we learnt about Python `bytearray()` function with simple examples.

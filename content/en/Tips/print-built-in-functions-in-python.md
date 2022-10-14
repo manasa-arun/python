@@ -1,24 +1,26 @@
 ---
-title: "print built-in function in python"
-description: "print built in functions in python"
+title: "print() function in python"
+description: "print() function syntax,parameters,examples in python"
 date: "2022-07-25T11:10:40+09:00"
 draft: false
 link: "print() Built-in functions"
 author: "harika"
 ---
 
-## print() in python:
-The `print()` function is one of the built-in function in python.
-`print()` is used for `Prints to the standard output device`.
+## `print()` function  in python
+1. The `print()` function is one of the built-in function in python.
+2. The `print()` is used for `Prints to the standard output device`.
 
-The print() function prints the specified message to the screen,
-The message can be a string, or any other object, the object will be converted into a string before written to the screen.
+3. The `print()` function prints the specified message to the screen,
+the message can be a string, or any other object, the object will be converted into a string before written to the screen.
 
-# syntax:
-```
+## `print()` function syntax
+```python
 print(object(s)), 
-sep=separator, end=end, file=file, flush=flush) )
+sep=separator, end=end, file=file, flush=flush
 ```
+
+## `print()` function parameters
 object(s)- Any object, 
 and as many as you like. Will be converted to string before printed
 
@@ -34,31 +36,37 @@ An object with a write method. Default is sys.stdout
 flush (Optional) 
 A Boolean, specifying if the output is flushed (True) or buffered (False). Default is False
 
-## Example:1
-```
+### `print()` function Examples:
+
+let's go through some of examples to understand `print()` function in python
+
+### `print()` Example 1:
+```python
 print("welcome to pythonshiksha")
 print("easy to learn")
 ```
-output:
-```
+output
+```python
 welcome to pythonshiksha
 easy to learn
 ```
-# Example:2
-```
+### `print()` Example 2:
+```python
 print("Hello", "BEST TUTORIAL FOR PYTHON", sep="---")
 ```
-Output:
-```
+Output
+```python
 Hello---BEST TUTORIAL FOR PYTHON
 ```
 whatever we can write in print function can display on the screen that is any spelling mistakes in any words or any type of data type also can display on the screen.
 
-# Example:3
-```
+### `print()` Example 3:
+```python
 print("mnbjj,787,9.0,hdhk,hyd")
 ```
-output:
-```
+output
+```python
 mnbjj,787,9.0,hdhk,hyd
 ```
+## Summary
+In this tutorial we learnt about Python `print()` function with simple examples

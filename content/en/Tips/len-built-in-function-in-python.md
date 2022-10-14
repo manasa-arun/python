@@ -1,34 +1,62 @@
 ---
 title: "len() function in Python"
-description: "In this tutorial we learn how to use len() function in Python"
+description: "len() function syntax,parameters,examples in python"
 date: "2022-06-26T07:30:00+09:00"
 draft: false
 link: "len() built-in function"
 author: "harika"
 ---
 
-## Python len() Function:
+## Python`len()` Function
 
 Python has an Built-in function `len()` function for calculating the number of elements inside a list.
 
-This function takes in the string whose length is to be calculated as the argument and this function returns an integer value as the output i.e., the **length** of the string.
+This function takes in the string whose length is to be calculated as the argument and this function returns an integer value as the output i.e., the "length" of the string.
 
 ## how the len() can work:
 
 1.create a list with any data type
-2.find out the `length` of the list with len()
+2.find out the `length` of the list with `len()`
  After this if the list `length`  is `0`then the list is empty.
 Otherwise list have something in it.
 
-**example**
+## `len()` function Syntax
+```python
+len(object)
 ```
+## `len()` function Parameter Values
+
+object is Required - An object. 
+Must be a sequence or a collection
+
+### `len()` function Examples:
+
+let's go through couple of examples to understand `len()` function in python
+
+### `len()`example 1:
+```python
 list1=[]
 if len(list1)==0:
     print("list is empty")
 
 ```
-**output:**
-```
+output
+
+```python
 list is empty
 ```
+### `len()`example 2:
+```python
+x = len("pythonshiksha")
+
+print(x)
+```
+output
+```python
+13
+```
+
 we successfully checked the list is empty with `len()` but this is not recommended by PEP8.
+
+## Summary
+In this tutorial we learnt about Python `len()` function with simple examples

@@ -1,52 +1,53 @@
 ---
-title: "format built-in function in python"
-description: " format() built in functions in python"
+title: "python format() function"
+description: " format() syntax, parameters, examples in python"
 date: "2022-08-22T10:00:05+09:00"
 draft: false
 link: "format() Built-in functions"
 author: "harika"
 ---
 
-## format() function in python:
-The `format()` function is a one of the built-in functions in python.
-`format()` is used for `Formats a specified value`.
+## `format()` function in python
+1. The `format()` function is a one of the built-in functions in python.
+2. The `format()` is used for `Formats a specified value`.
 
 The string's placeholder is filled with the formatted value(s) inserted by the format() method. 
 The placeholder is defined using curly brackets: {}.
 
 
-# Syntax:
-```
+# `format()` Syntax
+```python
 string.format(value1, value2...) 
 ```
-where,
+## `format()` parameters
 value1, value2... 	Required. One or more values that should be formatted and inserted in the string.
 
 The values can be of any data type.
 
-# Example:
-```
+### `format()` Example
+```python
 print("{} is my country".format("India"))
 ```
-# output:
-```
+output
+```python
 India is my country
 ```
-# Example:
-```
+
+### `format()` Example:
+```python
 # integer 
 print(format(5648, "*>+7,d"))
 
 # float number
 print(format(690.4567, "^-09.3f"))
 ```
-# output:
-```
+output
+```python
 *+5,648
 0690.4570
 ```
 
-# Formatting Types:
+## `format()` Formatting Types:
 
 Inside the placeholders you can add a formatting type to format the result:
 
@@ -120,3 +121,5 @@ Fix point number format
 Fix point number format, in uppercase format (show inf and nan as INF and NAN)
 
 
+## Summary
+In this tutorial we learnt about Python `format()` function with simple examples.

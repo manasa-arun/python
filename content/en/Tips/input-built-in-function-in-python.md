@@ -1,6 +1,6 @@
 ---
 title: "input() function in Python"
-description: "In this tutorial we learn how to use input() function in Python"
+description: "input() function syntax,parameters,examples in python"
 date: "2022-07-19T11:00:00+09:00"
 draft: false
 link: "input() built-in functions"
@@ -8,13 +8,13 @@ author: "harika"
 ---
 
 ## input():
-The `id()` function is one of the built-in function in python.
-`input()` is used for `Allowing user input`.
+The `input()` function is one of the built-in function in python.
+The `input()` is used for `Allowing user input`.
 
-The input() function takes input from the user and returns it.
+The `input(`) function takes input from the user and returns it.
 
-## syntax:
-```
+## `input()`syntax
+```python
 input([prompt])
 ```
 ## input() Parameters
@@ -31,24 +31,24 @@ converts the line into a string by removing the trailing newline, and returns it
 
 If EOF is read, it raises an EOFError exception.
 
+## `input()` function Examples
 
-## Example:
-```
+let's go through couple of examples to understand `input()` function in python
+
+### `input()` Example 1:
+```python
 name = input("Enter best python tutorial name: ")
 
 print(name)
 ```
-output:
-```
-Enter best python tutorial name: pythonshiksha
-pythonshiksha
+output
+```python
+Enter best python tutorial name: python shiksha
+python shiksha
 ```
 
-# Example:
-
-Taking two values from user and adding both values
-
-```
+### `input()`Example 2: Taking two values from user and adding both values
+```python
 num1 = int(input("Please Enter First Number: "))
 num2 = int(input("Please Enter Second Number: "))
 addition = num1 + num2
@@ -56,10 +56,15 @@ addition = num1 + num2
 # printing
 print("The sum of the two given numbers is {} ".format(addition))
 ```
-output:
-```
+
+output
+```python
 Please Enter First Number: 29
 Please Enter Second Number: 31
 The sum of the two given numbers is 60
 ```
+
 like this user can use this `input()` built-in function to add numbers, append the values or any other data collection information this function can useful.
+
+## Summary
+In this tutorial we learnt about Python `input()` function with simple examples
