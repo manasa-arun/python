@@ -7,7 +7,7 @@ link: "all() in built-in functions"
 author: "harika"
 ---
 
-## all() function in python
+## `all()` function in python
 
 1. The `all()` function is one of the built-in functions in python.
 2. The `all()` is used for `Returns True if all items in an iterable object 

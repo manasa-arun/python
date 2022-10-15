@@ -7,7 +7,8 @@ link: "any() built-in functions"
 author: "harika"
 ---
 
-## `any()`function in python
+## `any()` function in python
+
 1. The `any()` function is one of the built-in functions in python.
 2. Python any() function returns True if any of the elements of a given       iterable( List, Dictionary, Tuple, set, etc) are True else it returns False. 
 
