@@ -1,24 +1,24 @@
 ---
-title: "bytes() function in Python"
-description: "bytes() function syntax,parameters,examples in Python"
+title: "Python bytes() function syntax,usage and examples"
+description: "The `bytes()`function is a Built in function in python "
 date: "2022-06-26T07:30:00+00:00"
 draft: false
 link: "python bytes() built-in function"
 author: "harika"
 ---
 
-## bytes() function in python
+## `bytes()` function in python
 
 1. The `bytes()` is a Built in function in python.
 2. Python's `bytes()` function is used to return a bytes object.
 
-## bytes() function syntax
+## `bytes()` function syntax
 
 ```python
 bytes(x, encoding, error) 
 ```
 
-## bytes() function parameters
+## `bytes()` function parameters
 
 `bytes()`can take three parameters
 Parameter 	Description
