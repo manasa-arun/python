@@ -1,21 +1,21 @@
 ---
-title: "python chr and ord functions "
-description: "chr and ord functions syntax,parameters,examples in python"
+title: "python chr() and ord() functions syntax,usage and examples"
+description: "`chr()` and `ord()` functions both are Built in functions in python"
 date: "2022-06-28T011:00:05+09:00"
 draft: false
 link: "chr() ord() built-in functions in python"
 author: "harika"
 ---
 
-## introduction chr() and ord():
+## `chr()` and `ord()` functions in python
 
 `chr()` and `ord()` functions both are Built in functions in python.
 
 These functions can used to convert `unicode values to character` and `character to unicode`  
 
-## ASCII values
-Every character is represented by ASCII value.
+## ASCII values:
 
+Every character is represented by ASCII value.
 This ASCII values is a string encoding format.
 ASCII values can represent only 256 values.
 
@@ -38,7 +38,7 @@ all the values are same in UNICODE and ASCII values.
 
 
 
-## ord(): covert char to unicode:
+## python `ord()` cnovert char to unicode:
 The Python `ord()` function converts `a character into an integer` that represents the Unicode code of the character. 
 
 
@@ -47,33 +47,39 @@ The Python `ord()` function converts `a character into an integer` that represen
 let's go through couple of examples to understand `ord()` function in python
 
 ### Example 1: To find UNICODE Value
+
 ```python
 ch =input("Enter character to find corresponding UNICODE value:")
 print(ord(ch))
 ```
-output
+output:
+
 ```python
 Enter character to find corresponding UNICODE value:D
 68
 ```
 
 ### Example 2:
+
 ```python
 ch =input("Enter character to find corresponding UNICODE value:")
 print(ord(ch))
 ```
-output
+output:
+
 ```python
 Enter character to find corresponding UNICODE value:H
 72
 ```
 
 ### Example 3: If input is two characters output is
+
 ```python
 ch =input("Enter character to find corresponding UNICODE value:")
 print(ord(ch))
 ```
-output
+output:
+
 ```python
 Enter character to find corresponding UNICODE value:AB
 Traceback (most recent call last):
@@ -84,18 +90,19 @@ TypeError: ord() expected a character, but string of length 2 found
 why because the character length is `one`.
 We can pass in any `single string characte`r and the function will return an integer
 
-## chr(): convert unicode to char
+## `chr()` function convert unicode to char
 
 The `chr()` function converts a Unicode code `character into the corresponding string`.
 
-## Python chr() Function Syntax
+## `chr()` Function Syntax
+
 ```python
 chr(num)
 ```
-## Python chr() Function parameter
+## `chr()` Function parameter
 num: an Unicode code integer
 
-## Python chr() Function return type
+## `chr()` Function return type
 Return: Returns str
 
 ### `chr()` function Examples:
@@ -103,11 +110,13 @@ Return: Returns str
 let's go through couple of examples to understand `chr()` function in python
 
 ### Example:
+
 ```python
 unicode =int(input("Enter  UNICODE value to find corresponding value:"))
 print(chr(unicode))
 ```
-output
+output:
+
 ```python
 Enter  UNICODE value to find corresponding value:100
 d
