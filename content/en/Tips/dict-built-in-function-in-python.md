@@ -7,19 +7,19 @@ link: "python dict() functions "
 author: "harika"
 ---
 
-## dict() function in python
+## `dict()` function in python
 
 1. The `dict()` is one of the built in functions in python.
 2. This function is used to create a dictionary.
 
 3. Dictionary is an object that stores collection of data in Python,which consists of `key-value` pairs which can be used to store data. 
 
-## dict() function syntax
+## `dict()` function syntax
 
 ```python
 dict(keys values) 
 ```
-## dict() function parameters
+## `dict()` function parameters
 keyword arguments 	Required. As many keyword arguments you like, separated by comma: key = value, key = value ...
 
 
