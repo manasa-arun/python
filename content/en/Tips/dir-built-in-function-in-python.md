@@ -7,7 +7,8 @@ link: "python dir() function"
 author: "harika"
 ---
 
-## `dir()` function in python:
+## `dir()` function in python
+
 1. The `dir()` function is a one of the built-in functions in python.
 2. The `dir()` is used for `Returns a list of the specified object's properties and methods`.
 
@@ -23,6 +24,10 @@ object is The object you want to see the valid attributes of properties.
 
 The list of names in the current local scope is returned by the `dir()` function in Python.
 If a method called __dir__()  exists on the object being invoked, it will be called and required to produce a list of attributes. 
+
+### `dir()` function Examples:
+
+let's go through couple of examples to understand `dir()` function in python
 
 ### Example 1:
 
