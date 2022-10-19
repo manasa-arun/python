@@ -29,6 +29,11 @@ my_dict = {'name':'surya','work':'business','age':'30'}
 In this sample dictionary  name,work,age are keys of dictionary.
 surya,business,30 are values of dictionary.
 
+### `dict()` function Examples:
+
+let's go through couple of examples to understand `dict()` function in python
+
+
 ### Example 1: To find keys in dictionary
 
 ```python
