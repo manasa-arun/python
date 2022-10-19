@@ -59,7 +59,7 @@ Enter character to find corresponding UNICODE value:D
 68
 ```
 
-### Example 2:
+### Example 2: if input is single character
 
 ```python
 ch =input("Enter character to find corresponding UNICODE value:")
@@ -72,7 +72,7 @@ Enter character to find corresponding UNICODE value:H
 72
 ```
 
-### Example 3: If input is two characters output is
+### Example 3: If input is two characters 
 
 ```python
 ch =input("Enter character to find corresponding UNICODE value:")
@@ -88,7 +88,7 @@ Traceback (most recent call last):
 TypeError: ord() expected a character, but string of length 2 found
 ```
 why because the character length is `one`.
-We can pass in any `single string characte`r and the function will return an integer
+We can pass in any `single string character` and the function will return an integer
 
 ## `chr()` function convert unicode to char
 
