@@ -1,6 +1,6 @@
 ---
-title: "dict() function in python"
-description: "dict() function syntax, parameter,examples in python"
+title: "python dict() function syntax, usage and examples "
+description: "The `dict()` is one of the built in functions in python"
 date: "2022-06-29T07:40:05+09:00"
 draft: false
 link: "python dict() functions "
@@ -10,11 +10,12 @@ author: "harika"
 ## dict() function in python
 
 1. The `dict()` is one of the built in functions in python.
-This function is used to create a dictionary.
+2. This function is used to create a dictionary.
 
-2. Dictionary is an object that stores collection of data in Python,which consists of `key-value` pairs which can be used to store data. 
+3. Dictionary is an object that stores collection of data in Python,which consists of `key-value` pairs which can be used to store data. 
 
 ## dict() function syntax
+
 ```python
 dict(keys values) 
 ```
@@ -34,18 +35,20 @@ surya,business,30 are values of dictionary.
 emp_dict= {'harika':'1234','saanvi':'1235','santhosh':'1236'}
 print(emp_dict.keys())
 ```
-output
+output:
 
 ```python
 dict_keys(['harika', 'saanvi', 'santhosh'])
 
 ```
 ### Example 2: To find values in dictionary
+
 ```python
 emp_dict= {'harika':'1234','saanvi':'1235','santhosh':'1236'}
 print(emp_dict.values())
 ```
 output:
+
 ```python
 dict_values(['1234', '1235', '1236'])
 ```
