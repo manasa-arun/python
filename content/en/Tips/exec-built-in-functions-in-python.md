@@ -26,7 +26,8 @@ locals 	Optional. A dictionary containing local parameter
 
 ### `exec()` function Example:
 
-if source code is block of statements then we can use `exec()` built-in function in python
+let's go through couple of examples to understand `exec()` function in python
+
 
 ### Example 1:
 
