@@ -1,19 +1,20 @@
 ---
-title: "compile built-in function in python"
-description: "compile() function syntax,parameter,examples in python"
+title: "python compile() function syntax,usage and examples"
+description: "The `compile()` is one of the built-in functions in python"
 date: "2022-07-05 T004:30:05+09:00"
 draft: false
 link: "compile() function in python "
 author: "harika"
 ---
 
-## compile() function in python:
-1. The `compile()` is one of the built-in functions in python.
+## `compile()` function in python
 
+1. The `compile()` is one of the built-in functions in python.
 2. The `compile()` function returns the specified source as a code object,
 ready to be executed.
 
 ## `compile()` function Syntax
+
 ```python
 compile(source, filename, mode, flag, dont_inherit, optimize)
 ```
@@ -45,18 +46,21 @@ let's go through couple of examples to understand `compile()` function in python
 x = compile('print("welcome to")\nprint("pythonshiksha")', 'test', 'exec')
 exec(x) 
 ```
-output
+output:
+
 ```python
 welcome to
 pythonshiksha
 ```
 
 ### Example 2:  if source code is single expression then we can use `eval()` built-in function in python
+
 ```python
 x = compile('print("welcome")', 'test', 'eval')
 eval(x) 
 ```
-output
+output:
+
 ```python
 welcome
 ```
