@@ -1,6 +1,6 @@
 ---
-title: "hex() function in Python"
-description: "hex() syntax,parameters,example in python"
+title: "Python hex() syntax,usage and examples"
+description: "The `hex()` function is one of the built-in functions in python"
 date: "2022-07-19T11:30:00+09:00"
 draft: false
 link: "hex() built-in functions"
@@ -13,6 +13,7 @@ author: "harika"
 The returned string always starts with the prefix 0x.
 
 ## `hex()`functionSyntax
+
 ```python
 hex(number)
 ```
@@ -20,11 +21,12 @@ hex(number)
 
 number is `An Integer`
 
-## `hex()` function Examples
+## `hex()` function Examples:
 
 let's go through couple of examples to understand `hex()` function in python
 
 ### `hex()`function Example 1:
+
 ```python
 number = 2022
 print(number, 'in hex =', hex(number))
@@ -38,7 +40,8 @@ print(number, 'in hex =', hex(number))
 returnType = type(hex(number))
 print('Return type from hex() is', returnType)
 ```
-output
+output:
+
 ```python
 2022 in hex = 0x7e6
 0 in hex = 0x0
@@ -48,11 +51,13 @@ Return type from hex() is <class 'str'>
 If you need to find a hexadecimal representation of a float, you need to use `float.hex()` method.
 
 # `hex()`function Example 2:
+
 ```python
 number = 2.5
 print(number, 'in hex =', float.hex(number))
 ```
-output
+output:
+
 ```python
 2.5 in hex = 0x1.4000000000000p+1
 ```

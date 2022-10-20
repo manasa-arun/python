@@ -1,6 +1,6 @@
 ---
-title: "globals() function in python"
-description: "globals() function syntax,parameters,examples in python "
+title: "python globals() function syntax,usage and examples "
+description: "The `globals()` function is a one of the built-in functions in python"
 date: "2022-08-18T02:00:05+09:00"
 draft: false
 link: "python globals() Built-in functions"
@@ -18,18 +18,20 @@ Python's `globals()` method provides access to the global symbol table, which co
 
 
 ## `globals()` function syntax
+
 ```python
 Syntax: globals()
 ```
 ## `globals()` function Parameters 
 No parameters required for `globals()` function.
 
-### `globals()` Examples:
+### `globals()` function Examples:
 
 let's go through couple of examples to understand `globals()` function in python
 
 
 ###  `globals()` Example 1: 
+
 ```python
 name = 'arjun'
 print('Before modification:', name)
@@ -38,19 +40,22 @@ print('Before modification:', name)
 globals()['name'] = 'arjun reddy'
 print('After modification:', name)
 ```
-output
+output:
+
 ```python
 Before modification: arjun
 After modification: arjun reddy
 ```
 
 ###  `globals()` Example 2: 
+
 ```python
 num = 20
 globals()['num'] = 55
 print('The number is:', num)
 ```
-output
+output:
+
 ```python
 The number is:
 ```

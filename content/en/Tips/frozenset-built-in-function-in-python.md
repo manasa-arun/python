@@ -1,13 +1,14 @@
 ---
-title: "python frozenset() function"
-description: " frozenset() functions syntax, parameters, examples in python"
+title: "python frozenset() function syntax,usage and examples"
+description: "The`frozenset()` function is a one of the built-in functions in python "
 date: "2022-08-19T08:00:05+09:00"
 draft: false
 link: "frozenset() Built-in functions"
 author: "harika"
 ---
 
-## frozenset() function in python:
+## `frozenset()` function in python
+
 1. The `frozenset()` function is a one of the built-in functions in python.
 2. The `frozenset()` is used for `Returns a frozenset object`.
 
@@ -15,11 +16,12 @@ An immutable form of a Python set object is what a frozen set is.
 A set's components can be changed at any moment, but the components of a frozen set don't change after they've been created. 
 
 
-## `frozenset()` syntax:
+## `frozenset()` function syntax
+
 ```python
 frozenset([iterable])
 ```
-## `frozenset()` parameters
+## `frozenset()` function parameters
 
 The `frozenset()` function takes a single parameter:
 
@@ -32,18 +34,19 @@ The `frozenset()` function returns an immutable frozenset initialized with eleme
 
 If no parameters are passed, it returns an empty frozenset.
 
-## `frozenset()` Examples
+## `frozenset()` function Examples
 
 let's go through couple of examples to understand `frozenset()` function in python
 
-
 ### Example 1:
+
 ```python
 stu_list = ['aaa', 'bbb', 'ccc']
 x = frozenset(stu_list)
 print(x)
 ```
-output
+output:
+
 ```python
 frozenset({'ccc', 'aaa', 'bbb'})
 ```
@@ -52,13 +55,15 @@ this frozenset list is immutable, we can't change it now
 lets see an example to add another student name.
 
 ### Example 2:
+
 ```python
 stu_list = ['aaa', 'bbb', 'ccc']
 x = frozenset(stu_list)
 x[1] = "ddd"
 print(x)
 ```
-output
+output:
+
 ```python
 Traceback (most recent call last):
   File "./prog.py", line 3, in <module>

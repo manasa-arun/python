@@ -1,6 +1,6 @@
 ---
-title: "hash() function in python"
-description: "hash() function syntax,parameters,examples in python"
+titlle: "python hash() function syntax,usage and examples"
+description: "The`hash()` function is a one of the built-in functions in python"
 date: "2022-08-17T10:00:05+09:00"
 draft: false
 link: "pyhton hash() Built-in functions"
@@ -8,10 +8,12 @@ author: "harika"
 ---
 
 ## `hash()` function in python
-The `hash()` function is a one of the built-in functions in python.
-`hash()` is used for `Returns the hash value`of a specified object.
+
+1. The `hash()` function is a one of the built-in functions in python.
+2. The `hash()` is used for `Returns the hash value`of a specified object.
 
 ## `hash()` function Syntax 
+
 ```python
 hash(obj)
 ```
@@ -19,10 +21,12 @@ hash(obj)
 
 obj : The object which we need to convert into hash.
 
-## `hash()` Returns 
+## `hash()` Returns value
+
 Returns the hashed value if possible. 
 
 ### `hash()` Example:
+
 ```python
 int_val = 10
 str_val = 'pyhthonshiksha'
@@ -33,7 +37,8 @@ print("The integer hash value is : " + str(hash(int_val)))
 print("The string hash value is : " + str(hash(str_val)))
 print("The float hash value is : " + str(hash(flt_val)))
 ```
-output
+output:
+
 ```python
 The integer hash value is : 10
 The string hash value is : -635771123
