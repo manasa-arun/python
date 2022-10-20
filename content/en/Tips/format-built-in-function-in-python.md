@@ -1,6 +1,6 @@
 ---
-title: "python format() function"
-description: " format() syntax, parameters, examples in python"
+title: "python format() syntax, usage and examples in python"
+description: "The`format()` function is a one of the built-in functions in python"
 date: "2022-08-22T10:00:05+09:00"
 draft: false
 link: "format() Built-in functions"
@@ -15,33 +15,43 @@ The string's placeholder is filled with the formatted value(s) inserted by the f
 The placeholder is defined using curly brackets: {}.
 
 
-# `format()` Syntax
+## `format()` function Syntax
+
 ```python
 string.format(value1, value2...) 
 ```
-## `format()` parameters
+## `format()` function parameters
+
 value1, value2... 	Required. One or more values that should be formatted and inserted in the string.
 
 The values can be of any data type.
 
-### `format()` Example
+### `format()` function Examples:
+
+let's go through couple of examples to understand `format()` function in python
+
+###  Example 1:
+
 ```python
 print("{} is my country".format("India"))
 ```
-output
+output:
+
 ```python
 India is my country
 ```
+### Example 2:
 
-### `format()` Example:
 ```python
+
 # integer 
 print(format(5648, "*>+7,d"))
 
 # float number
 print(format(690.4567, "^-09.3f"))
 ```
-output
+output:
+
 ```python
 *+5,648
 0690.4570
