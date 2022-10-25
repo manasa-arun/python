@@ -1,6 +1,6 @@
 ---
-title: "pow() function in python"
-description: "pow() function syntax,parameters,return value,examples in python"
+title: "python pow() function syntax,usage and examples"
+description: "The `pow()` function is a one of the built-in functions in python"
 date: "2022-08-06T09:00:05+09:00"
 draft: false
 link: "pow() Built-in functions"
@@ -8,10 +8,12 @@ author: "harika"
 ---
 
 ## `pow()` function in python
-The `pow()` function is a one of the built-in functions in python.
-`pow()` is used for 	`Returns the value of x to the power of y`.
+
+1. The `pow()` function is a one of the built-in functions in python.
+2. `pow()` is used for 	`Returns the value of x to the power of y`.
 
 ## `pow()` function Syntax
+
 ```python
 pow(x, y, z)
 ```
@@ -35,6 +37,7 @@ check below example for reference.
 let's go through some of examples to understand `pow()` function in python
 
 ### `pow()` Examaple 1: pow() with only two parameters
+
 ```python
 x = pow(2, 5) 
 print(x)
@@ -46,6 +49,7 @@ output
 here 2is multiplied by 5 times and return 32.
 
 ### `pow()` Examaple 2: pow() with only three parameters
+
 ```python
 x = pow(2, 5,3) 
 print(x)
@@ -58,6 +62,7 @@ here 2is multiplied by 5 times and return 32 `(2*2*2*2*2=32)`,
 next 32 is divided by `3` that is 3rd parameter and returned 3 (32%3 == 3).
 
 ### `pow()`Example 3:
+
 ```python
 # Python code to discuss negative
 # and non-negative cases
@@ -78,7 +83,8 @@ print("Negative x and negative y : ", end="")
 # negative x, negative y (-x**-y)
 print(pow(-5, -2))
 ```
-output
+output:
+
 ```python
 Positive x and positive y : 25
 Negative x and positive y : 25
