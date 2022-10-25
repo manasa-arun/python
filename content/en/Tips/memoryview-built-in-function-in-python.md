@@ -8,14 +8,15 @@ author: "harika"
 ---
 
 ## `memoryview() `function in python:
-The `memoryview()` function is a one of the built-in functions in python.
-`memoryview()` is used for `Returns a memory view object`.
 
-The memoryview() function returns a memory view object from a specified object.
+1. The `memoryview()` function is a one of the built-in functions in python.
+2. `memoryview()` is used for `Returns a memory view object`.
 
-## what is memoryview in python 
+3. The `memoryview()` function returns a memory view object from a specified object.
+
+## what is `memoryview` in python 
+
 A `memory view` is a safe way to expose the buffer protocol in Python.
-
 It allows you to access the internal buffers of an object by creating a memory view object.
 
 ## what is buffer protocol in python
@@ -29,14 +30,17 @@ So, in order to expose the same protocol to the normal Python codebase, memory v
 
 
 ## `memoryview() `function Syntax
+
 ```python
 memoryview(obj)
 ```
 ## `memoryview() `function parameter
+
 `memoryview() `function can take only one parameter.
 obj is A Bytes object or a Bytearray object.
 
 ### `memoryview() `function Example:
+
 ```python
 x = memoryview(b"pythonshiksha")
 
@@ -48,7 +52,8 @@ print(x[5])
 #return the Unicode of the third character
 print(x[3])
 ```
-output
+output:
+
 ```python
 <memory at 0x1468b5fbfa00>
 110

@@ -1,6 +1,6 @@
 ---
-title: "object() function in python"
-description: "object() function syntax,parameter,examples in python"
+title: "python object() function syntax,usage and examples"
+description: "The `object()`function is a one of the built-in functions in python"
 date: "2022-08-05T11:50:05+09:00"
 draft: false
 link: "object() Built-in functions"
@@ -8,12 +8,13 @@ author: "harika"
 ---
 
 ## `object()` function in python
+
 1. The `object()` function is a one of the built-in functions in python.
 2. The `object()` is used for	`Returns a new object`. returns an empty object.
-
 3. In python, each variable to which we assign a value/container is treated as an object. Object in itself is a class.
 
 ## `object()` function Syntax
+
 ```python
 object()
 ```
@@ -21,6 +22,7 @@ object()
 no parameters for this object function.
 
 ### `object()` function Example:
+
 ```python
 obj = object()
  
@@ -32,7 +34,8 @@ print(type(obj))
 print("The attributes of its class are : ")
 print(dir(obj))
 ```
-output
+output:
+
 ```python
 The type of object class object is :
 <class 'object'>

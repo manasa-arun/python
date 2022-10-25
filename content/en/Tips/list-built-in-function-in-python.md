@@ -8,9 +8,9 @@ author: "harika"
 ---
 
 ## `list()` function in python
+
 1. The `list()` function is one of the built-in function in python.
 `list()` is used for `Returns a list`.
-
 2. Lists are created using square brackets
 
 3. Lists are one of the built-in data types in Python used to store collections of data of (Tuple, Set, and Dictionary)
@@ -29,22 +29,26 @@ List items are indexed, the first item has index [0], the second item has index 
 let's go through couple of examples to understand `list()` function in python
 
 ### `list()` function Example 1:
+
 ```python
 my_list = ["pythonshiksha",29,'s',-7.5,3.9]
 print(my_list)
 ```
-output
+output:
+
 ```python
 ['pythonshiksha', 29, 's', -7.5, 3.9]
 ```
 like this we can store multiple data types in one variable.
 
 ### `list()` function Example 2:
+
 ```python
 fruits_list = ["apple","banana","pomegranate","guava","grapes","banana"]
 print(fruits_list)
 ```
-output
+output:
+
 ```python
 ['apple', 'banana', 'pomegranate', 'guava', 'grapes', 'banana']
 ```
