@@ -25,7 +25,9 @@ oct(integer)
 integer : An integer value which is to be converted into an octal string.
 it returns octal value.
 
-### `oct()` function  Example
+### `oct()` function  Examples:
+
+### Example 1:
 
 ```python
 # Binary to Octal
@@ -42,10 +44,22 @@ output:
 ```python
 0o1
 0o13
-
-    print("The Octal representation of 29.5 is " + oct(78.92))
+print("The Octal representation of 29.5 is " + oct(78.92))
 TypeError: 'float' object cannot be interpreted as an integer
 ```
+
+### Example 2:
+```
+x = oct(100)
+
+print(x)
+```
+output:
+
+```python
+0o144
+```
+
 ## Summary
 In this tutorial we learnt about Python `oct()` function with simple examples
 
