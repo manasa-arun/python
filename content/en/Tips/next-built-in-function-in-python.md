@@ -29,7 +29,11 @@ next(iterator, default)
    If the iterator is exhausted, it returns the default value passed as an argument.
 2. If the default parameter is omitted and the iterator is exhausted, it raises the StopIteration exception.
 
-### `next()` function Exmaple:
+### `next()` function Examples:
+
+let's go through some of examples to understand `next()` function in python
+
+### `open()` Example 1:
 
 ```python
 mylist = [10, 2.3, 'parrot']
@@ -62,6 +66,24 @@ parrot
 Traceback (most recent call last):
     print(next(mylist_iterator))
 StopIteration
+```
+
+### Example 2:
+
+```python
+mylist = [100]
+ 
+# converting list to iterator
+mylist_iter = iter(mylist)
+ 
+print(next(mylist_iter))
+print(next(mylist_iter, "No more element"))
+```
+output:
+
+```python
+100
+No more element
 ```
 ## Summary
 In this tutorial we learnt about Python `next()` function with simple examples
