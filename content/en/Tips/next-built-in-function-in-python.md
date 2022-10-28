@@ -33,7 +33,7 @@ next(iterator, default)
 
 let's go through some of examples to understand `next()` function in python
 
-### `open()` Example 1:
+### Example 1:
 
 ```python
 mylist = [10, 2.3, 'parrot']
