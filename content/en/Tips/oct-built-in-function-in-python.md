@@ -27,6 +27,8 @@ it returns octal value.
 
 ### `oct()` function  Examples:
 
+let's go through some of examples to understand `oct()` function in python
+
 ### Example 1:
 
 ```python
