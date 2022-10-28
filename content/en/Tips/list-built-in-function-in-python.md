@@ -1,6 +1,6 @@
 ---
-title: "list() function in python"
-description: "list() function syntax,parameters,examples in python"
+title: "python list() function syntax,usage examples"
+description: "The `list()`function is one of the built-in function in python"
 date: "2022-07-21 T11:55:05+09:00"
 draft: false
 link: "list() Built-in functions"
@@ -16,10 +16,12 @@ author: "harika"
 3. Lists are one of the built-in data types in Python used to store collections of data of (Tuple, Set, and Dictionary)
 
 ## `list()` function syntax
+
 ```python
 list_name = [items]
 ```
 ## `list()` function parameters
+
 items are ordered, changeable, and allow duplicate values.
 
 List items are indexed, the first item has index [0], the second item has index [1] etc.

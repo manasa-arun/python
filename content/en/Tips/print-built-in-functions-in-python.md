@@ -1,5 +1,5 @@
 ---
-title: "python print() function syntax,usage and examples "
+title: "python print() function syntax,usage and examples"
 description: "The`print()` function is one of the built-in function in python"
 date: "2022-07-25T11:10:40+09:00"
 draft: false
@@ -17,11 +17,12 @@ the message can be a string, or any other object, the object will be converted i
 ## `print()` function syntax
 
 ```python
-print(object(s)), 
+print(object(s))
 sep=separator, end=end, file=file, flush=flush
 ```
 
 ## `print()` function parameters
+
 object(s)- Any object, 
 and as many as you like. Will be converted to string before printed
 

@@ -23,6 +23,7 @@ min(a1,a2,a3,a4...an)
 min(iterable)            
 ```
 ## `min()` function parameters
+
 a1,a2..an - items present in list to do compare
 iterable - one or more items in list to do compare
 

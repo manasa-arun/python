@@ -9,7 +9,7 @@ author: "harika"
 
 ## `len()` Function in python
 
-1. The `iter()` function is one of the built-in function in python
+1. The `len()` function is one of the built-in function in python
 2. Python has an Built-in function `len()` function for calculating the number of elements inside a list.
 
 3. This function takes in the string whose length is to be calculated as the argument and this function returns an integer value as the output i.e., the "length" of the string.

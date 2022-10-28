@@ -18,6 +18,7 @@ author: "harika"
 pow(x, y, z)
 ```
 ## `pow()` function parameters
+
 x - is A number, the base
 y - is A number, the exponent
 z - isOptional. A number, the modulus

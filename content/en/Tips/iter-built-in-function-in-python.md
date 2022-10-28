@@ -14,7 +14,7 @@ author: "harika"
 
 ## `iter()` function syntax
 
-```pythoon
+```python
 iter(object, sentinel [optional])
 ```
 ## `iter()` function Parameters
@@ -31,11 +31,12 @@ iterator object for the given argument until the sentinel character is found
 TypeError for a user-defined object that doesn't implement __iter__(), and __next__() or __getitem()__
 
 
-### `iter()` function Example:
+### `iter()` function Examples:
 
 let's go through couple of examples to understand `iter()` function in python
 
 ## Example 1:
+
 
 ```python
 # list of RAINBOW COLORS
