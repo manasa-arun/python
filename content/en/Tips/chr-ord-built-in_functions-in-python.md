@@ -38,7 +38,8 @@ all the values are same in UNICODE and ASCII values.
 
 
 
-## python `ord()` cnovert char to unicode:
+## python `ord()` convert char to unicode:
+
 The Python `ord()` function converts `a character into an integer` that represents the Unicode code of the character. 
 
 

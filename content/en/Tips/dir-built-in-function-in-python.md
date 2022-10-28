@@ -17,7 +17,8 @@ author: "harika"
 ```python
 dir(object) 
 ```
-## dir() function parameter
+## `dir()` function parameter
+
 The `dir()` can take only one parameter.
 object is The object you want to see the valid attributes of properties.
 

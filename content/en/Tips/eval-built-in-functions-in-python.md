@@ -8,11 +8,12 @@ author: "harika"
 ---
 
 ## `eval()` function in python
+
 1. The `eval()` function is one of the built-in functions in python.
 2. The `eval()` function evaluates the specified expression, if the expression is a legal Python statement, it will be executed.
 
 
-# `eval()` function syntax
+## `eval()` function syntax
 
 ```python
 eval(expression, globals, locals) 
@@ -36,7 +37,6 @@ x = compile('print("welcome")', 'test', 'eval')
 eval(x) 
 ```
 output:
-
 ```python
 welcome
 ```

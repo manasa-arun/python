@@ -8,6 +8,7 @@ author: "harika"
 ---
 
 ## `float()` function in python
+
 1. The `filter()` function is a one of the built-in functions in python.
 2. The `float()` function converts the specified value into a floating point number.
 
@@ -22,6 +23,7 @@ float(value)
 value- A number or a string that can be converted into a floating point number
 
 ### `filter()` function Examples:
+
 let's go through some of examples to understand `filter()` function in python
 
 ### `float()` Example 1: python `float()` function with infinity

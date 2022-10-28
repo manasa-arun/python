@@ -8,6 +8,7 @@ author: "harika"
 ---
 
 ## `format()` function in python
+
 1. The `format()` function is a one of the built-in functions in python.
 2. The `format()` is used for `Formats a specified value`.
 

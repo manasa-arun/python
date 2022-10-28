@@ -7,16 +7,17 @@ link: "filter() Built-in functions"
 author: "harika"
 ---
 
-## `filter()` function in python:
+## `filter()` function in python
+
 1. The `filter()` function is a one of the built-in functions in python.
 2. The `filter()` is used for `Use a filter function to exclude items in an iterable object`.
 
-## `filter()` Syntax
+## `filter()` function Syntax
 
 ```python
 filter(function, iterable)
 ```
-## `filter()` parameters
+## `filter()` function parameters
 
 The `filter()` function takes two parameters
 

@@ -1,5 +1,5 @@
 ---
-title: "Python hex() syntax,usage and examples"
+title: "Python hex() function syntax,usage and examples"
 description: "The `hex()` function is one of the built-in functions in python"
 date: "2022-07-19T11:30:00+09:00"
 draft: false
@@ -8,11 +8,12 @@ author: "harika"
 ---
 
 ## `hex()`function in python
+
 1. The `hex()` function is one of the built-in functions in python.
 2. The`hex()` is used for	`Converts a number into a hexadecimal value`.
 The returned string always starts with the prefix 0x.
 
-## `hex()`functionSyntax
+## `hex()`function Syntax
 
 ```python
 hex(number)

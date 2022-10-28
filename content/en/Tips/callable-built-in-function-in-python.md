@@ -8,6 +8,7 @@ author: "harika"
 ---
 
 ## `callable()` function in python
+
 1. The `callable()` function is a one of the built-in functions in python.
 2. The `callable()` is used for `Returns True if the specified object is callable, otherwise False`.
 

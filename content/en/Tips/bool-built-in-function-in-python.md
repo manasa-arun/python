@@ -29,6 +29,7 @@ object 	is Any object, like String, List, Number etc.
 The object will always return True, unless
 
 ### `bool()` function Examples:
+
 let's go through the `bool()` function examples for better understanding.
 
 ### `bool()` Example 1: `bool()` function for empty list
@@ -54,6 +55,7 @@ true
 ```
 
 ### Example3: `bool()` function integer
+
 ```python
 # welcome to Pythonshiksha
 x= bool(6) 

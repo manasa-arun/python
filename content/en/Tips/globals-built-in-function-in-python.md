@@ -7,7 +7,8 @@ link: "python globals() Built-in functions"
 author: "harika"
 ---
 
-## `globals()` function in python:
+## `globals()` function in python
+
 1. The `globals()` function is a one of the built-in functions in python.
 2. The `globals()` is used for `Returns the current global symbol table as a dictionary`.
 
@@ -23,6 +24,7 @@ Python's `globals()` method provides access to the global symbol table, which co
 Syntax: globals()
 ```
 ## `globals()` function Parameters 
+
 No parameters required for `globals()` function.
 
 ### `globals()` function Examples:
