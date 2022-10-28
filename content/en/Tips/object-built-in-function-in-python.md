@@ -22,7 +22,11 @@ object()
 
 no parameters for this object function.
 
-### `object()` function Example:
+### `object()` function Examples:
+
+let's go through some of examples to understand `object()` function in python
+
+### Example 1:
 
 ```python
 obj = object()
@@ -41,6 +45,19 @@ output:
 The type of object class object is :
 <class 'object'>
 The attributes of its class are :
+['__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+```
+
+###  Example 2:
+
+```python
+x = object()
+
+print(dir(x))
+```
+output:
+
+```python
 ['__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
 ```
 
