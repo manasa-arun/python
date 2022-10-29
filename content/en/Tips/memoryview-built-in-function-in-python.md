@@ -1,13 +1,13 @@
 ---
-title: "memoryview() function in python"
-description: " memoryview() functions syntax,parameters,example in python"
+title: "python memoryview() function syntax,usage and examples "
+description: "The`memoryview()`function is a one of the built-in functions in python"
 date: "2022-08-23T01:30:05+09:00"
 draft: false
 link: "memoryview() Built-in functions"
 author: "harika"
 ---
 
-## `memoryview() `function in python:
+## `memoryview() `function in python
 
 1. The `memoryview()` function is a one of the built-in functions in python.
 2. `memoryview()` is used for `Returns a memory view object`.
@@ -39,7 +39,11 @@ memoryview(obj)
 `memoryview() `function can take only one parameter.
 obj is A Bytes object or a Bytearray object.
 
-### `memoryview() `function Example:
+### `memoryview() `function Examples:
+
+let's go through some of examples to understand `memoryview()` function in python
+
+### Example 1:
 
 ```python
 x = memoryview(b"pythonshiksha")
@@ -59,6 +63,30 @@ output:
 110
 104
 ```
+### Example 2:
+
+```python
+barr = bytearray('Python','utf-8')
+mv = memoryview(barr)
+print(type(mv))
+print(mv[0])
+print(mv[1])
+print(mv[2])
+print(mv[3])
+print('Converted to list: ', list(mv)) # convert to list
+```
+
+output:
+
+```python
+<class 'memoryview'>
+80
+121
+116
+104
+Converted to list:  [80, 121, 116, 104, 111, 110]
+```
+
 ## Summary
 In this tutorial we learnt about Python `memoryview()` function with simple examples
 
