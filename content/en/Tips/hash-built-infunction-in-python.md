@@ -56,7 +56,7 @@ Integer value doesn't change in this output.
 ```python
 print(hash('python learning tutorial'))
 print(hash(('python','hash','function',1)))
-#hash([1,2,3,4]) #It doesnt work for lists. Will throw a TypeError
+#hash([1,2,3,4]) #It doesn't work for lists. Will throw a TypeError
 print(hash(1))
 print(hash(1,2,3))
 ```
