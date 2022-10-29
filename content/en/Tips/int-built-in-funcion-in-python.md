@@ -26,7 +26,11 @@ base [optional]: (integer value) base of the number.
 
 Returns: Return decimal (base-10) representation of x
 
-### `int()` function Example:
+### `int()` function Examples:
+
+let's go through couple of examples to understand `int()` function in python
+
+### Example 1:
 
 ```python
 x = 12.5
@@ -41,5 +45,19 @@ output:
 ```python
 12 3
 ```
+
+### Example 2:
+
+```python
+x = int("66")
+
+print(x)
+```
+output:
+
+```
+66
+```
+
 ## Summary
 In this tutorial we learnt about Python `int()` function with simple examples
