@@ -25,7 +25,11 @@ obj : The object which we need to convert into hash.
 
 Returns the hashed value if possible. 
 
-### `hash()` Example:
+### `hash()` function Examples:
+
+let's go through couple of examples to understand `hash()` function in python
+
+### Example 1:
 
 ```python
 int_val = 10
@@ -44,7 +48,31 @@ The integer hash value is : 10
 The string hash value is : -635771123
 The float hash value is : 214741844
 ```
-Notice Integer value doesn't change in this output.
+Notice:
+Integer value doesn't change in this output.
+
+### Example 2:
+
+```python
+print(hash('python learning tutorial'))
+print(hash(('python','hash','function',1)))
+#hash([1,2,3,4]) #It doesnt work for lists. Will throw a TypeError
+print(hash(1))
+print(hash(1,2,3))
+```
+output:
+
+```python
+-1490055704
+-386609915
+1
+Traceback (most recent call last):
+  File "c:/Users/Vamshi/with.py", line 6, in <module>
+    print(hash(1,2,3))
+TypeError: hash() takes exactly one argument (3 given)
+```
+`hash()` can take only one argument.
+
 
 ## Summary
 In this tutorial we learnt about Python `hash()` function with simple examples.
