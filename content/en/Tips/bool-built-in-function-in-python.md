@@ -2,7 +2,7 @@
 title: "python bin() function syntax,usage and examples"
 description: "The`bool()`function is a built in function in python"
 date: "2022-06-26T07:40:00+00:00"
-draft: true
+draft: false
 link: "bool() built-in function in python"
 author: "harika"
 ---
