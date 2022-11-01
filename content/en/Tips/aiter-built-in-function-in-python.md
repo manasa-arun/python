@@ -1,6 +1,6 @@
 ---
 title: "Python aiter() function syntax, usage & example"
-description: "The aiter() function is a one of the built-in functions in python"
+description: "The `aiter()` function is a one of the built-in functions in python"
 date: "2022-07-07T03:40:05+09:00"
 draft: false
 link: "aiter() Built-in functions"
@@ -29,8 +29,29 @@ iter	asynchronous iterable.
 
 It returns an asynchronous iterator for an asynchronous iterable
 
-## Python `abs()` Examples
+## Python `aiter()` Examples
 
-let's go through couple of examples to understand `abs()` function in python
+```python
+async def aaa(iterable):
+    async for element in aiter(iterable):
+        if element:
+            element = [1,2,3]
+            element>2
+            return True
+            element> 0
+        return False
+print(aaa)
+```
 
-### Example 1: `abs()` functio
+output:
+
+```python
+<function aaa at 0x001777C0>
+```
+
+## Summary
+
+In this tutorial we learnt about Python `aiter()` function with simple examples.
+
+
+
