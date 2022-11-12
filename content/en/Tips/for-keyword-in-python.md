@@ -37,7 +37,12 @@ break               for                 not
 
 5. The `for` keyword mainly used for iteration process only.
 
+## Syntax of `for` keyword in python
 
+```python
+for variable in sequence:
+        statements
+```
 ### `for()` keyword Examples:
 
 let's go through some of examples to understand `for()` keyword in python
