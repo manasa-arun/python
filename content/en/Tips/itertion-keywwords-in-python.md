@@ -110,7 +110,7 @@ In this example student_list have four students but we got output only two membe
 
 In this example, the "break" keyword is used to stop the iteration process. Here, the keyword is performed as the third student name is printed, stopping the process, and printing only the second item of the list. 
 
-## `continue` keyord in python:
+## `continue` keyword in python:
 
 In a for loop (or a while loop), the continue keyword is used to end the current iteration and go on to the next one. 
 
