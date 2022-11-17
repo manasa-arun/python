@@ -41,7 +41,7 @@ You can only run a block of code if a condition is True by using the `if` keywor
 To run code if the condition is False, use the `else` keyword.
 
 # Example:1 for 'if' keyword
-```
+```python
 even_numbers = [0,2,4,6,8]
 
 if 4 in even_numbers:
