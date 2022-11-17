@@ -28,7 +28,7 @@ break               for                 not
 
 ## `elif` keyword in python
 
-1. The `elif ` keyword is a control flow and conditional type of keyword in python. 
+1. The `elif ` keyword is a control flow type of keyword in python. 
 
 2. The `elif` keyword is one of the keyword out of thirty-five keywords in python.
 
@@ -85,4 +85,4 @@ negative number
 ```
 
 ## Summary
-In this tutorial we learnt about Python `if` keyword usage and examples to better understand
+In this tutorial we learnt about Python `elif` keyword usage and examples to better understand
