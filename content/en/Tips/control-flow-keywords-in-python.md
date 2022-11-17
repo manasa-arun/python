@@ -78,7 +78,7 @@ The Elif is a term that stands for "else if" and can be used to prevent using to
 An alternative to switch or case statements common in other languages is an if... elif... elif... sequence.
 
 # Example:
-```
+```python
 a=10
 b=6
 c= a+b
@@ -87,6 +87,13 @@ if c%2 == 0:
 elif c%2 != 0:
     print("c is a odd number")
 ```
+
+output:
+
+```python
+c is a even number
+```
+
 In this example a,b values given, the next step  c condition is to sum the values of a and b. .
 
 then C examines the if condition, such as if 'c is divided by 2'and the result is '0', then c is an 'even number'. 
