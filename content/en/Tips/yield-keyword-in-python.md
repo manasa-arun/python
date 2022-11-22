@@ -32,7 +32,7 @@ break               for                 not
 you can use help() again by passing in the specific keyword that you need more information about. 
 
 ## Returning keywords in python
-return, yield keywords re returning keywords in python.
+`return, yield` keywords re returning keywords in python.
 
 ## `yield` keyword in python
 
@@ -45,13 +45,6 @@ It is used inside the function.
 It keeps the states of local variable.
 I does not exit the function
 
-## Syntax of the `Yield` Keyword in Python
-
-```python
-def gen_func(x):
-    for i in range(x):
-        yield i
-```
 
 ### `yield()` keyword Examples:
 
