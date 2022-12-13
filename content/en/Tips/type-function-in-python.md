@@ -46,3 +46,6 @@ Output:
 <class 'tuple'> <class 'str'> <class 'float'> <class 'int'>
 ```
 In Python, the `type()` function is used to quickly determine what kind of data the user can include in the programme. 
+
+## Summary
+In this tutorial we learnt about Python `type()` function with simple examples

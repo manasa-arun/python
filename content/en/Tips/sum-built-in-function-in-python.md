@@ -21,3 +21,5 @@ output:
 ```python
 23
 ```
+## Summary
+In this tutorial we learnt about Python `sum()` function with simple examples

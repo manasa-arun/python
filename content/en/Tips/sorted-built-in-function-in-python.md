@@ -7,7 +7,7 @@ link: "sorted() Built-in functions"
 author: "harika"
 ---
 
-## sorted() function in python:
+## `sorted()` function in python:
 The `sorted()` function is a one of the built-in functions in python.
 `sorted()` is used for`Returns a sorted list`.
 
@@ -20,7 +20,7 @@ iterable: The iterable to be arranged in ascending or descending order.
 key: (Optional) A function that serves as a key for the sort comparison.
 reverse: (Optional) If true, sorts in descending order.
 
-Return Value:
+## `sorted()`Return Value:
 
 Returns a list object with sorted items.
 
@@ -37,3 +37,5 @@ output:
 Ascending Numbers:  [21, 35, 62, 83, 144]
 Descending Numbers:  [144, 83, 62, 35, 21]
 ```
+## Summary
+In this tutorial we learnt about Python `sorted()` function with simple examples

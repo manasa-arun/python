@@ -7,7 +7,7 @@ link: "staticmethod()Built-in functions"
 author: "harika"
 ---
 
-# staticmethod() function in python:
+## `staticmethod()` function in python:
 The `staticmethod()` function is a one of the built-in functions in python.
 `staticmethod()` is used for `Converts a method into a static method`.
 
@@ -22,12 +22,14 @@ Static method knows nothing about the class and just deals with the parameters.
     
 Class method works with the class since its parameter is always the class itsel
 
-# Syntax of @staticmethod is:
-```
+## `staticmethodd()` Syntax:
+
+```python
 @staticmethod
 def func(args, ...)
 ```
-where,
+## `staticmethod()` parameters
+
 function - function that needs to be converted to a static method
 
 The staticmethod() method takes a single parameter
@@ -36,8 +38,8 @@ The staticmethod() returns a static method for a function passed as the paramete
 
 Note: staticmethod() is considered a un-Pythonic way of creating a static function. Hence, in newer versions of Python, you can use the @staticmethod decorator.
 
-# Example:
-```
+### Example:
+```python
 class homework:
     def mulNumbers(x, y):
     return x * y
@@ -45,7 +47,9 @@ class homework:
 homework.mulNumbers = staticmethod(homework.mulNumbers)
 print('The mul is:', homework.mulNumbers(5, 10)
 ```
-# output:
-```
+output:
+```python
 The mul is:50
 ```
+## Summary
+In this tutorial we learnt about Python `staticmethod()` function with simple examples

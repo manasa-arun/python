@@ -85,3 +85,6 @@ output:
 ```python
 [(‘saanvi’,’Hyderabad’),(‘Vamshi’,’mumbai’),(‘santhosh’ ‘secundrabad’)]
 ```
+
+## Summary
+In this tutorial we learnt about Python `zip()` function with simple examples

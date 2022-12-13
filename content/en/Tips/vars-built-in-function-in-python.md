@@ -7,11 +7,11 @@ link: "vars() Built-in functions"
 author: "harika"
 ---
 
-## vars() function in python:
+## `vars()` function in python:
 The `vars()` function is a one of the built-in functions in python.
 `vars()` is used for	`Returns the __dict__ property of an object`.
 
-## syntax:
+## `vars()`syntax:
 ```python
 vars(object)
 ```
@@ -58,5 +58,6 @@ output:
 {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x003AF838>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': 'c:/Users/Vamshi/date string.py', '__cached__': None'}
 
 ```
-
+## Summary
+In this tutorial we learnt about Python `vars()` function with simple examples
 

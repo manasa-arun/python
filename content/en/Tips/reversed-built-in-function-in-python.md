@@ -17,19 +17,12 @@ reverse(sequence_object)
 ```
 ## `reverse()` function parameter
 it takes a single parameter
-sequence_object - an indexable object to be reversed (can be a tuple, string, list, range, etc.)
-
-
-
-
-
-
-
-
-
-
-
+sequence_object - an indexable object to be reversed (can be a tuple, string, list, range, etc.
 
 Note: Since we can't index objects such as a set and a dictionary, they are not considered sequence objects. 
+
+## Summary
+In this tutorial we learnt about Python `reversed()` function with simple examples
+
 
 

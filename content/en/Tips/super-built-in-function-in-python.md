@@ -7,14 +7,14 @@ link: "python super() Built-in functions"
 author: "harika"
 ---
 
-## super() function in python:
+## `super()` function in python:
 
 The `super()` function is a one of the built-in functions in python.
 `super()` is used for `Returns an object that represents the parent class`.
 
 The super() function is used to give access to methods and properties of a parent or sibling class.
 
-## syntax:
+## `super()`syntax:
 ```python
 super() 
 ```
@@ -48,3 +48,6 @@ The Name is: abcde
 The Village: hyd
 The Father name is: ABCDE
 ```
+
+## Summary
+In this tutorial we learnt about Python `super()` function with simple examples
