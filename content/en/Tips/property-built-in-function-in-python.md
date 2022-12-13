@@ -1,6 +1,6 @@
 ---
 title: "python property() function syntax,usage and examples"
-description: "The`property()`function is one of the built-in function in python"
+description: "The 'property()' function is one of the built-in function in python"
 date: "2022-07-26T11:00:40+09:00"
 draft: false
 link: "property() Built-in functions"

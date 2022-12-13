@@ -1,6 +1,6 @@
 ---
 title: "python open() function syntax, usage and examples"
-description: "The`open()`function is a one of the built-in functions in python"
+description: "The 'open()' function is a one of the built-in functions in python"
 date: "2022-08-06T09:00:05+09:00"
 draft: false
 link: "open() Built-in functions"

@@ -1,6 +1,6 @@
 ---
-title: "slice built-in function in python"
-description: "slice built in functions in python"
+title: "python slice() function syntax,usage and examples"
+description: "The 'slice()' function is a one of the built-in functions in python"
 date: "2022-08-15T07:19:05+09:00"
 draft: false
 link: "slice() Built-in functions"

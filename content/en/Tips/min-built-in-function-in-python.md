@@ -1,6 +1,6 @@
 ---
 title: "python min() function syntax,usage and examples"
-description: "The`min()`function is one of the built-in function in python"
+description: "The 'min()' function is one of the built-in function in python"
 date: "2022-07-08T04:30:05+09:00"
 draft: false
 link: "min() Built-in functions"

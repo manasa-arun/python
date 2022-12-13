@@ -1,6 +1,6 @@
 ---
-title: "staticmethod built-in function in python"
-description: " staticmethod() built in functions in python"
+title: "python staticmethod() function syntax,usage and examples"
+description: "The 'staticmethod()' function is a one of the built-in functions in python"
 date: "2022-08-23T03:30:05+09:00"
 draft: false
 link: "staticmethod()Built-in functions"

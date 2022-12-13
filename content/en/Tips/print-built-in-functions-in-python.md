@@ -1,6 +1,6 @@
 ---
 title: "python print() function syntax,usage and examples"
-description: "The`print()` function is one of the built-in function in python"
+description: "The 'print()' function is one of the built-in function in python"
 date: "2022-07-25T11:10:40+09:00"
 draft: false
 link: "print() Built-in functions"

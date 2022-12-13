@@ -1,6 +1,6 @@
 ---
 title: "python max() function syntax,usage and examples"
-description: "The `max()` function is one of the built-in function in python"
+description: "The 'max()' function is one of the built-in function in python"
 date: "2022-07-08T04:30:05+09:00"
 draft: false
 link: "max() Built-in functions"

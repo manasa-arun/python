@@ -1,6 +1,6 @@
 ---
 title: "python oct() functions syntax,usage and examples"
-description: "The `oct()`function is a one of the built-in functions in python"
+description: "The 'oct()'function is a one of the built-in functions in python"
 date: "2022-08-05T11:50:05+09:00"
 draft: false
 link: "oct() Built-in functions"

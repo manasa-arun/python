@@ -1,6 +1,6 @@
 ---
 title: "python range() function syntax,usage and examples"
-description: "1. The `range()`function is one of the built-in function in python "
+description: "The 'range()' function is one of the built-in function in python "
 date: "2022-06-28T11:25:05+09:00"
 draft: false
 link: "range() built-in functions"

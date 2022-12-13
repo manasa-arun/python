@@ -1,6 +1,6 @@
 ---
 title: "python iter() function syntax,usage and examples "
-description: "The `iter()`function is one of the built-in function in python"
+description: "The 'iter()' function is one of the built-in function in python"
 date: "2022-07-26T11:00:40+09:00"
 draft: false
 link: "iter() Built-in functions"

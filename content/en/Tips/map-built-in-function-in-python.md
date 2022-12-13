@@ -1,6 +1,6 @@
 ---
 title: "python map() function syntax,usage and examples"
-description: "The`map()`function is a one of the built-in functions in python"
+description: "The 'map()' function is a one of the built-in functions in python"
 date: "2022-08-18T03:05:05+09:00"
 draft: false
 link: "map() Built-in functions"

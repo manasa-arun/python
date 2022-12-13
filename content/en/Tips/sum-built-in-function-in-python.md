@@ -1,6 +1,6 @@
 ---
-title: "sum() function in Python"
-description: "In this tutorial we learn how to use sum() function in Python"
+title: " Python sum() function syntax, usage & example"
+description: "The 'sum()' function is a one of the built-in functions in python"
 date: "2022-06-26T07:30:00+09:00"
 draft: true
 link: "sum() built-in functions"
@@ -12,12 +12,12 @@ The `sum()` is a Built in function in python.
 
 `sum()` is used to add numbers in a list
 
-**Example**
-```
+### Example:
+```python
 b= sum([5,9,3,6])
 print(b)
 ```
-**output:**
-```
+output:
+```python
 23
 ```

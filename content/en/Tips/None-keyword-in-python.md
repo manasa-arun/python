@@ -1,6 +1,6 @@
 ---
 title: "None keyword in python"
-description: "The `None` keyword is one of the keyword out of thirty-five keywords in python"
+description: "The 'None' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-06T03:25:05+09:00"
 draft: false
 link: "python None keyword"

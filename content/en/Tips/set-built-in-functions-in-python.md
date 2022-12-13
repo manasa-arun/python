@@ -1,6 +1,6 @@
 ---
-title: "set built-in function in python"
-description: "set built in functions in python"
+title: "python set() function syntax,usage and examples"
+description: "The 'set()' function is a one of the built-in functions in python"
 date: "2022-08-15T11:15:05+09:00"
 draft: false
 link: "set() Built-in functions"

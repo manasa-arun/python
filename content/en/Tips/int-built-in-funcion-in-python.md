@@ -1,6 +1,6 @@
 ---
 title: "python int() function syntax,usage and examples"
-description: "The`int()`function is one of the built-in function in python."
+description: "The 'int()' function is one of the built-in function in python."
 date: "2022-06-29T07:40:05+09:00"
 draft: false
 link: "int() built-in functions"

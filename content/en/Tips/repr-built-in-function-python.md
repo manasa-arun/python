@@ -1,6 +1,6 @@
 ---
-title: "repr() function in python"
-description: "repr() function syntax,parameters,examples in python"
+title: "python repr() function syntax,usage and examples"
+description: "The 'repr()' function is a one of the built-in functions in python"
 date: "2022-08-06T09:40:05+09:00"
 draft: false
 link: "repr () Built-in functions"

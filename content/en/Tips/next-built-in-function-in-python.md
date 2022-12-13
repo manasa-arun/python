@@ -1,6 +1,6 @@
 ---
 title: "Python next() function syntax,usage and examples"
-description: "The`next()`function is one of the built-in functions in python"
+description: "The 'next()' function is one of the built-in functions in python"
 date: "2022-07-27T02:58+09:00"
 draft: false
 link: "next() built-in functions"

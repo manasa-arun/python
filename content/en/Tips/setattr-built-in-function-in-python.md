@@ -1,6 +1,6 @@
 ---
-title: "setattr built-in function in python"
-description: "setattr built in functions in python"
+title: "python setattr() function syntax,usage and examples"
+description: "The 'setattr()' function is a one of the built-in functions in python"
 date: "2022-08-15T06:49:05+09:00"
 draft: false
 link: "setattr() Built-in functions"
@@ -8,8 +8,8 @@ author: "harika"
 ---
 
 ## setattr() function in python:
-The `setattr()` function is a one of the built-in functions in python.
-`setattr()` is used for `Sets an attribute (property/method) of an object`.
+1. The `setattr()` function is a one of the built-in functions in python.
+2. The `setattr()` is used for `Sets an attribute (property/method) of an object`.
 
 when we want to add a new attribute to an object and set a value to it. 
 It returns None to the caller function.
