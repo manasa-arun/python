@@ -3,7 +3,7 @@ title: "Python all() function syntax, usage & example"
 description: "The 'all()' function is one of the built-in functions in python"
 date: "2022-07-20T03:58:00+00:00"
 draft: false
-link: "all() in built-in functions"
+link: "all() built-in functions"
 author: "harika"
 ---
 
