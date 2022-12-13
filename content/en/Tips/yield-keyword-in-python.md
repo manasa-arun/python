@@ -1,38 +1,12 @@
 ---
-title: "yield keyword in python"
-description: " The 'yield' keyword is one of the keyword out of thirty-five keywords in python"
+title: "'yield' keyword in python"
+description: "The 'yield' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-21T02:10:05+09:00"
 draft: false
 link: "python yield keyword"
 author: "harika"
 ---
 
-# introduction to keywords:
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-
-## list of Thirty-five keywords in python:
-we can list out keywords with `help()` 
-```
->>> help ("keywords")
-
-Here is a list of the Python keywords.  Enter any keyword to get more help.
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not                 
-```
-
-you can use help() again by passing in the specific keyword that you need more information about. 
-
-## Returning keywords in python
-`return, yield` keywords re returning keywords in python.
 
 ## `yield` keyword in python
 
@@ -46,11 +20,12 @@ It keeps the states of local variable.
 I does not exit the function
 
 
-### `yield()` keyword Examples:
+## `yield()` keyword Examples:
 
 let's go through some of examples to understand `yield()` keyword in python
 
 ### Example 1:
+`yield` keyword can help continue the iteration to get the output.
 
 ```python
 # welcome to Pythonshiksha
@@ -76,7 +51,6 @@ local variable i: 3
 local variable i: 4
 [0, 1, 2, 3, 4]
 ```
-`yield` keyword can help continue the iteration to get the output.
 
 ### Example 2:
 
@@ -102,4 +76,5 @@ The odd numbers in list are :  31 59 27
 ```
 
 ## Summary
-In this tutorial we learnt about Python `yield` keyword usage and examples to better understand
+
+In this tutorial we learnt about Python `yield` keyword usage with the help of simple examples.
