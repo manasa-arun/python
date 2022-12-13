@@ -1,6 +1,6 @@
 ---
 title: "or keyword in python"
-description: "The 'or' keyword is one of the keyword out of thirty-five keywords in python""
+description: "The 'or' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-07T12:00:05+09:00"
 draft: false
 link: "python or keyword"
