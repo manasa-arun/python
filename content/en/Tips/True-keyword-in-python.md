@@ -1,6 +1,6 @@
 ---
 title: "True keyword in python"
-description: "The `True` keyword is one of the keyword out of thirty-five keywords in python"
+description: "The 'True' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-06T03:25:05+09:00"
 draft: false
 link: "python True keyword"

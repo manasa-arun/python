@@ -1,6 +1,6 @@
 ---
 title: "python dict() function syntax, usage and examples "
-description: "The `dict()` is one of the built in functions in python"
+description: "The 'dict()' is one of the built in functions in python"
 date: "2022-06-29T07:40:05+09:00"
 draft: false
 link: "python dict() functions "

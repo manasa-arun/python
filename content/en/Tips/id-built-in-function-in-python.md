@@ -1,6 +1,6 @@
 ---
 title: "Python id() function syntax, usage and examples "
-description: "The `id()` function is one of the built-in function in python"
+description: "The 'id()' function is one of the built-in function in python"
 date: "2022-07-19T10:30:00+09:00"
 draft: false
 link: "id() built-in functions"

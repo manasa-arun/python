@@ -1,6 +1,6 @@
 ---
 title: "python format() syntax, usage and examples in python"
-description: "The`format()` function is a one of the built-in functions in python"
+description: "The 'format()' function is a one of the built-in functions in python"
 date: "2022-08-22T10:00:05+09:00"
 draft: false
 link: "format() Built-in functions"

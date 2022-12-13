@@ -1,6 +1,6 @@
 ---
 title: "Python hex() function syntax,usage and examples"
-description: "The `hex()` function is one of the built-in functions in python"
+description: "The 'hex()' function is one of the built-in functions in python"
 date: "2022-07-19T11:30:00+09:00"
 draft: false
 link: "python `hex()` built-in functions"

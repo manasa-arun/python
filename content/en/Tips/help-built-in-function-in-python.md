@@ -1,6 +1,6 @@
 ---
 title: "python help() function syntax,usage and examples"
-description: "The `help()`function is a one of the built-in functions in python"
+description: "The 'help()' function is a one of the built-in functions in python"
 date: "2022-08-17T11:20:05+09:00"
 draft: false
 link: "python `help(`) Built-in functions"

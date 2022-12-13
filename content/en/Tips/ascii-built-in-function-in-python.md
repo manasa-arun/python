@@ -1,6 +1,6 @@
 ---
 title: "python ascii() function syntax, usage and example"
-description: "The `ascii()` function is one of the built-in functions in python"
+description: "The 'ascii()' function is one of the built-in functions in python"
 date: "2022-07-21T10:00:00+00:00"
 draft: false
 link: "ascii() built-in functions"

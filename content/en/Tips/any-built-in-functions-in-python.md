@@ -1,6 +1,6 @@
 ---
 title: "any() function syntax,usage and examples in Python"
-description: "The `any()` function is one of the built-in functions in python"
+description: "The 'any()' function is one of the built-in functions in python"
 date: "2022-07-21T10:00:00+00:00"
 draft: false
 link: "any() built-in functions"

@@ -1,6 +1,6 @@
 ---
 title: "python hasattr() function syntax,usage and examples"
-description: "The `hasattr()`function is a one of the built-in functions in python"
+description: "The 'hasattr()' function is a one of the built-in functions in python"
 date: "2022-08-19T11:00:05+09:00"
 draft: false
 link: "hasattr() Built-in functions"

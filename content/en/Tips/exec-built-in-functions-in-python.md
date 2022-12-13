@@ -1,6 +1,6 @@
 ---
 title: "python exec() function syntax,usage and examples"
-description: "The `exec()` function is a one of the built-in functions in python"
+description: "The 'exec()' function is a one of the built-in functions in python"
 date: "2022-07-05T05:00:05+09:00"
 draft: false
 link: "exec() Built-in functions"

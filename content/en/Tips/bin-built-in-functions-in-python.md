@@ -1,6 +1,6 @@
 ---
 title: "python bin() function syntax,usage and examples"
-description: "The `bin()` function is one of the built-in functions in python"
+description: "The 'bin()' function is one of the built-in functions in python"
 date: "2022-07-07 T04:30:05+09:00"
 draft: false
 link: "bin() Built-in functions"

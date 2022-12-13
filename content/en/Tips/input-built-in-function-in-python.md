@@ -1,6 +1,6 @@
 ---
 title: " Python input() function syntax,usage and examples"
-description: "The `input()`function is one of the built-in function in python"
+description: "The 'input()'function is one of the built-in function in python"
 date: "2022-07-19T11:00:00+09:00"
 draft: false
 link: "input() built-in functions"

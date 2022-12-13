@@ -1,6 +1,6 @@
 ---
 title: "python enumerate() function syntax,usage and examples"
-description: "The `enumerate()`function is a one of the built in functions in python
+description: "The 'enumerate()' function is a one of the built in functions in python
 "
 date: "2022-06-28T11:25:05+09:00"
 draft: false

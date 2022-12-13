@@ -1,6 +1,6 @@
 ---
-title: " python `float()` function syntax, usage and examples in python"
-description: "The `filter()` function is a one of the built-in functions in python."
+title: " python float() function syntax, usage and examples in python"
+description: "The  'filter()' function is a one of the built-in functions in python."
 date: "2022-07-20T03:30:05+09:00"
 draft: false
 link: "float() Built-in functions"

@@ -1,6 +1,6 @@
 ---
 title: "python chr() and ord() functions syntax,usage and examples"
-description: "`chr()` and `ord()` functions both are Built in functions in python"
+description: "The 'chr()' and 'ord()' functions both are Built in functions in python"
 date: "2022-06-28T011:00:05+09:00"
 draft: false
 link: "chr() ord() built-in functions in python"

@@ -1,6 +1,6 @@
 ---
 title: "python classmethod()function syntax,usage and examples"
-description: "The `classmethod()` function is one of the built-in functions in python"
+description: "The 'classmethod()' function is one of the built-in functions in python"
 date: "2022-07-07 T004:30:05+09:00"
 draft: true
 link: "classmethod() Built-in functions"

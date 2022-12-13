@@ -1,6 +1,6 @@
 ---
 title: "class keyword in python"
-description: " The `class` keyword is one of the keyword out of thirty-five keywords in python"
+description: " The 'class' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-20T11:00:05+09:00"
 draft: false
 link: "python class keywords"

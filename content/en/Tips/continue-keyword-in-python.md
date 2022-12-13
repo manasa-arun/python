@@ -1,6 +1,6 @@
 ---
 title: "continue keyword in python"
-description: "The`continue` keyword is one of the keyword out of thirty-five keywords in python"
+description: "The 'continue' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-09T8:30:05+09:00"
 draft: false
 link: "python continue keyword"

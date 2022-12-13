@@ -1,6 +1,6 @@
 ---
-title: "python `divmod()` syntax,usage and examples"
-description: "The `divmod()` function is one of the built-in functions in python"
+title: "python divmod() syntax,usage and examples"
+description: "The 'divmod()' function is one of the built-in functions in python"
 date: "2022-07-27T07:11:50+09:00"
 draft: false
 link: "python divmod() built-in functions"

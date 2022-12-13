@@ -1,6 +1,6 @@
 ---
 title: "python eval() function syntax,usage and examples"
-description: "The `eval()`function is one of the built-in functions in python"
+description: "The 'eval()' function is one of the built-in functions in python"
 date: "2022-07-05T05:00:05+09:00"
 draft: false
 link: "eval() Built-in functions"

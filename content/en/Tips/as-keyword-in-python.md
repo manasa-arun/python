@@ -1,6 +1,6 @@
 ---
 title: "as keywords in python"
-description: " The `as` keyword is one of the keyword out of thirty-five keywords in python"
+description: " The 'as' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-20T12:10:05+09:00"
 draft: false
 link: "python as keywords"

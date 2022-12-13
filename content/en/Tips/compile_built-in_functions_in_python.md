@@ -1,6 +1,6 @@
 ---
 title: "python compile() function syntax,usage and examples"
-description: "The `compile()` is one of the built-in functions in python"
+description: "The 'compile()' is one of the built-in functions in python"
 date: "2022-07-05 T004:30:05+09:00"
 draft: false
 link: "compile() function in python "

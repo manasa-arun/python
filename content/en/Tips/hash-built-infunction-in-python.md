@@ -1,6 +1,6 @@
 ---
 titlle: "python hash() function syntax,usage and examples"
-description: "The`hash()` function is a one of the built-in functions in python"
+description: "The 'hash()' function is a one of the built-in functions in python"
 date: "2022-08-17T10:00:05+09:00"
 draft: false
 link: "python hash() Built-in functions"
