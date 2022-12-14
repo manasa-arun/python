@@ -1,23 +1,33 @@
 ---
-title: "'yield' keyword in python"
+title: "Python 'yield' keyword usage, examples"
 description: "The 'yield' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-21T02:10:05+09:00"
 draft: false
-link: "python yield keyword"
+link: "'yield' keyword"
 author: "harika"
 ---
-
 
 ## `yield` keyword in python
 
 1. The `yield` keyword is one of the keyword out of thirty-five keywords in python.
 
-The `yield ` keyword means provide output as continue, means the programing code can `continue` to the next part of execution.
+2. The `yield ` keyword means provide output as continue, means the programing code can `continue` to the next part of execution.
+
+## python `yield` keyword Uses 
 
 The `yield` gives a generator object.
 It is used inside the function.
 It keeps the states of local variable.
 I does not exit the function
+
+## python `Yield` Keyword  Syntax 
+
+```python
+def gen_func(x):
+    for i in range(x):
+        yield i
+        
+```
 
 
 ## `yield()` keyword Examples:
@@ -53,6 +63,7 @@ local variable i: 4
 ```
 
 ### Example 2:
+checking the odd numbers in original list.
 
 ```python
 def print_odd(my_list):
@@ -76,5 +87,4 @@ The odd numbers in list are :  31 59 27
 ```
 
 ## Summary
-
 In this tutorial we learnt about Python `yield` keyword usage with the help of simple examples.

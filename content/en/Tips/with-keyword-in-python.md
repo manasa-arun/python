@@ -1,39 +1,11 @@
 ---
-title: "with keyword in python"
+title: "'with' keyword in python usage,examples"
 description: " The 'with' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-20T11:00:05+09:00"
 draft: false
-link: "python with keyword"
+link: "'with' keyword"
 author: "harika"
 ---
-
-## introduction to keywords:
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-
-## list of Thirty-five keywords in python:
-we can list out keywords with `help()` 
-```python
->>> help ("keywords")
-
-Here is a list of the Python keywords.  Enter any keyword to get more help.
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not                 
-```
-
-you can use `help()` again by passing in the specific keyword that you need more information about. 
-
-## structure  keywords in python:
-structure keywords include six of the Thirty-five  total keywords.
- def, class, with, as, pass, lambda keywords are iteration keywords.
 
 ## `with` keyword in python:
 
@@ -43,7 +15,13 @@ structure keywords include six of the Thirty-five  total keywords.
 w for write
 r for read
  
-## syntax of `with` keyword:
+## `with` keyword Uses
+
+1. In Python, the `with` keyword is used to create a context in which a block of code is executed.
+2. This is typically used when working with objects that have a __enter__ and __exit__ method
+
+
+## `with` keyword Syntax:
 
 ```python
 with expression [as variable]:
@@ -71,5 +49,23 @@ example for with keyword
 ```
 In this example after writing the program also we can not use close the file here.
 
+### Example 2: read a file and print its contents 
+
+```python
+# Open a file for reading
+with open("file.txt", "r") as f:
+  # Read the contents of the file
+  contents = f.read()
+
+  # Print the contents of the file
+  print(contents)
+```
+
+output:
+```python
+print("pythonshiksha- best python tutorial")
+```
+To get output like this, first create a file named "file.txt," and then when we read that file, it can open and print what it contains, as shown in this example. 
+
 ## Summary
-In this tutorial we learnt about Python `with` keyword usage and examples to better understand.
+In this tutorial we learnt about Python `with` keyword usage with the help of simple examples.
