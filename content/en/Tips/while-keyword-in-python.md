@@ -1,29 +1,12 @@
 ---
-title: "while keyword in python"
+title: "'while' keyword in python usage,examples"
 description: "The 'while' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-09T8:30:05+09:00"
 draft: false
-link: "python while keyword"
+link: "'while' keyword"
 author: "harika"
 ---
 
-## introduction to keywords:
-
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-we have Thirty-five keywords in python.
-
-## list of the Python keywords:
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not  
 
 ## `while` keyword in python
 
@@ -34,18 +17,24 @@ When the condition becomes false, program control passes to the line immediately
 
 3. In Python, a block of code consists of all the statements that follow a programming construct and are indented by the same number of character spaces. 
 
-## Syntax of `while`  keyword
+## `while` keyword Uses
+
+In Python, the `while` keyword is used to create a while loop. A while loop is a type of loop that continues to execute until a certain condition is met.
+
+## `while` keyword Syntax
 
 ```python
 while condition:
     statements   #indent is compulsory
 ```
 
-### `while()` keyword Examples:
+## `while()` keyword Examples:
 
 let's go through some of examples to understand `while()` keyword in python.
 
-### Example 1:
+### Example 1: 
+
+If we want to print three numbers after iteration, we'll need to use a while 
 
 ```python
 i = 0
@@ -59,9 +48,12 @@ output:
 2
 3
 ```
-In this example i is 0 and less than four so after iteration with while loop only three numbers can get like this.
+In this example, `i is 0 and less than four`, so only three numbers can result from iteration with the while loop.
+
 
 ### Example 2:
+
+when we want to print the same thing n times 
 
 ```python
 i=2
@@ -79,4 +71,4 @@ pythonshiksha
 
 ```
 ## Summary
-In this tutorial we learnt about Python `while` keyword usage and examples to better understand
+In this tutorial we learnt about Python `while` keyword usage with the help of simple examples.
