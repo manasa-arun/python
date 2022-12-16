@@ -1,69 +1,67 @@
 ---
-title: "or keyword in python"
+title: "Python 'or' keyword usage, examples"
 description: "The 'or' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-07T12:00:05+09:00"
 draft: false
-link: "python or keyword"
+link: "'or' keyword"
 author: "harika"
 ---
 
-## introduction to keywords:
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-
-## list of Thirty-five keywords in python:
-we can list out keywords with `help()` 
-
-```python
->>> help ("keywords")
-
-Here is a list of the Python keywords.  Enter any keyword to get more help.
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not                 
-```
-
-you can use `help()` again by passing in the specific keyword that you need more information about. 
-
-
-## operator keywords in python:
-Operator keywords include four of the Thirty-five  total keywords. 
-`and, or, not, in`these are the `operator keywords` in python.
-variable name doesn't match with these keywords.
-
-
-## `or` keyword in python:
+## python `or` keyword 
 
 1. The `or` keyword is one of the keyword out of thirty-five keywords in python.
-2. python `or` keyword is a logical operator
+2. python `or` keyword is a logical operator that evaluates to True if either of the operands is True, and False otherwise.
 
-## Python `OR` Keyword Truth Table
+## python `or` keyword Uses
 
-Input 1  	  Input2	         Output
-True	      True	         True
-True	      False	         True
-False	      True	         True
-False	      False	         False
+ The `or ` keyword is used to combine two Boolean expressions and return a single Boolean value.
 
-## `or` Truth table can work like this if :
+## Python `or` Keyword Truth Table
+
+|Input 1|       |Input2|            |Output|
+|-------|       |------|            |------|
+|True	|       | True |            |True  |
+|True	|       | False|            |True  |
+|False	|       | True |            |True  |
+|False	|       | False|            |False |
+
+## python `or` Truth table can work like this
 
 1. condition 1 is True `or` condition2 is True  then it ill give output as `True`
 2. condition 1 is True `or` condition2 is False  then it ill give output as `True`
 3. condition 1 is False `or` condition2 is True  then it ill give output as `True`
 4. condition 1 is False `or` condition2 is False  then it ill give output as `False`
 
-### `or()` keyword Examples:
+## Python `or` keyword Examples:
 
-let's go through some of examples to understand `or()` keyword in python
+let's go through some of examples to understand `or` keyword in python
 
 ### Example 1:
+comparing two boolean expressions and return single  value.
+
+```python
+x = 2
+y = 5
+
+result = (x > 0) or (y > 0)
+print(result)  # Output: True
+
+result = (x > 5) or (y < 1)
+print(result)  # Output: False
+
+result = (x > 1) or (y > 2)
+print(result)  # Output: True
+```
+output:
+
+```python
+True
+False
+True
+```
+
+### Example 2:
+In this example a[i]= 'k'  so it will display before k letters in 'pythonshiksha'.
 
 ```python
 i = 0
@@ -90,9 +88,9 @@ Current Letter : s
 Current Letter : h
 Current Letter : i
 ```
-In this example a[i]= 'k'  so it will display before k letters in 'pythonshiksha'.
 
-### Example 2: if a[i]= 'y' now the output will be like this
+### Example 3: 
+if a[i]= 'y' now the output will be like this
 
 ```python
 i = 0
@@ -115,4 +113,4 @@ Current Letter : p
 here we got output only p why because now `a[i] is y` so before y letters can display in `python shiksha` word.
 
 ## Summary
-In this tutorial we learnt about Python `or` keyword usage and examples to better understand
+In this tutorial we learnt about Python `or` keyword usage with the help of simple examples.
