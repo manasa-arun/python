@@ -7,7 +7,7 @@ link: "'with' keyword"
 author: "harika"
 ---
 
-## `with` keyword in python
+## python `with` keyword 
 
 1. The `with` keyword is one of the keyword out of thirty-five keywords in python.
 2. The advantage of using `with` keyword in program it is automatically close the file with out any using close operation in it.
@@ -15,24 +15,25 @@ author: "harika"
 w for write
 r for read
  
-## `with` keyword Uses
+## python `with` keyword Uses
 
 1. In Python, the `with` keyword is used to create a context in which a block of code is executed.
 2. This is typically used when working with objects that have a __enter__ and __exit__ method
 
 
-## `with` keyword Syntax:
+## python `with` keyword Syntax
 
 ```python
 with expression [as variable]:
     with-block
 ```
 
-### `with()` keyword Examples:
+## python `with()` keyword Examples:
 
 let's go through some of examples to understand `with()` keyword in python
 
-### Example 1: using with keyword
+### Example 1: 
+Read a file using `with` keyword
 
 ```python
 with open("demo.txt","w") as fw:
@@ -49,7 +50,8 @@ example for with keyword
 ```
 In this example after writing the program also we can not use close the file here.
 
-### Example 2: read a file and print its contents 
+### Example 2: 
+Read a file and print its contents 
 
 ```python
 # Open a file for reading

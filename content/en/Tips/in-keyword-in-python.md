@@ -7,7 +7,7 @@ link: "'in' keyword"
 author: "harika"
 ---
 
-## `in` keyword in python
+## python `in` keyword 
 
 1. The `in` keyword is one of the keyword out of thirty-five keywords in python.
 2. The `in` is a membership operator in python.
@@ -15,7 +15,20 @@ author: "harika"
 ## Python `in` keyword Uses
 
 1. The `in` keyword is used to check if a value is present in a sequence (list, range, string etc.).
-2. The`in` keyword is also used to iterate through a sequence in a for loop:
+2. The`in` keyword is also used to iterate through a sequence in a for loop
+
+## Python `in` keyword Syntax
+
+```python
+# Using for statement
+for ele in seq:
+    statement(s)
+
+
+# Using if statement
+if ele in seq:
+    statement(s)
+```
 
 ## Python `in` keyword Examples
 
@@ -75,11 +88,9 @@ h
 a
 ```
 
-
 ### Example 3:
 
 Here `i is h` now so `h` before letters are displayed from  `pythonshiksha` (p,y,t) word.
-
 
 ```python
 best_tutorial = "pythonshiksha"
@@ -92,15 +103,12 @@ for i in best_tutorial:
      
     print(i)
 ```
-
 output:
-
 ```python
 p
 y
 t
 ```
-
 ## Summary
 
 In this tutorial we learnt about Python `in` keyword usage with the help of simple examples.

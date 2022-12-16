@@ -7,18 +7,20 @@ link: "'yield' keyword"
 author: "harika"
 ---
 
-## `yield` keyword in python
+## python `yield` keyword
 
 1. The `yield` keyword is one of the keyword out of thirty-five keywords in python.
 
-2. The `yield ` keyword means provide output as continue, means the programing code can `continue` to the next part of execution.
+2. The programming code can "continue" to the next stage of execution by using the keyword `yield`, which means to provide output as continue. 
+
+3. The `yield` gives a generator object.
+
 
 ## python `yield` keyword Uses 
 
-The `yield` gives a generator object.
-It is used inside the function.
-It keeps the states of local variable.
-I does not exit the function
+1. Using `yield` keyword is highly memory efficient, since the execution happens only when the caller iterates over the object.
+2. It is used inside the function, It keeps the states of local variable.
+It does not exit the function
 
 ## python `Yield` Keyword  Syntax 
 
@@ -30,7 +32,7 @@ def gen_func(x):
 ```
 
 
-## `yield()` keyword Examples:
+## python `yield()` keyword Examples:
 
 let's go through some of examples to understand `yield()` keyword in python
 
