@@ -1,41 +1,13 @@
 ---
-title: "pass keyword in python"
+title: "Python 'pass' keyword usage, examples"
 description: " The 'pass' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-20T11:00:05+09:00"
 draft: false
-link: "python pass keyword"
+link: "'pass' keyword"
 author: "harika"
 ---
 
-## introduction to keywords:
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-
-## list of Thirty-five keywords in python:
-we can list out keywords with `help()` 
-```python
->>> help ("keywords")
-
-Here is a list of the Python keywords.  Enter any keyword to get more help.
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not                 
-```
-
-you can use `help()` again by passing in the specific keyword that you need more information about. 
-
-## structure  keywords in python:
-structure keywords include six of the Thirty-five  total keywords.
- def, class, with, as, pass, lambda keywords are iteration keywords.
-
-## `pass` keyword in python:
+## python `pass` keyword 
 
 1. The `pass` keyword is one of the keyword out of thirty-five keywords in python.
 2. The `pass` is nothing.
@@ -43,12 +15,24 @@ structure keywords include six of the Thirty-five  total keywords.
 The output as "End of program"
 4. Empty code is not allowed in loops, function definitions, class definitions, or in if statements.
 
+## python `pass` keyword Uses
 
-### `pass()` keyword Examples:
+1. It is important to note that the pass keyword is only used as a placeholder and should be replaced with actual code once you are ready to implement the function, class, or block of code.
 
-let's go through some of examples to understand `pass()` keyword in python
+2. You can also use the pass keyword inside a loop or a conditional statement to indicate that the code block should be left empty.
+
+## python `pass` keyword Syntax
+
+```python
+pass
+```
+
+## python `pass` keyword Examples:
+
+let's go through some of examples to understand `pass` keyword in python
 
 ### Example 1:
+using `pass` keyword to quit the program
 
 ```python
 if 3==3:
@@ -61,6 +45,7 @@ output:
 end of program
 ```
 ### Example 2:
+Pass statement can be used in empty functions
 
 ```python
 def mynum():
@@ -75,4 +60,4 @@ having an empty function definition like this, would raise an error without the 
  
 
 ## Summary
-In this tutorial we learnt about Python `pass` keyword usage and examples to better understand.
+In this tutorial we learnt about Python `pass` keyword usage with the help of simple examples.
