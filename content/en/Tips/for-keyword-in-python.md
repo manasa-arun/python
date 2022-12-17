@@ -1,31 +1,14 @@
 ---
-title: "for keyword in python"
+title: "Python 'for' keyword usage, examples" 
 description: "The 'for' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-09T8:30:05+09:00"
 draft: false
-link: "python for keyword"
+link: "'for' keyword"
 author: "harika"
 ---
 
-## introduction to keywords:
 
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-we have Thirty-five keywords in python.
-
-## list of the Python keywords:
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not  
-
-## `for` keyword in python
+## python `for` keyword 
 
 1. The`for` keyword is one of the keyword out of thirty-five keywords in python.
 
@@ -37,17 +20,23 @@ break               for                 not
 
 5. The `for` keyword mainly used for iteration process only.
 
-## Syntax of `for` keyword in python
+## python `for` keyword Uses
+
+1. In Python, the `for` keyword is used to create a loop that iterates over a sequence of elements. 
+2. The `for` loop is used to repeat a block of code for each element in the sequence.
+
+## python`for` keyword Syntax 
 
 ```python
 for variable in sequence:
         statements
 ```
-### `for()` keyword Examples:
+## python `for` keyword Examples:
 
-let's go through some of examples to understand `for()` keyword in python
+let's go through some of examples to understand `for` keyword in python
 
 ### Example 1:
+To print students list using `for`
 
 ```python
 students_list = ["aaaa", "bbbb", "ccccc"]
@@ -66,6 +55,7 @@ If we don't want to use a "for" loop to get this output, we must print the list'
 By using a for loop and an iteration process, we can obtain this output with only one easy line of code. 
 
 ### Example 2:
+using `for` keyword to find sum and average of numbers.
 
 ```python
 numbers =[22,33,26,87,100]
@@ -83,12 +73,13 @@ average = 53.6
 ```
 
 ### Example 3:
+using `for` keyword to print values
 
 ```python
 for i in[10,20,30]:
         print("value =", i)
 else:
-        print("For completed values")
+        print("values completed ")
 ```
 output:
 
@@ -96,7 +87,8 @@ output:
 value = 10
 value = 20
 value = 30
-For completed values
+values completed
 ```
 ## Summary
-In this tutorial we learnt about Python `for` keyword usage and examples to better understand.
+In this tutorial we learnt about Python `for` keyword usage with the help of simple examples.
+

@@ -1,5 +1,5 @@
 ---
-title: "python 'from' keyword in python"
+title: "Python 'from' keyword usage, examples"
 description: "The 'from' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-20T12:10:05+09:00"
 draft: false
