@@ -1,60 +1,37 @@
 ---
-title: "False keyword in python"
+title: "Python 'false' keyword usage, examples"
 description: "The 'False' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-06T03:25:05+09:00"
 draft: false
-link: "python False keyword"
+link: "'False' keyword"
 author: "harika"
 ---
 
-## Introduction to keywords:
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-we have Thirty-five key words in python.
 
-## list of Thirty-five keywords in python:
-we can list out keywords with `help()` 
+## python `False` keyword 
 
-```python
->>> help ("keywords")
-
-Here is a list of the Python keywords.  Enter any keyword to get more help.
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not                 
-```
-
-you can use help() again by passing in the specific keyword that you need more information about. 
-
-## value key words in python
-True,False,None this three key words are in value key words in python.
-
-## `False` keyword in python:
-
-1. The `True` keyword is one of the keyword out of thirty-five keywords in python.
+1. The `false` keyword is one of the keyword out of thirty-five keywords in python.
 2. The result of a comparison operation is the Boolean value `False`.
 3. The `False` keyword is equivalent to 0. 
+4. Boolean values are often used in conditional statements to control the flow of a program
 
+## Python `false` keyword Uses
 
-### `False()` keyword Examples:
+1. In Python, the `False` keyword is a Boolean value that represents the logical value "false". 
+2. It is one of the two possible values of the Boolean data type, along with the True keyword.
 
-let's go through some of examples to understand `False()` keyword in python
+## python `False` keyword Examples:
+
+let's go through some of examples to understand `False` keyword in python
 
 ### Example 1:
+checking the statements
 
 ```python
 print(4>6)
 print(5==8)
 print(10>20)
 ```
-
 output:
 
 ```python
@@ -63,7 +40,8 @@ False
 False
 ```
 
-### Example 2:for `True` and `False` keywords
+### Example 2:   
+comparing the statements either `True` or `False`
 
 ```python
 a = 25
@@ -89,5 +67,5 @@ In this above program `a and b` are compared and the condition is satisfied then
 you'll see these keywords written in lowercase ( true and false ), but in Python they are always written in uppercase. (True and False)
 
 ## Summary
-In this tutorial we learnt about Python `False` keyword usage and examples to better understand.
+In this tutorial we learnt about Python `false` keyword usage with the help of simple examples.
 
