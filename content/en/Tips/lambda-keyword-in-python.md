@@ -16,9 +16,11 @@ author: "harika"
 
 ## Python `lambda` keyword Uses
 
-In Python, the `lambda` keyword is used to create small anonymous functions. These functions are often called "lambda functions" or "anonymous functions", and they are often used when you need a simple function for a short period of time.
+1. In Python, the `lambda` keyword is used to create small anonymous functions. These functions are often called "lambda functions" or "anonymous functions", and they are often used when you need a simple function for a short period of time.
 
-`Lambda` functions are often used in conjunction with higher-order functions such as `map, filter, and reduce`, which allow you to apply a function to a sequence of data. They are also useful for creating simple functions to be used as event handlers in graphical user interface (GUI) programs.
+2. `Lambda` functions are often used in conjunction with higher-order functions such as `map, filter, and reduce`, which allow you to apply a function to a sequence of data.
+ 
+3. They are also useful for creating simple functions to be used as event handlers in graphical user interface (GUI) programs.
 
 
 ## Python `lambda` keyword Syntax 
