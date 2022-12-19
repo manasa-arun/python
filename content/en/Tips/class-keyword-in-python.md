@@ -1,49 +1,24 @@
 ---
-title: "class keyword in python"
+title: "Python 'class' keyword usage,examples"
 description: " The 'class' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-20T11:00:05+09:00"
 draft: false
-link: "python class keywords"
+link: "'class' keyword"
 author: "harika"
 ---
 
-## introduction to keywords:
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-
-## list of Thirty-five keywords in python:
-we can list out keywords with `help()` 
-```python
->>> help ("keywords")
-
-Here is a list of the Python keywords.  Enter any keyword to get more help.
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not                 
-```
-
-you can use `help()` again by passing in the specific keyword that you need more information about. 
-
-## structure  keywords in python:
-structure keywords include six of the Thirty-five  total keywords.
- def, class, with, as, pass, lambda keywords are iteration keywords.
-
-## `class` keyword in python:
+## python `class` keyword 
 
 1. The `class` keyword is one of the keyword out of thirty-five keywords in python.
 2. A `class` is a collection of data attributes and methods for a specific 
 objects.
 3.The `class` keyword is used to define any concept e.g., Complex Number, UI Window, Sparse Matrix and so on which are instantiated using their definitions.
 
+## python `class` keyword Uses
 
-## syntax of `class` keyword in python:
+In Python, the `class` keyword is used to define a new class. A class is a template for creating objects. It defines the attributes and behaviors that objects of the class will have.
+
+## python `class` keyword syntax 
 
 ```python
 class class_name:
@@ -51,9 +26,9 @@ class class_name:
 ```
 After creating the objects, we can involve methods of that class with.(dot)
 
-### `class()` keyword Examples:
+## Python `class` keyword Examples:
 
-let's go through some of examples to understand `class()` keyword in python
+let's go through some of examples to understand `class` keyword in python
 
 ### Example 1:
 
@@ -78,6 +53,7 @@ rno:25
 ```
 
 ## Example 2:
+print student name 
 
 ```python
 class student:
@@ -85,15 +61,11 @@ class student:
   age = 36
 
 p1 = student()
-
 print(p1.name)
 ```
-
 output:
-
 ```python
 aaaa
 ```
-
 ## Summary
-In this tutorial we learnt about Python `class` keyword usage and examples to better understand.
+In this tutorial we learnt about Python `class` keyword usage with the help of simple examples.

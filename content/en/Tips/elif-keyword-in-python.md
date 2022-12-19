@@ -1,32 +1,13 @@
 ---
-title: "elif keyword in python"
+title: "Python 'elif' keyword usage, examples"
 description: "The 'elif' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-09T8:30:05+09:00"
 draft: false
-link: "python elif keyword"
+link: "'elif' keyword"
 author: "harika"
 ---
 
-## introduction to keywords:
-
-`Keywords` are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-we have Thirty-five keywords in python.
-
-## list of the Python keywords:
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not  
-
-
-## `elif` keyword in python
+## python `elif` keyword 
 
 1. The `elif ` keyword is a control flow type of keyword in python. 
 
@@ -36,9 +17,13 @@ break               for                 not
 
 An alternative to switch or case statements common in other languages is an if... elif... elif... sequence.
 
+## python `elif` keyword Uses
 
+1. The `elif` keyword in Python is used in an if statement to specify additional conditions to be tested. 
 
-## `elif` syntax in python:
+2. It is short for `else if,` and is used to check for additional conditions when the first if condition is False.
+
+## python `elif` keyword syntax 
 
 ```python
 
@@ -46,12 +31,12 @@ elif condition:
     statements 
 ```
 
-### `elif()` keyword Examples:
+## python `elif` keyword Examples:
 
-let's go through some of examples to understand `elif()` keyword in python
+let's go through some of examples to understand `elif` keyword in python
 
 
-### Example 1: for 'elif' keyword
+### Example 1: for `elif` keyword
 
 ```python
 a=10
@@ -62,14 +47,12 @@ if c%2 == 0:
 elif c%2 != 0:
     print("c is a odd number")
 ```
-
 output:
-
 ```python
 c is a even number
 ```
-
 ### Example 2:
+checking the number positive or negative.
 
 ```python
 i = -4
@@ -85,4 +68,4 @@ negative number
 ```
 
 ## Summary
-In this tutorial we learnt about Python `elif` keyword usage and examples to better understand
+In this tutorial we learnt about Python `elif` keyword usage with the help of simple examples.

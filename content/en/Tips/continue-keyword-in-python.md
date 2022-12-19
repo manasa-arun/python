@@ -1,31 +1,13 @@
 ---
-title: "continue keyword in python"
+title: "python 'continue' keyword usage,examples"
 description: "The 'continue' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-09T8:30:05+09:00"
 draft: false
-link: "python continue keyword"
+link: "'continue' keyword"
 author: "harika"
 ---
 
-## introduction to keywords:
-
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-we have Thirty-five keywords in python.
-
-## list of the Python keywords:
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not  
-
-## `continue` keyword in python
+## python `continue` keyword 
 
 1. The`continue` keyword is one of the keyword out of thirty-five keywords in python.
 
@@ -33,7 +15,12 @@ In a for loop (or a while loop), the continue keyword is used to end the current
 
 The `continue` keyword can continue the iteration process it is completely opposite to break keyword in python.
 
-## Syntax of `continue`  keyword
+## python `continue` keyword Uses
+
+In programming, the `continue` keyword is used to skip the current iteration of a loop and move on to the next iteration.
+It is often used within the body of a looping structure, such as a for loop or a while loop
+
+## python `continue`  keyword syntax
 
 ```python
 while condition:
@@ -42,11 +29,12 @@ while condition:
     statements
 ```
 
-### `continue()` keyword Examples:
+## python`continue` keyword Examples:
 
-let's go through some of examples to understand `continue()` keyword in python.
+let's go through some of examples to understand `continue` keyword in python.
 
 ### Example 1:
+To get serial numbers 
 
 ```python
 i = 0
@@ -69,6 +57,7 @@ In this example, we want to display numbers from 0 to 5, but since I is 2, we ha
 Try this example with another numbers and check.
 
 ### Example 2:
+when we want to print something n times
 
 ```python
 c=0
@@ -88,4 +77,4 @@ best python tutorial
 ```
 
 ## Summary
-In this tutorial we learnt about Python `continue` keyword usage and examples to better understand
+In this tutorial we learnt about Python `continue` keyword usage with the help of simple examples.
