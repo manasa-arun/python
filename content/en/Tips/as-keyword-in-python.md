@@ -1,6 +1,6 @@
 ---
 title: "Python 'as' keyword usage,examples"
-description: " The 'as' keyword is one of the keyword out of thirty-five keywords in python"
+description: "The 'as' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-20T12:10:05+09:00"
 draft: false
 link: "'as' keyword"
@@ -11,13 +11,14 @@ author: "harika"
 
 1. The `as` keyword is one of the keyword out of thirty-five keywords in python
 2. The `as` keyword is used to alias an imported module or tool.
-
 3. Instead of using whole name of the particular objects or modules we can rename with simple letters w,r like
 w for write
 r for read
 
-## Python`as` keyword Use
+## Python`as` keyword Uses
 
+1. The `as` keyword can be used in an import statement to give a module or package a different alias. 
+2. This can be useful if the module or package has a long or cumbersome name, or if the name conflicts with another name in your code.
 
 ## Python`as` keyword syntax 
 
