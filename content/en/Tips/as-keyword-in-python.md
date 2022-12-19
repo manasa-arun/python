@@ -1,40 +1,13 @@
 ---
-title: "as keywords in python"
+title: "Python 'as' keyword usage,examples"
 description: " The 'as' keyword is one of the keyword out of thirty-five keywords in python"
 date: "2022-09-20T12:10:05+09:00"
 draft: false
-link: "python as keywords"
+link: "'as' keyword"
 author: "harika"
 ---
 
-## introduction to keywords:
-Keywords are python reserved words.
-We cannot use them as constants or variables or any other identifier names.
-
-## list of Thirty-five keywords in python:
-we can list out keywords with `help()` 
-
-```python
->>> help ("keywords")
-
-Here is a list of the Python keywords.  Enter any keyword to get more help.
-
-False               class               from                or
-None                continue            global              pass
-True                def                 if                  raise
-and                 del                 import              return
-as                  elif                in                  try
-assert              else                is                  while
-async               except              lambda              with
-await               finally             nonlocal            yield
-break               for                 not                 
-```
-you can use help() again by passing in the specific keyword that you need more information about. 
-
-## Import keywords in python:
-`import,as,from` keywords are import keywords in python.
-
-## `as` keyword in python
+## Python`as` keyword 
 
 1. The `as` keyword is one of the keyword out of thirty-five keywords in python
 2. The `as` keyword is used to alias an imported module or tool.
@@ -43,18 +16,22 @@ you can use help() again by passing in the specific keyword that you need more i
 w for write
 r for read
 
-## `as` keyword syntax in python:
+## Python`as` keyword Use
+
+
+## Python`as` keyword syntax 
 
 ```python
 import <module> as <alias>
 from <module> import <thing> as <alias>
 ```
 
-### `as()` keyword Examples:
+## Python `as` keyword Examples:
 
-let's go through some of examples to understand `as()` keyword in python
+let's go through some of examples to understand `as` keyword in python
 
 ### Example 1:
+reopen,rewrite a file using `as`keyword
 
 ```python
 with open("demo.txt","w") as fw:
@@ -69,6 +46,7 @@ Best python learning tutorial- PYTHONSHIKSHA
 ```
 
 ### Example 2:
+print random numbers using `as` keyword
 
 ```python
 import random as rnd
@@ -88,4 +66,4 @@ every time while executing this code output must be not same.
 we can get random integers from 0 to 5.
 
 ## Summary
-In this tutorial we learnt about Python `as` keyword usage and examples to better understand.
+In this tutorial we learnt about Python `as` keyword usage with the help of simple examples.
