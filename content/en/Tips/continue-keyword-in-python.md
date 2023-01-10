@@ -1,42 +1,42 @@
 ---
-title: "python 'continue' keyword usage,examples"
-description: "The 'continue' keyword is one of the keyword out of thirty-five keywords in python"
+title: "Python 'continue' keyword usage,examples"
+description: "The 'continue' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-09T8:30:05+09:00"
 draft: false
 link: "'continue' keyword"
 author: "harika"
 ---
 
-## python `continue` keyword 
+## Python `continue` keyword 
 
-1. The`continue` keyword is one of the keyword out of thirty-five keywords in python.
+1. The`continue` keyword is one of the keyword out of thirty-five keywords in Python.
 
 In a for loop (or a while loop), the continue keyword is used to end the current iteration and go on to the next one. 
 
-The `continue` keyword can continue the iteration process it is completely opposite to break keyword in python.
+The `continue` keyword can continue the iteration process it is completely opposite to break keyword in Python.
 
-## python `continue` keyword Uses
+## Python `continue` keyword Uses
 
 In programming, the `continue` keyword is used to skip the current iteration of a loop and move on to the next iteration.
 It is often used within the body of a looping structure, such as a for loop or a while loop
 
-## python `continue`  keyword syntax
+## Python `continue`  keyword syntax
 
-```python
+```Python
 while condition:
     statements  
      continue
     statements
 ```
 
-## python`continue` keyword Examples:
+## Python`continue` keyword Examples:
 
-let's go through some of examples to understand `continue` keyword in python.
+let's go through some of examples to understand `continue` keyword in Python.
 
 ### Example 1:
 To get serial numbers 
 
-```python
+```Python
 i = 0
 while i < 5:
   i += 1
@@ -46,7 +46,7 @@ while i < 5:
 ```
 
 output:
-```python
+```Python
 1
 3
 4
@@ -59,21 +59,21 @@ Try this example with another numbers and check.
 ### Example 2:
 when we want to print something n times
 
-```python
+```Python
 c=0
 while c<3:
-        print("pythonshiksha")
+        print("Pythonshiksha")
         c=c+1
         continue
-print("best python tutorial")
+print("best Python tutorial")
 ```
 output:
 
-```python
-pythonshiksha
-pythonshiksha
-pythonshiksha
-best python tutorial
+```Python
+Pythonshiksha
+Pythonshiksha
+Pythonshiksha
+best Python tutorial
 ```
 
 ## Summary

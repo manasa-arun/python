@@ -1,28 +1,28 @@
 ---
-title: "python 'True' keyword usage,examples"
-description: "The 'True' keyword is one of the keyword out of thirty-five keywords in python"
+title: "Python 'True' keyword usage,examples"
+description: "The 'True' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-06T03:25:05+09:00"
 draft: false
 link: "'True' keyword"
 author: "harika"
 ---
 
-## python `True` keyword
+## Python `True` keyword
 
-1. The `True` keyword is one of the keyword out of thirty-five keywords in python.
+1. The `True` keyword is one of the keyword out of thirty-five keywords in Python.
 2. The result of a comparison operation is the Boolean value `True`.
 3. The `True` keyword is equivalent to 1. 
 
-## python `True` keyword Uses
+## Python `True` keyword Uses
 
 
 The `True` keyword can also be used in other contexts, such as in the condition of a while loop or in a comparison operator (e.g., a == True). 
 It is a fundamental concept in Python and is used in many different ways.
 
 
-## python `True` keyword Syntax
+## Python `True` keyword Syntax
 
-```python
+```Python
 if condition:
     # This code will be executed only if the condition is True
     # You can put any code you want to run here
@@ -30,14 +30,14 @@ if condition:
 In the example above, the code in the if block will only be executed if the condition evaluates to True. If the condition evaluates to False, the code in the if block will be skipped and the program will continue with the code after the if statement.
 
 
-## python `True` keyword Examples:
+## Python `True` keyword Examples:
 
-let's go through some of examples to understand `True` keyword in python
+let's go through some of examples to understand `True` keyword in Python
 
 ### Example 1:
 checking the fundamental concepts by comparing both values
 
-```python
+```Python
 print(4>1)
 
 print(5==5)
@@ -56,7 +56,7 @@ print(29 == 29 and 10 == 10)
 ```
 output:
 
-```python
+```Python
 True
 True
 True
@@ -70,7 +70,7 @@ True
 ### Example 2:
 when list is empty
 
-```python
+```Python
 # Create a list
 my_list = []
 
@@ -83,7 +83,7 @@ if not my_list:
 ```
 output:
 
-```python
+```Python
 list is empty
 ```
 ## Summary

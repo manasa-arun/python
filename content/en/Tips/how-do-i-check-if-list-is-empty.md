@@ -119,7 +119,7 @@ list is empty
 ```
 **conclusion**
    
-   python list is most used data stuctures in any development so in this process `checking the list is empty or not` is the best and time saving technique to do any development in python.
+   Python list is most used data stuctures in any development so in this process `checking the list is empty or not` is the best and time saving technique to do any development in Python.
 
 
 

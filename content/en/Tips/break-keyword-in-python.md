@@ -1,6 +1,6 @@
 ---
 title: "Python 'break' keyword usage,examples"
-description: "The 'break' keyword is one of the keyword out of thirty-five keywords in python."
+description: "The 'break' keyword is one of the keyword out of thirty-five keywords in Python."
 date: "2022-09-09T8:30:05+09:00"
 draft: false
 link: "'break' keyword"
@@ -10,9 +10,9 @@ author: "harika"
 
 ## Python `break` keyword 
 
-1. The`break` keyword is one of the keyword out of thirty-five keywords in python.
+1. The`break` keyword is one of the keyword out of thirty-five keywords in Python.
 
-2. The `break` keyword is used to stop the iteration process in python.
+2. The `break` keyword is used to stop the iteration process in Python.
 
 3. The iteration process can end when the keyword `break` appears automatically while iterating the list of items. 
 
@@ -24,7 +24,7 @@ author: "harika"
 
 ## Python `break` keyword  Syntax
 
-```python
+```Python
 Loop{
     Condition:
         break
@@ -32,12 +32,12 @@ Loop{
 ```
 ## Python `break` keyword Examples:
 
-let's go through some of examples to understand `break` keyword in python.
+let's go through some of examples to understand `break` keyword in Python.
 
 ### Example 1:
 In this example student_list have four students but we got output only two members from list,how it is possible lets see
 
-```python
+```Python
 students_list = ["aaaa", "bbbb", "cccc","dddd"]
 for x in students_list:
     if x == "cccc":
@@ -45,7 +45,7 @@ for x in students_list:
     print(x)
 ```
 output:
-```python
+```Python
 aaaa
 bbbb
 ```
@@ -54,7 +54,7 @@ In this example, the `break` keyword is used to stop the iteration process. Here
 ### Example 2:
 using `break` keyword in for loop
 
-```python
+```Python
 for i in range(10):
     print(i)
     if i == 5:
@@ -62,7 +62,7 @@ for i in range(10):
 ```
 
 output:
-```python
+```Python
 0
 1
 2
@@ -74,7 +74,7 @@ output:
 ### Example 3:
 program to find first 3 multiples of 6, using break keyword in `while` loop
 
-```python
+```Python
 # program to find first 3 multiples of 6
 
 i = 1
@@ -89,7 +89,7 @@ while (i<=10):
 ```
 
 output:
-```python
+```Python
 6 *  1 = 6
 6 *  2 = 12
 6 *  3 = 18

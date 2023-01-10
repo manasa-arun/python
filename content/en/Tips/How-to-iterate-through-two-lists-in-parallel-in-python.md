@@ -1,6 +1,6 @@
 ---
 title: "How to iterate  through two lists in parallel in Python"
-description: "we can iterate 2 python lists in parallel by using 3 methods, using zip(),using for loop,using enumerate
+description: "we can iterate 2 Python lists in parallel by using 3 methods, using zip(),using for loop,using enumerate
 "
 date: "2022-03-09T11:20:00+09:00"
 draft: false
@@ -15,7 +15,7 @@ Iteration is a general term for going through each item of something one by one.
 we can expect a list with columns or rows.
 
 **Two lists Iteration in parallel**
-We can iterate 2 python lists in parallel by using this three methods.
+We can iterate 2 Python lists in parallel by using this three methods.
 
 1. using zip()
 2. using for loop
@@ -45,7 +45,7 @@ After iteration our list is
 
 ## using `zip()` in iteration:
 
-We can use `zip()` function, which is a built-in python function used to iterates tuples and lists in python.
+We can use `zip()` function, which is a built-in Python function used to iterates tuples and lists in Python.
 
 To iterate two lists, use `zip()` function as explained below
 
@@ -127,7 +127,7 @@ banana  potato
 papaya  carrot
 guava  None
 ```
-in python 3 `itertools.zip_longest()` is used to stops when all items in the list dispalyed.
+in Python 3 `itertools.zip_longest()` is used to stops when all items in the list dispalyed.
 
 `zip_longest yields` in list or tuple can display with `none` value
 
@@ -198,7 +198,7 @@ like this we can easily  iterate two lists in parallel.
 
 ## Conclusion:
 
-In this article, we briefly discussed the various methods for iterating two lists in parallel using simple examples and Python code in python language. 
+In this article, we briefly discussed the various methods for iterating two lists in parallel using simple examples and Python code in Python language. 
 
 
 

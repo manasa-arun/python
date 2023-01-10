@@ -21,7 +21,7 @@ Depending on the version of Python you're using, there are several ways to creat
 
 ## Example : using os.makedirs
 
-```python
+```Python
 import os
 
 # Create a new directory
@@ -31,11 +31,11 @@ This will create the `directory` directory, as well as the nested and new direct
 
 ## 2. Using pathlib.Path.mkdir 
 
-For python 3.5 and above, you can use pathlib.Path.mkdir to create a nested directory.
+For Python 3.5 and above, you can use pathlib.Path.mkdir to create a nested directory.
 
 ## Example : Using pathlib.Path.mkdir 
 
-```python
+```Python
 from pathlib import Path
 Path("/root/dirA/dirB").mkdir(parents=True, exist_ok=True)
 ```
@@ -61,7 +61,7 @@ Path("/root/dirA/dirB").mkdir(parents=True, exist_ok=True)
  
 ## Example :  Using distutils.dir_util
 
-```python
+```Python
 import distutils.dir_util
 distutils.dir_util.mkpath(path)
 ```
@@ -74,7 +74,7 @@ This restriction might be acceptable for some applications.
 
 ## Example : one more example distutils.dir_util.mkpath
 
-```python
+```Python
 import distutils.dir_util
 
 distutils.dir_util.mkpath("/root/dirA/dirB")
@@ -82,5 +82,5 @@ distutils.dir_util.mkpath("/root/dirA/dirB")
 You should provide the full path (absolute path) of the directory (not the relative path). If the directory already exists, the above code does not raise an exception.
 
 ## Summary
-In this tutorial we learnt about creation of Nested Directory in python, 
+In this tutorial we learnt about creation of Nested Directory in Python, 
 in a best way with simple examples.

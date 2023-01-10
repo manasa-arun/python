@@ -1,19 +1,19 @@
 ---
-title: "structure keywords in python"
+title: "structure keywords in Python"
 description: " def, class, with, as, pass, lambda keywords in detail"
 date: "2022-09-20T11:00:05+09:00"
 draft: false
-link: "python structure keywords"
+link: "Python structure keywords"
 author: "harika"
 ---
 
 # introduction to keywords:
-Keywords are python reserved words.
+Keywords are Python reserved words.
 We cannot use them as constants or variables or any other identifier names.
 
-## list of Thirty-five keywords in python:
+## list of Thirty-five keywords in Python:
 we can list out keywords with `help()` 
-```python
+```Python
 >>> help ("keywords")
 
 Here is a list of the Python keywords.  Enter any keyword to get more help.
@@ -31,11 +31,11 @@ break               for                 not
 
 you can use help() again by passing in the specific keyword that you need more information about. 
 
-# structure  keywords in python:
+# structure  keywords in Python:
 structure keywords include six of the Thirty-five  total keywords.
  def, class, with, as, pass, lambda keywords are iteration keywords.
 
-# def keyword in python:
+# def keyword in Python:
 Python def keyword is used to define a function, it is placed before a function name that is provided by the user to create a user-defined function. 
 
 # syntax:
@@ -69,7 +69,7 @@ mul= 60
 sub= 4
 ```
 
-# pass keyword in python:
+# pass keyword in Python:
 The `pass` is nothing.
 The `pass` keyword is written as there should be a statement for if.
 The output as "End of program"
@@ -84,7 +84,7 @@ print("end of program")
 ```
 end of program
 ```
-# class keyword in python:
+# class keyword in Python:
 A `class` is a collection of data attributes and methods for a specific 
 objects.
 # syntax of class:
@@ -114,7 +114,7 @@ class student:
 Name: Aaaa
 rno:25
 ```
-# lambda keyword in python:
+# lambda keyword in Python:
 Small anonymous functions are created with the `lambda` keyword.
 
 A lambda function can have one expression but any number of arguments.
@@ -136,7 +136,7 @@ print(x(7, 9, 15))
 Verify this Example.
 Multiple attributes are allowed here, and lambda has no function name and an expression that only spans one line. 
 
-# with  and as keywords in python:
+# with  and as keywords in Python:
 The advantage of using `with` keyword in program it is automatically close the file with out any using close operation in it.
 
 The `as` keyword is used to create an alias.
@@ -149,7 +149,7 @@ r for read
 # Example: with out using `with` keyword
 ```
 fw = open("demo.txt","w")
-fw.write("pythonshiksha")
+fw.write("Pythonshiksha")
 # fw.close()
 
 fr = open("demo.txt","r")
@@ -164,7 +164,7 @@ Without closing the demo file first, this program cannot read the file again sin
 # Example:
 ```
 fw = open("demo.txt","w")
-fw.write("pythonshiksha")
+fw.write("Pythonshiksha")
 fw.close()
 
 fr = open("demo.txt","r")
@@ -172,10 +172,10 @@ print(fr.read())
 ```
 # oputput:
 ```
-pythonshiksha
+Pythonshiksha
 ```
 When a file is opened in this programme, it will be closed using a close operation before being read again and producing an output like 
-"pythonshiksha." 
+"Pythonshiksha." 
 
 To avoid making these errors, we can utilise the "with" keyword and perform any activities there; we don't need to explicitly tell the programme to close after each operation. 
 

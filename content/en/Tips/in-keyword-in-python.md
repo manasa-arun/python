@@ -1,16 +1,16 @@
 ---
 title: "Python 'in' keyword usage, examples"
-description: "The 'in' keyword is one of the keyword out of thirty-five keywords in python"
+description: "The 'in' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-07T12:00:05+09:00"
 draft: false
 link: "'in' keyword"
 author: "harika"
 ---
 
-## python `in` keyword 
+## Python `in` keyword 
 
-1. The `in` keyword is one of the keyword out of thirty-five keywords in python.
-2. The `in` is a membership operator in python.
+1. The `in` keyword is one of the keyword out of thirty-five keywords in Python.
+2. The `in` is a membership operator in Python.
 
 ## Python `in` keyword Uses
 
@@ -19,7 +19,7 @@ author: "harika"
 
 ## Python `in` keyword Syntax
 
-```python
+```Python
 # Using for statement
 for ele in seq:
     statement(s)
@@ -32,13 +32,13 @@ if ele in seq:
 
 ## Python `in` keyword Examples
 
-let's go through some of examples to understand `in` keyword in python
+let's go through some of examples to understand `in` keyword in Python
 
 ### Example 1:
 
 In this example `c` is not there in `vowels` so output is `no`
 
-```python
+```Python
 vowels = ["a","e","i","o","u"]
 
 if "c" in vowels:
@@ -48,19 +48,19 @@ else:
 ```
 output:
 
-```python
+```Python
 no
 ```
 
 ### Example 2:
 
-Here we are checking if  the word `pythonshiksha` contains `f` letter.
+Here we are checking if  the word `Pythonshiksha` contains `f` letter.
 
 As there is no `f`, it will display all the letters in it.
 
 
-```python
-best_tutorial = "pythonshiksha"
+```Python
+best_tutorial = "Pythonshiksha"
  
 # Iterating through the string
 for i in best_tutorial:
@@ -72,7 +72,7 @@ for i in best_tutorial:
 ```
 output:
 
-```python
+```Python
 p
 y
 t
@@ -90,10 +90,10 @@ a
 
 ### Example 3:
 
-Here `i is h` now so `h` before letters are displayed from  `pythonshiksha` (p,y,t) word.
+Here `i is h` now so `h` before letters are displayed from  `Pythonshiksha` (p,y,t) word.
 
-```python
-best_tutorial = "pythonshiksha"
+```Python
+best_tutorial = "Pythonshiksha"
  
 # Iterating through the string
 for i in best_tutorial:
@@ -104,7 +104,7 @@ for i in best_tutorial:
     print(i)
 ```
 output:
-```python
+```Python
 p
 y
 t

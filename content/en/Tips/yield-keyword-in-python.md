@@ -1,30 +1,30 @@
 ---
 title: "Python 'yield' keyword usage, examples"
-description: "The 'yield' keyword is one of the keyword out of thirty-five keywords in python"
+description: "The 'yield' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-21T02:10:05+09:00"
 draft: false
 link: "'yield' keyword"
 author: "harika"
 ---
 
-## python `yield` keyword
+## Python `yield` keyword
 
-1. The `yield` keyword is one of the keyword out of thirty-five keywords in python.
+1. The `yield` keyword is one of the keyword out of thirty-five keywords in Python.
 
 2. The programming code can "continue" to the next stage of execution by using the keyword `yield`, which means to provide output as continue. 
 
 3. The `yield` gives a generator object.
 
 
-## python `yield` keyword Uses 
+## Python `yield` keyword Uses 
 
 1. Using `yield` keyword is highly memory efficient, since the execution happens only when the caller iterates over the object.
 2. It is used inside the function, It keeps the states of local variable.
 It does not exit the function
 
-## python `Yield` Keyword  Syntax 
+## Python `Yield` Keyword  Syntax 
 
-```python
+```Python
 def gen_func(x):
     for i in range(x):
         yield i
@@ -32,14 +32,14 @@ def gen_func(x):
 ```
 
 
-## python `yield()` keyword Examples:
+## Python `yield()` keyword Examples:
 
-let's go through some of examples to understand `yield()` keyword in python
+let's go through some of examples to understand `yield()` keyword in Python
 
 ### Example 1:
 `yield` keyword can help continue the iteration to get the output.
 
-```python
+```Python
 # welcome to Pythonshiksha
 # program for yield keyword 
 
@@ -54,7 +54,7 @@ print(list(my_list(5)))
 
 output:
 
-```python
+```Python
 <generator object my_list at 0x006C4680>
 local variable i: 0
 local variable i: 1
@@ -67,7 +67,7 @@ local variable i: 4
 ### Example 2:
 checking the odd numbers in original list.
 
-```python
+```Python
 def print_odd(my_list):
     for i in my_list:
         if i % 2 == 1:
@@ -83,7 +83,7 @@ for j in print_odd(my_list):
 
 output
 
-```python
+```Python
 The original list is : [31, 40, 59, 66, 27]
 The odd numbers in list are :  31 59 27
 ```

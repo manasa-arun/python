@@ -1,14 +1,14 @@
 ---
 title: "zip() function in Python"
-description: "The 'zip()' function is one of the Built in functions in python"
+description: "The 'zip()' function is one of the Built in functions in Python"
 date: "2022-03-12T03:45:00+09:00"
 draft: false
 link: "zip() built-in function"
 author: "harika"
 ---
 
-## `zip()` in python
-1. The `zip()` function is one of the Built in functions in python"
+## `zip()` in Python
+1. The `zip()` function is one of the Built in functions in Python"
 2. In Python `zip()` is a in-built function, it connects multiple lists in to one simple list. 
 
 
@@ -18,7 +18,7 @@ We have two lists with names and cities, from which we can create a single list 
 
 ### Example
 
-```python
+```Python
 names =["saanvi","vamshi","santhosh"]
 city =["hyderabad","mumbai","secundrabad"]
 zipped=list(zip(names,city))
@@ -26,7 +26,7 @@ print(zipped)
 ```
 output:
 
-```python
+```Python
 [(‘saanvi’,’Hyderabad’),(‘Vamshi’,’mumbai’),(‘santhosh’ ‘secundrabad’)]
 ```
 In names list we have three items, and cities have three items.
@@ -37,7 +37,7 @@ Names are paired with city names, and we have a list.
 
 ### Example : A set is an unordered structure that produces unique values.
 
-```python
+```Python
 names =["saanvi","vamshi","santhosh","saanvi"]
 city =["hyderabad","mumbai","secundrabad","hyderabad"]
 zipped=set(zip(names,city))
@@ -45,7 +45,7 @@ print(zipped)
 ```
 output:
 
-```python
+```Python
 [(‘saanvi’,’Hyderabad’),(‘Vamshi’,’mumbai’),(‘santhosh’ ‘secundrabad’)]
 ```
 Names have four items, and cities have four items. 
@@ -56,7 +56,7 @@ To overcome this problem zip() is used with for loop.
 
 ### Example:
 
-```python
+```Python
 names =["saanvi","vamshi","santhosh","saanvi"]
 city =["hyderabad","mumbai","secundrabad","hyderabad"]
 zipped = zip(names,city)
@@ -64,7 +64,7 @@ for (a,b) in zipped:
  print(a,b)
 ```
 output:
-```python
+```Python
 saanvi hyderabad
 Vamshi Mumbai
 Santhosh secundrabad
@@ -72,17 +72,17 @@ Saanvi hyderabad
 ``` 
 ## How to use zip() in dictionaries:
 In this dictionaries also zip() is used same in list in
-python.
+Python.
 
 ### Example:
-```python
+```Python
 names =["saanvi","vamshi","santhosh"]
 city =["hyderabad","mumbai","secundrabad"]
 zipped=dict(zip(names,city))
 print(zipped)
 ```
 output:
-```python
+```Python
 [(‘saanvi’,’Hyderabad’),(‘Vamshi’,’mumbai’),(‘santhosh’ ‘secundrabad’)]
 ```
 

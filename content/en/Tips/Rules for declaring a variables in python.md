@@ -1,6 +1,6 @@
 ---
 
-title: "Rules for declaring a variables in python"
+title: "Rules for declaring a variables in Python"
 description: "declaring variables "
 date: "2022-06-09T10:32:05+09:00"
 draft: false
@@ -48,17 +48,17 @@ Every change of type requires an explicit conversion.
 
 
 ## Concatenate Variables:
-a is stored data as `python` and b is stored as `is a language` we can combine like this
+a is stored data as `Python` and b is stored as `is a language` we can combine like this
 
->>> a='python'
+>>> a='Python'
 >>> b= ' is a language'
 >>> a+b
-'python is a language'
+'Python is a language'
 
 
-`python` string is stored with variable name `a` here
+`Python` string is stored with variable name `a` here
 
-every letter in python have an index value like this 
+every letter in Python have an index value like this 
 
 >>> a[0]
 'p'
@@ -78,7 +78,7 @@ Traceback (most recent call last):
     a[6]
 IndexError: string index out of range
 
-here a[6] have an error why because string index out of range means python can store 0,1,2,3,4,5 index values only
+here a[6] have an error why because string index out of range means Python can store 0,1,2,3,4,5 index values only
 
 index values have negative values also check this below examples
 

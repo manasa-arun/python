@@ -12,7 +12,7 @@ author: "harika"
 
 In this article, we'll take a look at some of the most common ways to get the last element in a list in Python.
 
-First, we will cover the simplest methods with simple examples in a pythonic way.
+First, we will cover the simplest methods with simple examples in a Pythonic way.
 
 ## What is a List ?
 
@@ -192,7 +192,7 @@ Last element of the list is: guava
 
 ## conclusion:
 
-These are the methods to get the last element of a list in python.
+These are the methods to get the last element of a list in Python.
 in these `indexing`  and `slicing` methods are very simple to get element and `pop()` method is also simple but Remember that the `pop()` method also deletes the element which is accessed. So, Use this method only when you also want to delete the last element of the list. 
 
 

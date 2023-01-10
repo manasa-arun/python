@@ -1,17 +1,17 @@
 ---
-title: "control flow  keywords in python"
+title: "control flow  keywords in Python"
 description: "if, elif, else keywords in detail"
 date: "2022-09-08T11:30:05+09:00"
 draft: false
-link: "python control flow keywords"
+link: "Python control flow keywords"
 author: "harika"
 ---
 
 # introduction to keywords:
-Keywords are python reserved words.
+Keywords are Python reserved words.
 We cannot use them as constants or variables or any other identifier names.
 
-## list of Thirty-five keywords in python:
+## list of Thirty-five keywords in Python:
 we can list out keywords with `help()` 
 ```
 >>> help ("keywords")
@@ -33,7 +33,7 @@ you can use help() again by passing in the specific keyword that you need more i
 
 # control flow keywords:
 control keywords include three of the Thirty-five  total keywords. 
-if,elif,else these three are the control flow keywords in python.
+if,elif,else these three are the control flow keywords in Python.
 variable name doesn't match with these keywords.
 
 # if, else keywords:
@@ -41,7 +41,7 @@ You can only run a block of code if a condition is True by using the `if` keywor
 To run code if the condition is False, use the `else` keyword.
 
 # Example:1 for 'if' keyword
-```python
+```Python
 even_numbers = [0,2,4,6,8]
 
 if 4 in even_numbers:
@@ -70,15 +70,15 @@ else:
 NO
 ```
 In this Example 'x is 55' next if condition is 'x is greater than 60' condition is 'not satisfied' and it jump to else condition and execute this 'else' condition and give output as 'NO'.
-# elif keyword in python:
-The 'elif' is a control keyword in python.
+# elif keyword in Python:
+The 'elif' is a control keyword in Python.
 
 The Elif is a term that stands for "else if" and can be used to prevent using too much indentation.
 
 An alternative to switch or case statements common in other languages is an if... elif... elif... sequence.
 
 # Example:
-```python
+```Python
 a=10
 b=6
 c= a+b
@@ -90,7 +90,7 @@ elif c%2 != 0:
 
 output:
 
-```python
+```Python
 c is a even number
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: "Python 'and' keyword usage,examples"
-description: "The 'and' keyword is one of the keyword out of thirty-five keywords in python"
+description: "The 'and' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-07T12:00:05+09:00"
 draft: false
 link: "and' keyword"
@@ -10,18 +10,18 @@ author: "harika"
 
 ## Python `and` keyword 
 
-1. The `and` keyword is one of the keyword out of thirty-five keywords in python.
-2. python `and` is a logical operator
+1. The `and` keyword is one of the keyword out of thirty-five keywords in Python.
+2. Python `and` is a logical operator
 3. when we want to compare two different conditions we can use this `and` operator.
 4. while comparing both operands are `True` then condition is becomes `True`.
 
 ## Python `and()` keyword Examples:
 
-let's go through some of examples to understand `and()` keyword in python
+let's go through some of examples to understand `and()` keyword in Python
 
 ### Example 1:
 
-```python
+```Python
 a = 25
 b = 40
 c = 30
@@ -33,7 +33,7 @@ print(a<30 and b>35)
 ```
 output:
 
-```python
+```Python
 False
 True
 False
@@ -45,7 +45,7 @@ check the two conditions and if conditions is satisfied it will give output as `
 
 ### Example 2:
 
-```python
+```Python
 if 39 > 39 and 5 < 10:
   print("Both statements are True")
 else:
@@ -54,7 +54,7 @@ else:
 
 output:
 
-```python
+```Python
 At least one of the statements are False
 ```
 

@@ -25,7 +25,7 @@ In Python 2, there are two different kinds of in-built functions.
 
 in- built functions help in reading input given by the user using keywords.
 
-## input() in python2.x:
+## input() in Python2.x:
 
 It will collect information from the user at first.
 The expression will be evaluated in the next step 
@@ -51,7 +51,7 @@ i.e., The input() function always converts the user input into a string and then
 
 **Example:**
 
-user can know the type of data type which user can entered in program using this python code try and run with your own number.
+user can know the type of data type which user can entered in program using this Python code try and run with your own number.
 
 ```
 num = int(input('Enter a number: '))

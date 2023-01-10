@@ -1,6 +1,6 @@
 ---
-title: "Types of functions in python"
-description: "Two important types in functions in python"
+title: "Types of functions in Python"
+description: "Two important types in functions in Python"
 date: "2022-06-24T04:15:05+09:00"
 draft: false
 link: "Types of functions"
@@ -15,7 +15,7 @@ A function is a group statements that exist within a program for the purpose of 
 	statements
 ```
 ## Types of Functions:
-Functions are mainly two types in python
+Functions are mainly two types in Python
 1.Predefined functions
 2.user defined functions
 
@@ -28,7 +28,7 @@ The Python interpreter has a number of functions that are always available for u
 
 Python has several built-in functions, which are listed below: 
 
-There are 68 Built in Functions are there in python.
+There are 68 Built in Functions are there in Python.
 
 1.`chr()`is used for `Returns a character from the specified Unicode code`.
 

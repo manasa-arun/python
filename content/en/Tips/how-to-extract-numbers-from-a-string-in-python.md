@@ -1,6 +1,6 @@
 ---
-title: "How to extract numbers from a string in python"
-description: "four methods to learn How to extract numbers from a string in python"
+title: "How to extract numbers from a string in Python"
+description: "four methods to learn How to extract numbers from a string in Python"
 date: "2022-05-12T10:11:25+09:00"
 draft: false
 link: "extracting numbers from string"
@@ -13,7 +13,7 @@ Extracting digits or numbers from a string may come up frequently during your co
 Whether you are automating a Python script and want to extract specific numerical figures from a CSV file,
 a data scientist who needs to separate complex digits and figures from given patterns, 
 
-a python enthusiast who wants to learn here is the solution with python programing code examples
+a Python enthusiast who wants to learn here is the solution with Python programing code examples
 
 ## List comprehension: using(split, isdigit)
 
@@ -146,4 +146,4 @@ then output must be like this
 
 ## conclusion:
 
-In this article we are discussed about `extract numbers from any string` with python programing  code examples of "reGex methods" and "\D" and etc try your own string and extract numbers from string 
+In this article we are discussed about `extract numbers from any string` with Python programing  code examples of "reGex methods" and "\D" and etc try your own string and extract numbers from string 

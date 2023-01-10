@@ -1,20 +1,20 @@
 ---
-title: "python int() function syntax,usage and examples"
-description: "The 'int()' function is one of the built-in function in python."
+title: "Python int() function syntax,usage and examples"
+description: "The 'int()' function is one of the built-in function in Python."
 date: "2022-06-29T07:40:05+09:00"
 draft: false
 link: "int() built-in functions"
 author: "harika"
 ---
 
-## `int()` function in python
+## `int()` function in Python
 
-1. The `int()` function is one of the built-in function in python.
+1. The `int()` function is one of the built-in function in Python.
 2. Python `int()` function converts the specified value into an integer number, that means if the number is in float,decimal numbers can convert in to integers with this `int()` function.
 
 ## `int()` Function Syntax 
 
-```python
+```Python
    Syntax: int(x, base)
 ```
 ## Python `int()` Function parameters
@@ -28,11 +28,11 @@ Returns: Return decimal (base-10) representation of x
 
 ### `int()` function Examples:
 
-let's go through couple of examples to understand `int()` function in python
+let's go through couple of examples to understand `int()` function in Python
 
 ### Example 1:
 
-```python
+```Python
 x = 12.5
 y = 3.9
 
@@ -42,13 +42,13 @@ print(x, y)
 ```
 output:
 
-```python
+```Python
 12 3
 ```
 
 ### Example 2:
 
-```python
+```Python
 x = int("66")
 
 print(x)

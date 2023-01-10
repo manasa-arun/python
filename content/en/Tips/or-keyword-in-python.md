@@ -1,18 +1,18 @@
 ---
 title: "Python 'or' keyword usage, examples"
-description: "The 'or' keyword is one of the keyword out of thirty-five keywords in python"
+description: "The 'or' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-07T12:00:05+09:00"
 draft: false
 link: "'or' keyword"
 author: "harika"
 ---
 
-## python `or` keyword 
+## Python `or` keyword 
 
-1. The `or` keyword is one of the keyword out of thirty-five keywords in python.
-2. python `or` keyword is a logical operator that evaluates to True if either of the operands is True, and False otherwise.
+1. The `or` keyword is one of the keyword out of thirty-five keywords in Python.
+2. Python `or` keyword is a logical operator that evaluates to True if either of the operands is True, and False otherwise.
 
-## python `or` keyword Uses
+## Python `or` keyword Uses
 
  The `or ` keyword is used to combine two Boolean expressions and return a single Boolean value.
 
@@ -25,7 +25,7 @@ author: "harika"
 |False	|       | True |            |True  |
 |False	|       | False|            |False |
 
-## python `or` Truth table can work like this
+## Python `or` Truth table can work like this
 
 1. condition 1 is True `or` condition2 is True  then it ill give output as `True`
 2. condition 1 is True `or` condition2 is False  then it ill give output as `True`
@@ -34,12 +34,12 @@ author: "harika"
 
 ## Python `or` keyword Examples:
 
-let's go through some of examples to understand `or` keyword in python
+let's go through some of examples to understand `or` keyword in Python
 
 ### Example 1:
 comparing two boolean expressions and return single  value.
 
-```python
+```Python
 x = 2
 y = 5
 
@@ -54,18 +54,18 @@ print(result)  # Output: True
 ```
 output:
 
-```python
+```Python
 True
 False
 True
 ```
 
 ### Example 2:
-In this example a[i]= 'k'  so it will display before k letters in 'pythonshiksha'.
+In this example a[i]= 'k'  so it will display before k letters in 'Pythonshiksha'.
 
-```python
+```Python
 i = 0
-a = 'pythonshiksha'
+a = 'Pythonshiksha'
   
 while i < len(a):
     if a[i] == 'e' or a[i] == 'k':
@@ -77,7 +77,7 @@ while i < len(a):
 ```
 output:
 
-```python
+```Python
 Current Letter : p
 Current Letter : y
 Current Letter : t
@@ -92,9 +92,9 @@ Current Letter : i
 ### Example 3: 
 if a[i]= 'y' now the output will be like this
 
-```python
+```Python
 i = 0
-a = 'python shiksha'
+a = 'Python shiksha'
   
 while i < len(a):
     if a[i] == 'e' or a[i] == 'y':
@@ -106,11 +106,11 @@ while i < len(a):
 ```
 output:
 
-```python
+```Python
 Current Letter : p
 `
 ```
-here we got output only p why because now `a[i] is y` so before y letters can display in `python shiksha` word.
+here we got output only p why because now `a[i] is y` so before y letters can display in `Python shiksha` word.
 
 ## Summary
 In this tutorial we learnt about Python `or` keyword usage with the help of simple examples.

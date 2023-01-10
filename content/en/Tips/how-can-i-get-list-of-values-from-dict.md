@@ -80,7 +80,7 @@ In this `1,2,3` are `keys` and `saanvi,rahul,kathya` are the `values` of diction
 
 ## Conclusion:
 
-getting list of values from dictionary is a easy method in python,
+getting list of values from dictionary is a easy method in Python,
 
-In this article detailed information available with one simple example to understand everyone easily lets check and try to change your own dictionary data and try this methods in python programing code.
+In this article detailed information available with one simple example to understand everyone easily lets check and try to change your own dictionary data and try this methods in Python programing code.
 

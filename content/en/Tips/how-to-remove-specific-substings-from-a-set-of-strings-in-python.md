@@ -1,7 +1,7 @@
 ---
 
-title: "how to remove specific substring from a set of strings in python"
-description: " Best and easy methods how to remove specific substring from a set of strings in python"
+title: "how to remove specific substring from a set of strings in Python"
+description: " Best and easy methods how to remove specific substring from a set of strings in Python"
 date: "2022-05-20T10:07:05+09:00"
 draft: false
 link: "remove substring from string"
@@ -12,15 +12,15 @@ author: "harika"
 
 **Strings** are an array of Unicode characters occupying a storage of few bytes. 
 
-If you come from a different language, there are high chances of your interaction with the `char` keyword, but in python there is no such `char` keyword and thus we can say that a single letter inside quotation marks in python is a string with length 1.
+If you come from a different language, there are high chances of your interaction with the `char` keyword, but in Python there is no such `char` keyword and thus we can say that a single letter inside quotation marks in Python is a string with length 1.
 
 Strings behave the same way as like arrays and thus can be accessed by using the `[]` operator.
 
 A substring is a sequence of Unicode characters within a string.
 
-Examples of Strings in python:
+Examples of Strings in Python:
 ```
-‘python’ , ‘coding’ , ‘abc’ , ‘d’ , ‘’ , 'Python is a good language'
+‘Python’ , ‘coding’ , ‘abc’ , ‘d’ , ‘’ , 'Python is a good language'
 ```
 
 ## using str.replace():
@@ -48,23 +48,23 @@ here we can observe last letters can removed here, `ming` is removed and displye
 
 ## using string.replace():
 
-strings are immutable in python, we can not remove  astring here just replaced a new string like this
+strings are immutable in Python, we can not remove  astring here just replaced a new string like this
 
 **Example:**
 ```
-my_text = "python can learn easily!"
+my_text = "Python can learn easily!"
 x = my_text.replace("learn", "study", 1)
 x = my_text.replace("easily", "quickly", 2)
 print(x)
 ```
 output:
 ```
-python can study quickly
+Python can study quickly
 ```   
 here 'learn' replaced with 'study'
 and 'easily' can replaced with 'quickly'
 
-try this simple python programing code and replace with a new strings
+try this simple Python programing code and replace with a new strings
 
 ## using for loop +replace():
 
@@ -73,7 +73,7 @@ using two methods `for loop+replace` functions can solve this problem easily
 **Example:**
 
 ```
-my_str = "python can learn easily"
+my_str = "Python can learn easily"
   
 print("The original string is : " + my_str)
   
@@ -87,12 +87,12 @@ print("The string after substring removal : " + my_str)
 ```
 output:
 ```
-The original string is : python can learn easily
-The string after substring removal : python can easily
+The original string is : Python can learn easily
+The string after substring removal : Python can easily
 ```
 `can` substring  is removed from original string here.
 
 ## conclusion:
 
-In this article `remove specific substring from a set of strings in python'  and 'replace old string ith ne string` concept also explained easily with simple examples to evaryone can understand easily.
+In this article `remove specific substring from a set of strings in Python'  and 'replace old string ith ne string` concept also explained easily with simple examples to evaryone can understand easily.
 

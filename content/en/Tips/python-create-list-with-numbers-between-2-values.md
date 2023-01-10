@@ -1,13 +1,13 @@
 ---
-title: "python create list with numbers between 2 values"
-description: " range function can use to create list with numbers between 2 values in python"
+title: "Python create list with numbers between 2 values"
+description: " range function can use to create list with numbers between 2 values in Python"
 date: "2022-04-29T10:32:05+09:00"
 draft: false
 link: "creating list with numbers strings"
 author: "harika"
 ---
 ## introduction:
-`List` is a compound data type in python. list is a set of values of different data types.
+`List` is a compound data type in Python. list is a set of values of different data types.
 
 list values separated with , and enclosed with in square brackets([]).
 
@@ -19,7 +19,7 @@ here my_list is created with different data types.
 
 ## using range():
 
-Range function in python is use to generate a list, which
+Range function in Python is use to generate a list, which
 Is special sequence type.
 
 We can pass two parameters to this `range()`function.
@@ -33,7 +33,7 @@ range(lower limit,upper limit,step)
 
 here `step` is a number added with lower limit and forward to next number until it reaches the upper limit.
 
-list() can use to convert sequence numbers in python list.
+list() can use to convert sequence numbers in Python list.
 
 **Example**:
 ```
@@ -69,7 +69,7 @@ in this example step value is added 2 so the lower limit number increased to ste
 7 added 2 next value 9
 9 added 2 next value 11 but in output 11 is not displayed why because upper limit is 10 only.
 
-like this we can easily create a list in python with two values.
+like this we can easily create a list in Python with two values.
 
 **Example**
 
@@ -86,6 +86,6 @@ output:
 Note: Negative values in step values can be used to create a descending order list.
 
 ## conclusion:
-using range() we can easily create a list with 2 values in python,
+using range() we can easily create a list with 2 values in Python,
 
-in this article we explained in a simple python program code with best example you can also try your own list.
+in this article we explained in a simple Python program code with best example you can also try your own list.

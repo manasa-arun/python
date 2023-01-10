@@ -1,7 +1,7 @@
 ---
 
-title: "How to prettyprint a json file in python"
-description: " Best and easy method to  prettyprint a json file in python"
+title: "How to prettyprint a json file in Python"
+description: " Best and easy method to  prettyprint a json file in Python"
 date: "2022-05-05T10:09:50+09:00"
 draft: false
 link: "JSON"
@@ -16,7 +16,7 @@ Essentially, pretty printing JSON means having proper indentation, `white spaces
 
 JSON is commonly used for data transmission between client-server applications. 
 
-## How to prettyprint a json file in python:
+## How to prettyprint a json file in Python:
 
 `dumps()` method is used to print prettyprint in JSON.
 

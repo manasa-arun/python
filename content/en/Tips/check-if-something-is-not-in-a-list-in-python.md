@@ -1,13 +1,13 @@
 ---
-title: "check if something is not in a list in python"
-description: "Three  methods of check if something is not in a list in python"
+title: "check if something is not in a list in Python"
+description: "Three  methods of check if something is not in a list in Python"
 date: "2022-05-16T04:40:05+09:00"
 draft: false
 link: "something is not in a list"
 author: "harika"
 ---
 
-In this article, we will briefly discuss about the **different python methods that we can use to check if something is not in a list in python** along with some shortcuts that can make our coding efficient.
+In this article, we will briefly discuss about the **different Python methods that we can use to check if something is not in a list in Python** along with some shortcuts that can make our coding efficient.
 
 ## introduction to list:
 Python provides a very wide range of compound and simple Data structures and List is one the most flexible and popular Data structures in Python.
@@ -19,7 +19,7 @@ List contains a group of elements of a different data type *separated* by **comm
 sample_list = [ '21','orange','3.5','-2']
 ```
 
-## check if something is not in a list in python:
+## check if something is not in a list in Python:
 ## using "not in" operator:
 
 If an element is not found in a list, it is returned.
@@ -54,7 +54,7 @@ True
 ```
 here 22 is serching in my list, 22is not there in my list so the putput is `True`
 
-The 'not in' operator can be used to quickly determine whether a searched element is in a list or not in python.
+The 'not in' operator can be used to quickly determine whether a searched element is in a list or not in Python.
 
 ## using len():
 
@@ -63,7 +63,7 @@ Because the length of an empty list is zero, it can be used to determine whether
 
 **example:**
 ```
-list1 = ["22", "python", "best language", "1%", "java"]
+list1 = ["22", "Python", "best language", "1%", "java"]
 
 list2 = []
 
@@ -78,7 +78,7 @@ list is not empty
 ```
 if we use `list2 instead of list1` the output will come `list is empty`
 
-so we can easily find out the element is not in a list in python.
+so we can easily find out the element is not in a list in Python.
 
 
 ## using len()== 0:
@@ -87,7 +87,7 @@ len()==0 function can also used like this to check something in list or not like
 **example:**
 
 ```
-list1 = ["22", "python", "best language", "1%", "java"]
+list1 = ["22", "Python", "best language", "1%", "java"]
 
 list2 = []
 
@@ -109,7 +109,7 @@ if `len(list2)==0` means length of list2 is 0 then it returns  `list is empty` s
 
 combine this two techniques like this to check something in list or not.
 ```
-list1 = ["22", "python", "best language", "1%", "java"]
+list1 = ["22", "Python", "best language", "1%", "java"]
 
 list2 = []
 
@@ -131,4 +131,4 @@ Here is what we can understand: first, check if the `list1` is empty or not; if 
 secondly, check if `22` is in the list or not; if `22` is in the list, it will display `False`, indicating that 22 is in list1. 
 
 ## conclusion:
-here we discussed about `checking if something is not in a list or not in python` with simple programing  codes to everyone can understand easily, prepare your own list and try this methods
+here we discussed about `checking if something is not in a list or not in Python` with simple programing  codes to everyone can understand easily, prepare your own list and try this methods
