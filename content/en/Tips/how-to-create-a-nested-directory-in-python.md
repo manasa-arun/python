@@ -3,7 +3,7 @@ title: "How to create a Safely Nested Directory in Python"
 description: "Depending on the version of Python you're using, there are several ways to create a nested directory"
 date: "2023-01-10T12:00:00+09:00"
 draft: false
-link: "nested directory in python"
+link: "Nested Directory in Python"
 author: "harika"
 ---
 
