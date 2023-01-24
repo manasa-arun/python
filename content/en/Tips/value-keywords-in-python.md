@@ -1,23 +1,23 @@
 ---
-title: "value keywords in python"
-description: "python True,False,None keywords in detail"
+title: "value keywords in Python"
+description: "Python True,False,None keywords in detail"
 date: "2022-09-06T03:25:05+09:00"
 draft: false
-link: "python value keywords"
+link: "Python value keywords"
 author: "harika"
 ---
 
 # Introduction to keywords:
-Keywords are python reserved words.
+Keywords are Python reserved words.
 We cannot use them as constants or variables or any other identifier names.
-we have Thirty-five key words in python.
+we have Thirty-five key words in Python.
 In these key words e discussed here only value key words now.
 
 # value key words:
 Out of Thirty-five key words only three key words are there in this value key words.
 True,False,None this three key words are in value key words.
 
-# True keyword in python:
+# True keyword in Python:
 The result of a comparison operation is the Boolean value True.
 The True keyword is equivalent to 1. 
 
@@ -33,7 +33,7 @@ True
 True
 True
 ```
-# False keyword in python:
+# False keyword in Python:
 The result of a comparison operation is the Boolean value False.
 The False keyword is equivalent to 0. 
 
@@ -74,7 +74,7 @@ In this above program `a and b` are compared and the condition is satisfied then
 you'll see these keywords written in lowercase ( true and false ), but in Python they are always written in uppercase. (True and False)
 
 # None keyword:
-None is a very curious key word in python why because None data doen't represent any data in it.
+None is a very curious key word in Python why because None data doen't represent any data in it.
 None is not a value here is an example
 ```
 print(None+1)

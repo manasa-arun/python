@@ -1,53 +1,53 @@
 ---
 title: "Python 'pass' keyword usage, examples"
-description: " The 'pass' keyword is one of the keyword out of thirty-five keywords in python"
+description: " The 'pass' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-20T11:00:05+09:00"
 draft: false
 link: "'pass' keyword"
 author: "harika"
 ---
 
-## python `pass` keyword 
+## Python `pass` keyword 
 
-1. The `pass` keyword is one of the keyword out of thirty-five keywords in python.
+1. The `pass` keyword is one of the keyword out of thirty-five keywords in Python.
 2. The `pass` is nothing.
 3. The `pass` keyword is written as there should be a statement for if.
 The output as "End of program"
 4. Empty code is not allowed in loops, function definitions, class definitions, or in if statements.
 
-## python `pass` keyword Uses
+## Python `pass` keyword Uses
 
 1. It is important to note that the pass keyword is only used as a placeholder and should be replaced with actual code once you are ready to implement the function, class, or block of code.
 
 2. You can also use the pass keyword inside a loop or a conditional statement to indicate that the code block should be left empty.
 
-## python `pass` keyword Syntax
+## Python `pass` keyword Syntax
 
-```python
+```Python
 pass
 ```
 
-## python `pass` keyword Examples:
+## Python `pass` keyword Examples:
 
-let's go through some of examples to understand `pass` keyword in python
+let's go through some of examples to understand `pass` keyword in Python
 
 ### Example 1:
 using `pass` keyword to quit the program
 
-```python
+```Python
 if 3==3:
   pass
 print("end of program")
 ```
 output:
 
-```python
+```Python
 end of program
 ```
 ### Example 2:
 Pass statement can be used in empty functions
 
-```python
+```Python
 def mynum():
   pass
 ```

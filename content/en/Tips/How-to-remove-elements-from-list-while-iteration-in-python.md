@@ -1,6 +1,6 @@
 ---
 title: "How to remove elements from list while iteration"
-description: "Three important methods for removing elements in list while iteration in python"
+description: "Three important methods for removing elements in list while iteration in Python"
 date: "2022-03-14T12:15:05+09:00"
 draft: false
 link: "remove elements while iteration"

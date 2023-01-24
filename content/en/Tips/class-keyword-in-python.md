@@ -1,26 +1,26 @@
 ---
 title: "Python 'class' keyword usage,examples"
-description: " The 'class' keyword is one of the keyword out of thirty-five keywords in python"
+description: " The 'class' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-20T11:00:05+09:00"
 draft: false
 link: "'class' keyword"
 author: "harika"
 ---
 
-## python `class` keyword 
+## Python `class` keyword 
 
-1. The `class` keyword is one of the keyword out of thirty-five keywords in python.
+1. The `class` keyword is one of the keyword out of thirty-five keywords in Python.
 2. A `class` is a collection of data attributes and methods for a specific 
 objects.
 3.The `class` keyword is used to define any concept e.g., Complex Number, UI Window, Sparse Matrix and so on which are instantiated using their definitions.
 
-## python `class` keyword Uses
+## Python `class` keyword Uses
 
 In Python, the `class` keyword is used to define a new class. A class is a template for creating objects. It defines the attributes and behaviors that objects of the class will have.
 
-## python `class` keyword syntax 
+## Python `class` keyword syntax 
 
-```python
+```Python
 class class_name:
      members
 ```
@@ -28,11 +28,11 @@ After creating the objects, we can involve methods of that class with.(dot)
 
 ## Python `class` keyword Examples:
 
-let's go through some of examples to understand `class` keyword in python
+let's go through some of examples to understand `class` keyword in Python
 
 ### Example 1:
 
-```python
+```Python
 class student:
   def setdata(self,name,rno):
     self._name = name
@@ -55,7 +55,7 @@ rno:25
 ## Example 2:
 print student name 
 
-```python
+```Python
 class student:
   name = "aaaa"
   age = 36
@@ -64,7 +64,7 @@ p1 = student()
 print(p1.name)
 ```
 output:
-```python
+```Python
 aaaa
 ```
 ## Summary

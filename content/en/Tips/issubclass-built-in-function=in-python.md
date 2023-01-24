@@ -1,20 +1,20 @@
 ---
-title: "python issubclass() function syntax,usage and examples"
-description: "The 'issubclass()' function is a one of the built-in functions in python"
+title: "Python issubclass() function syntax,usage and examples"
+description: "The 'issubclass()' function is a one of the built-in functions in Python"
 date: "2022-08-22T01:30:05+09:00"
 draft: false
 link: "issubclass()Built-in functions"
 author: "harika"
 ---
 
-## `issubclass()` function in python
+## `issubclass()` function in Python
 
-1. The `issubclass()` function is a one of the built-in functions in python.
+1. The `issubclass()` function is a one of the built-in functions in Python.
 2. The `issubclass()` is used for `Returns True if a specified class is a subclass of a specified object`.
 
 ## `issubclass()` function Syntax
 
-```python
+```Python
 issubclass(object, subclass)
 ```
 ## `issubclass()` function parameters
@@ -23,11 +23,11 @@ subclass is A class object, or a tuple of class  object.
 
 ### `issubclass()` function Example:
 
-let's go through couple of examples to understand `issubclass()` function in python
+let's go through couple of examples to understand `issubclass()` function in Python
 
 ## Example 1:
 
-```python
+```Python
 class student:
   age = 15
 
@@ -40,12 +40,12 @@ print(x)
 ```
 output:
 
-```python
+```Python
 True
 ```
 ## Example 2:
 
-```python
+```Python
 class Square:
   def __init__(SquareType):
     print('Square is a ', SquareType)
@@ -61,7 +61,7 @@ print(issubclass(Square, (list, Square)))
 ```
 output:
 
-```python
+```Python
 True
 False
 True

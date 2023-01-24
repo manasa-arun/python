@@ -1,14 +1,14 @@
 ---
-title: "Absolute value in python"
-description: "Defining the absolute value in python"
+title: "Absolute value in Python"
+description: "Defining the absolute value in Python"
 date: "2022-08-27T11:20:05+09:00"
 draft: false
-link: "Absolute value in python"
+link: "Absolute value in Python"
 author: "harika"
 ---
 
 ## introduction to absolute value:
-absolute values commonly used in school syllabus like mathematics,physics,engineering subjects also this knowledge is enough to learn this concept in python.
+absolute values commonly used in school syllabus like mathematics,physics,engineering subjects also this knowledge is enough to learn this concept in Python.
 
 The absolute value of a number in any programming language is the value without regard to its sign. 
 
@@ -25,7 +25,7 @@ it takes single parameter
 
 ## Return value from abs():
 
-The python abs() function returns the absolute value of the passed number.
+The Python abs() function returns the absolute value of the passed number.
 
 For integers as inputs – an integer absolute value is returned
 Example:
@@ -51,7 +51,7 @@ so |3+2j| absolute number is 3.6055
 |-(3+2j)| absolute number is 3.6055 
 
 
-let us understand this concept in python programs 
+let us understand this concept in Python programs 
 ## Example:
 ```
 # To find any type of absolute value here

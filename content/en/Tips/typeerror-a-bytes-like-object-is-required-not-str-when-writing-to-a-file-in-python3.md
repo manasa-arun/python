@@ -1,10 +1,10 @@
 ---
 
-title: " python typeError: a bytes-like object is required,not'str'when writing to a file in python3 "
+title: " Python typeError: a bytes-like object is required,not'str'when writing to a file in Python3 "
 description: " range function can solve  "
 date: "2022-05-10T09:35:05+09:00"
 draft: false
-link: "range function to solve typerror in python"
+link: "range function to solve typerror in Python"
 author: "harika"
 ---
 ## introduction:

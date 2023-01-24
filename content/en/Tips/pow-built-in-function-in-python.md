@@ -1,20 +1,20 @@
 ---
-title: "python pow() function syntax,usage and examples"
-description: "The 'pow()' function is a one of the built-in functions in python"
+title: "Python pow() function syntax,usage and examples"
+description: "The 'pow()' function is a one of the built-in functions in Python"
 date: "2022-08-06T09:00:05+09:00"
 draft: false
 link: "pow() Built-in functions"
 author: "harika"
 ---
 
-## `pow()` function in python
+## `pow()` function in Python
 
-1. The `pow()` function is a one of the built-in functions in python.
+1. The `pow()` function is a one of the built-in functions in Python.
 2. `pow()` is used for 	`Returns the value of x to the power of y`.
 
 ## `pow()` function Syntax
 
-```python
+```Python
 pow(x, y, z)
 ```
 ## `pow()` function parameters
@@ -23,7 +23,7 @@ x - is A number, the base
 y - is A number, the exponent
 z - isOptional. A number, the modulus
 
-## `pow()` function returned values list in python
+## `pow()` function returned values list in Python
 if  x and y parameters  then
 
 if x is negative y is negative it returns float value
@@ -35,28 +35,28 @@ check below example for reference.
 
 ### `pow()` function Examples:
 
-let's go through some of examples to understand `pow()` function in python
+let's go through some of examples to understand `pow()` function in Python
 
 ### `pow()` Examaple 1: pow() with only two parameters
 
-```python
+```Python
 x = pow(2, 5) 
 print(x)
 ```
 output
-```python
+```Python
 32
 ```
 here 2is multiplied by 5 times and return 32.
 
 ### `pow()` Examaple 2: pow() with only three parameters
 
-```python
+```Python
 x = pow(2, 5,3) 
 print(x)
 ```
 output
-```python
+```Python
 3
 ```
 here 2is multiplied by 5 times and return 32 `(2*2*2*2*2=32)`,
@@ -64,7 +64,7 @@ next 32 is divided by `3` that is 3rd parameter and returned 3 (32%3 == 3).
 
 ### `pow()`Example 3:
 
-```python
+```Python
 # Python code to discuss negative
 # and non-negative cases
  
@@ -86,7 +86,7 @@ print(pow(-5, -2))
 ```
 output:
 
-```python
+```Python
 Positive x and positive y : 25
 Negative x and positive y : 25
 Positive x and negative y : 0.04

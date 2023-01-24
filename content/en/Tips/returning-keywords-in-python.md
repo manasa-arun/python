@@ -1,17 +1,17 @@
 ---
-title: "returning keywords in python"
+title: "returning keywords in Python"
 description: " return, yield keywords in detail"
 date: "2022-09-21T02:10:05+09:00"
 draft: false
-link: "python returning keywords"
+link: "Python returning keywords"
 author: "harika"
 ---
 
 # introduction to keywords:
-Keywords are python reserved words.
+Keywords are Python reserved words.
 We cannot use them as constants or variables or any other identifier names.
 
-## list of Thirty-five keywords in python:
+## list of Thirty-five keywords in Python:
 we can list out keywords with `help()` 
 ```
 >>> help ("keywords")
@@ -31,10 +31,10 @@ break               for                 not
 
 you can use help() again by passing in the specific keyword that you need more information about. 
 
-# returning keywords in python:
-return, yield keywords re returning keywords in python.
+# returning keywords in Python:
+return, yield keywords re returning keywords in Python.
 
-# yield keyword in python:
+# yield keyword in Python:
 The `yield ` keyword means provide output as continue, means the programing code can `continue` to the next part of execution.
 
 The `yield` gives a generator object.
@@ -67,7 +67,7 @@ local variable i: 4
 ```
 `yield` keyword can help continue the iteration to get the output.
 
-# return keyword in python:
+# return keyword in Python:
 The `return ` keyword means provide output as stop, means the programing code can `stop` there and it will not go to the next part of execution
 
 The `yield` gives back the actual returned value.

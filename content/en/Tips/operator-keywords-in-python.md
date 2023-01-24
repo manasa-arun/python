@@ -1,17 +1,17 @@
 ---
-title: "operator keywords in python"
+title: "operator keywords in Python"
 description: "and,or,not,in, keywords in detail"
 date: "2022-09-07T12:00:05+09:00"
 draft: false
-link: "python operator keywords"
+link: "Python operator keywords"
 author: "harika"
 ---
 
 # introduction to keywords:
-Keywords are python reserved words.
+Keywords are Python reserved words.
 We cannot use them as constants or variables or any other identifier names.
 
-## list of Thirty-five keywords in python:
+## list of Thirty-five keywords in Python:
 we can list out keywords with `help()` 
 ```
 >>> help ("keywords")
@@ -53,14 +53,14 @@ statements or annotations.
 
 Related help topics: FUNCTIONS
 ```
-# operator keywords in python:
+# operator keywords in Python:
 Operator keywords include four of the Thirty-five  total keywords. 
-and, or, not, in, is these are the operator keywords in python.
+and, or, not, in, is these are the operator keywords in Python.
 variable name doesn't match ith these keywords.
 
 
-# and keyword in python:
-python `and` is a logical operator
+# and keyword in Python:
+Python `and` is a logical operator
 when we want to compare two different conditions we can use this `and` operator like this
 
 # Example:
@@ -86,8 +86,8 @@ in this example a,b,c are variables hen we want apply conditions to it or when w
 check the two conditions and if conditions is satisfied it will give output as `True or False` according to condition.
 
 
-# or keyword in python:
-python `or` keyword is a logical operator
+# or keyword in Python:
+Python `or` keyword is a logical operator
 
 Python OR Keyword Truth Table
 Input 1  	  Input2	         Output
@@ -106,7 +106,7 @@ condition 1 is False `or` condition2 is False  then it ill give output as `False
 # Example:
 ```
 i = 0
-a = 'pythonshiksha'
+a = 'Pythonshiksha'
   
 while i < len(a):
     if a[i] == 'e' or a[i] == 'k':
@@ -128,14 +128,14 @@ Current Letter : s
 Current Letter : h
 Current Letter : i
 ```
-In this example a[i]= 'k'  so it will display before k letters in 'pythonshiksha'.
+In this example a[i]= 'k'  so it will display before k letters in 'Pythonshiksha'.
 
 # Example:
 if a[i]= 'y' now the output will be like this
 
 ```
 i = 0
-a = 'pythonshiksha'
+a = 'Pythonshiksha'
   
 while i < len(a):
     if a[i] == 'e' or a[i] == 'y':
@@ -150,9 +150,9 @@ while i < len(a):
 ```
 Current Letter : p
 ```
-here we got output only p why because now a[i] is y so before y letters can display in pythonshiksha word.
+here we got output only p why because now a[i] is y so before y letters can display in Pythonshiksha word.
 
-# not keyword in python:
+# not keyword in Python:
 The 'not' keyword is a logical operator.
 
 The return value will be 'True' if the statement(s) are not 'True', otherwise it will return 'False'.
@@ -172,8 +172,8 @@ a is bigger than 1 so it is 'True'
 the condition is 'True' not keyword can give output as 'False'.
 so output will be 'True False'
 
-# in keyword in python:
-The `in` is a membership operator in python.
+# in keyword in Python:
+The `in` is a membership operator in Python.
 The `in` keyword has two purposes:
 
 The `in` keyword is used to check if a value is present in a sequence (list, range, string etc.).
@@ -197,7 +197,7 @@ In this example 'c' is not there in 'vowels' so output is 'no'
 
 # Example:
 ```
-best_tutorial = "pythonshiksha"
+best_tutorial = "Pythonshiksha"
  
 # Iterating through the string
 for i in best_tutorial:
@@ -223,5 +223,5 @@ s
 h
 a
 ```
-here i is f now in 'pythonshiksha' word 'f' letter is not there so it will display all the letters in it.
+here i is f now in 'Pythonshiksha' word 'f' letter is not there so it will display all the letters in it.
 

@@ -9,7 +9,7 @@ author: "harika"
 ---
 
 ## introduction:
-Strings in python are defined as aet of characters represented in the quotation marks.
+Strings in Python are defined as aet of characters represented in the quotation marks.
 
 ** example:
 `str1='harika'`
@@ -48,7 +48,7 @@ output:
 vamshi krishna
 ```
 now we got a output with spaces in between two names for this we can use 
-" "+ is used in 3rd line of python program.
+" "+ is used in 3rd line of Python program.
 check program and try with another names.
 
 note:
@@ -77,7 +77,7 @@ harika saanvi santhosh
 >>> print("-".join(names_list))
 harika-saanvi-santhosh
 ```
-like this we can easily use join() to  concatenate items in single string in python.
+like this we can easily use join() to  concatenate items in single string in Python.
 
 ## using (*)Repetition operator:
 A Repetition operatorcreates a string that contains n repeted copies of string.
@@ -91,15 +91,15 @@ print('heloo' *3)
 this code will get like this `heloohelooheloo` heloo word printed 3 times.
 
 ```
-str1="python"
+str1="Python"
 print ("String 1:",str1)
 str1=str1*3
 print("Concatenated same string:",str1)
 ```
 output:
 ```
-String 1: python
-Concatenated same string:  pythonpythonpython
+String 1: Python
+Concatenated same string:  PythonPythonPython
 ```
 like this string repetition method is very easy to use with this 
 `* `operator.
@@ -111,7 +111,7 @@ The repetition can be done with (string+int).
 
 ## conclusion:
 
-This three techniques are best to concatenate items in a list to a single string,explained in a detailed information and with simple python programs to understand every user.
+This three techniques are best to concatenate items in a list to a single string,explained in a detailed information and with simple Python programs to understand every user.
 
 
 

@@ -1,17 +1,17 @@
 ---
-title: "import keywords in python"
+title: "import keywords in Python"
 description: " import,as,from keywords in detail"
 date: "2022-09-20T12:10:05+09:00"
 draft: false
-link: "python import keywords"
+link: "Python import keywords"
 author: "harika"
 ---
 
 # introduction to keywords:
-Keywords are python reserved words.
+Keywords are Python reserved words.
 We cannot use them as constants or variables or any other identifier names.
 
-## list of Thirty-five keywords in python:
+## list of Thirty-five keywords in Python:
 we can list out keywords with `help()` 
 ```
 >>> help ("keywords")
@@ -31,11 +31,11 @@ break               for                 not
 
 you can use help() again by passing in the specific keyword that you need more information about. 
 
-# Import keywords in python:
-`import,as,from` keywords are import keywords in python.
+# Import keywords in Python:
+`import,as,from` keywords are import keywords in Python.
 
 
-# import in python:
+# import in Python:
 The `import` keyword is used to import the modules
 In Python Modules cannot be used without being imported first.
 
@@ -66,7 +66,7 @@ print(math.sqrt(200))
 14.142135623730951
 ```
 
-# as keyword in python:
+# as keyword in Python:
 The `as` keyword is used to create an alias.
 
 Instead of using whole name of the particular objects or modules we can rename with simple letters w,r like
@@ -76,15 +76,15 @@ r for read
 # Example:
 ```
 with open("demo.txt","w") as fw:
-    fw.write("Best python learning tutorial- PYTHONSHIKSHA"
+    fw.write("Best Python learning tutorial- PYTHONSHIKSHA"
 with open("demo.txt","r") as fr:
     print(fr.read())
 ```
 # output:
 ```
-Best python learning tutorial- PYTHONSHIKSHA
+Best Python learning tutorial- PYTHONSHIKSHA
 ```
-# from keyword in python:
+# from keyword in Python:
 In Python, there are many different modules that may be imported. The from keyword can be used to choose a specific method from any module and then utilise it. 
 
 # Example:
@@ -99,4 +99,4 @@ print(x)
 ```
 18:00:00
 ```
-In python datetime is a module in that we can select only hour from the datetime module in this case `from` key word is used like this.
+In Python datetime is a module in that we can select only hour from the datetime module in this case `from` key word is used like this.

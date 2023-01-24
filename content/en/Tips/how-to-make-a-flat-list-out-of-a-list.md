@@ -8,8 +8,8 @@ author: "harika"
 ---
 
 ## introduction:
-python supports creation one dimensional,two dimensional lists and so on..
-A list is a more flexible data structure in python.
+Python supports creation one dimensional,two dimensional lists and so on..
+A list is a more flexible data structure in Python.
 
 now we can make a flat list out of a lists, using simple and easy methods 
 
@@ -34,7 +34,7 @@ output:
 
 ## using list comprehension:
 
-It is a most pythonic method,it is a quick method accessing  and putting any item in to any type data structure
+It is a most Pythonic method,it is a quick method accessing  and putting any item in to any type data structure
 
 ```
 list2d= [[1,2,],[3],[4,5,6]]
@@ -137,7 +137,7 @@ output:
 ```
 ## conclusion:
 
-In conclusion we discussed here how to flatten list out of a lists with simple concepts with python programs code to understand everyone easily.
+In conclusion we discussed here how to flatten list out of a lists with simple concepts with Python programs code to understand everyone easily.
 
  
 

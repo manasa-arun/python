@@ -1,7 +1,7 @@
 ---
 
-title: "How to return dictionary keys as a list in python"
-description: " Three techniques for return dictionary keys as a list in python"
+title: "How to return dictionary keys as a list in Python"
+description: " Three techniques for return dictionary keys as a list in Python"
 date: "2022-05-04T10:32:05+09:00"
 draft: false
 link: "return dictionary keys as a list"
@@ -12,11 +12,11 @@ author: "harika"
 
 Dictionary is an object that stores collection of data in Python,which consists of `key-value` pairs which can be used to store data. 
 
-Like other data structures in python, Dictionaries/Map also contains indexes called **Keys**. 
+Like other data structures in Python, Dictionaries/Map also contains indexes called **Keys**. 
 
 Keys can be both numeric as well as string but it can’t be of the form of a **mutable sequence** or object. 
 
-In this article we will briefly discuss the various methods to **How to return dictionary keys as a list in python** and which method is more reliable.
+In this article we will briefly discuss the various methods to **How to return dictionary keys as a list in Python** and which method is more reliable.
 
 For that, we will use a reference dictionary i.e.:
 
@@ -36,7 +36,7 @@ output:
 ```
 dict_keys(['harika', 'saanvi', 'santhosh'])
 ```
-in this python code created a dictionary with `emp_id` in that keys are employee names and values are employee id's.
+in this Python code created a dictionary with `emp_id` in that keys are employee names and values are employee id's.
 
 `emp_id.keys` is used to display keys in dictionary,we have keys here employee names 
 harika,saanvi,santhosh
@@ -107,4 +107,4 @@ output:
 
 we have more concepts to get keys from dictionary but `dict.keys`  and `list()` are the simple and best method to get keys from any type of dictionary.
 
-check this article and try with your own dictionary and learn more concepts in python in this simple way.
+check this article and try with your own dictionary and learn more concepts in Python in this simple way.

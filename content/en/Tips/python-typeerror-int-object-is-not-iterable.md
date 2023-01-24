@@ -1,6 +1,6 @@
 ---
-title: " python typeerror int object is not iterable "
-description: " range function can solve python typeerror int object is not iterable "
+title: " Python typeerror int object is not iterable "
+description: " range function can solve Python typeerror int object is not iterable "
 date: "2022-05-09T19:05:05+09:00"
 draft: false
 link: "typeerror int obj is njot iterable"
@@ -24,7 +24,7 @@ If we do so, the error "int object is not iterable" will appear.
 A TypeError is raised, for example, if you try to apply a mathematical function to a text or call a value that is not a function. 
 
 `int object is not iterable` means The int object cannot be iterated.
-when we  attempted to iterate over an object that is not iterable, according to the python message.
+when we  attempted to iterate over an object that is not iterable, according to the Python message.
 
 Iterable objects are those whose values may be accessed by a "for loop." 
 

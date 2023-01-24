@@ -63,7 +63,7 @@ output:
 2017-05-29 07:30:00
 ```
 
-In this datetime we have to fallow some rules to get exact format of time and date, which we used in python program.
+In this datetime we have to fallow some rules to get exact format of time and date, which we used in Python program.
 
 *`%b` is used for to indicate `month as local' abbreviated name
 example:
@@ -91,7 +91,7 @@ example:
 
 *`%p` used for Locale’s equivalent of either AM or PM.`AM, PM (en_US)`
 
-instead of using `jan we can use %b` like this in python 3 this format codes are used to get exact format of datetime.
+instead of using `jan we can use %b` like this in Python 3 this format codes are used to get exact format of datetime.
 
 *`%a` used for Weekday as locale’s abbreviated name.`Sun, Mon, …, Sat (en_US)`
 

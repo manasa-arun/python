@@ -1,18 +1,18 @@
 ---
-title: "reverse() function in python"
-description: "reverse() function syntax,parameters,examples in python"
+title: "reverse() function in Python"
+description: "reverse() function syntax,parameters,examples in Python"
 date: "2022-08-06T10:15:05+09:00"
 draft: false
 link: "reverse() Built-in functions"
 author: "harika"
 ---
 
-## `reverse()` function in python:
-The `reverse()` function is a one of the built-in functions in python.
+## `reverse()` function in Python:
+The `reverse()` function is a one of the built-in functions in Python.
 The `reverse()` is used for `Returns a reverse iterator`.
 
 ## `reverse()` function syntax
-```python
+```Python
 reverse(sequence_object)
 ```
 ## `reverse()` function parameter

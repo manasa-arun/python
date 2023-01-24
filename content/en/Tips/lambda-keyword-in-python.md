@@ -1,6 +1,6 @@
 ---
 title: "Python 'lambda' keyword usage,examples"
-description: " The 'lambda' keyword is one of the keyword out of thirty-five keywords in python"
+description: " The 'lambda' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-20T11:00:05+09:00"
 draft: false
 link: "'lambda' keyword"
@@ -9,7 +9,7 @@ author: "harika"
 
 ## Python `lambda` keyword 
 
-1. The `lambda` keyword is one of the keyword out of thirty-five keywords in python.
+1. The `lambda` keyword is one of the keyword out of thirty-five keywords in Python.
 2. Small anonymous functions are created with the `lambda` keyword.
 3. A `lambda` function can have one expression but any number of arguments.
 4. The result of evaluating the expression is returned. 
@@ -25,26 +25,26 @@ author: "harika"
 
 ## Python `lambda` keyword Syntax 
 
-```python
+```Python
 lambda arguments: expression
 ```
 anonymous means the function don't have a name for it, these type of functions are created with this `lambda` keyword only.
 
 ## Python `lambda` keyword Examples:
 
-let's go through some of examples to understand `lambda` keyword in python
+let's go through some of examples to understand `lambda` keyword in Python
 
 ### Example 1:
 Adding numbers using `lambda` keyword 
 
-```python
+```Python
 x = lambda a, b, c : a + b + c
 
 print(x(7, 9, 15)) 
 ```
 output:
 
-```python
+```Python
 31
 ```
 Verify this Example.
@@ -53,16 +53,16 @@ Multiple attributes are allowed here, and `lambda` has no function name and an e
 ### Example 2:
 Using `lambda` to print something.
 
-```python
-first_user = lambda name : print('best python tutorial', name)
+```Python
+first_user = lambda name : print('best Python tutorial', name)
 
 # lambda call
-first_user('pythonshiksha')
+first_user('Pythonshiksha')
 ```
 output:
 
-```python
-best python tutorial pythonshiksha
+```Python
+best Python tutorial Pythonshiksha
 ```
 
 ## Summary

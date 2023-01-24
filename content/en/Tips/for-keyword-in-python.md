@@ -1,6 +1,6 @@
 ---
 title: "Python 'for' keyword usage, examples" 
-description: "The 'for' keyword is one of the keyword out of thirty-five keywords in python"
+description: "The 'for' keyword is one of the keyword out of thirty-five keywords in Python"
 date: "2022-09-09T8:30:05+09:00"
 draft: false
 link: "'for' keyword"
@@ -8,44 +8,44 @@ author: "harika"
 ---
 
 
-## python `for` keyword 
+## Python `for` keyword 
 
-1. The`for` keyword is one of the keyword out of thirty-five keywords in python.
+1. The`for` keyword is one of the keyword out of thirty-five keywords in Python.
 
-2. The `for` keyword is iteration type of keyword in python.
+2. The `for` keyword is iteration type of keyword in Python.
 
-3. The `for` keyword is used to create for loop in python like in other programing languages also.
+3. The `for` keyword is used to create for loop in Python like in other programing languages also.
 
 4. The `for` keyword we can display more number of list,tuple or set items in one attempt by iteration process.
 
 5. The `for` keyword mainly used for iteration process only.
 
-## python `for` keyword Uses
+## Python `for` keyword Uses
 
 1. In Python, the `for` keyword is used to create a loop that iterates over a sequence of elements. 
 2. The `for` loop is used to repeat a block of code for each element in the sequence.
 
-## python`for` keyword Syntax 
+## Python`for` keyword Syntax 
 
-```python
+```Python
 for variable in sequence:
         statements
 ```
-## python `for` keyword Examples:
+## Python `for` keyword Examples:
 
-let's go through some of examples to understand `for` keyword in python
+let's go through some of examples to understand `for` keyword in Python
 
 ### Example 1:
 To print students list using `for`
 
-```python
+```Python
 students_list = ["aaaa", "bbbb", "ccccc"]
 for x in students_list:
   print(x) 
 ```
 output:
 
-```python
+```Python
 aaaa
 bbbb
 cccc
@@ -57,7 +57,7 @@ By using a for loop and an iteration process, we can obtain this output with onl
 ### Example 2:
 using `for` keyword to find sum and average of numbers.
 
-```python
+```Python
 numbers =[22,33,26,87,100]
 sum =0
 for n in numbers:
@@ -67,7 +67,7 @@ print('average =', sum/len(numbers))
 ```
 output:
 
-```python
+```Python
 sum = 268
 average = 53.6
 ```
@@ -75,7 +75,7 @@ average = 53.6
 ### Example 3:
 using `for` keyword to print values
 
-```python
+```Python
 for i in[10,20,30]:
         print("value =", i)
 else:
@@ -83,7 +83,7 @@ else:
 ```
 output:
 
-```python
+```Python
 value = 10
 value = 20
 value = 30

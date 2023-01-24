@@ -1,9 +1,9 @@
 ---
-title: "variables in python"
-description: "python variables in detail"
+title: "variables in Python"
+description: "Python variables in detail"
 date: "2022-09-05T11:15:05+09:00"
 draft: false
-link: "variables in python"
+link: "variables in Python"
 author: "harika"
 ---
 
@@ -18,31 +18,31 @@ c=a+b
 
 In the above example a,b,c are variables.
 We can not use variables without assigning any value to them. 
-In python, variables are strongly and dynamically typed.
+In Python, variables are strongly and dynamically typed.
 
-## strong typing in python:
+## strong typing in Python:
 strong typing means that the type of a value can not be changed. 
 ## example:
 a string containing only become a number digits doesn't become a number without casting notation.
 Every change of type requires an explicit conversion.
 
-## Dynamic typing in python:
+## Dynamic typing in Python:
 Dynamic typing means that runtime values have a type,as opposed to static typing where variables have a type.
 
 ## How to create a variables:
-We can create a variable in python with assignment statement to create a variable and assign a value.
+We can create a variable in Python with assignment statement to create a variable and assign a value.
 
 ## Example:
 num = 25
 
-## How to declare a variable in python:
+## How to declare a variable in Python:
         or
-## what are the variable naming rules in python:
+## what are the variable naming rules in Python:
 
 when declaring a variables we must follow these rules:
-1.we can not use python's key words as a variable name.
+1.we can not use Python's key words as a variable name.
 ## Example:
-  class,continue,lambda python have more number of keywords
+  class,continue,lambda Python have more number of keywords
   these names are not allowed to use as variable name
 
 2.A variable name cannot contain spaces

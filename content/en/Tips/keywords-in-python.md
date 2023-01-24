@@ -1,21 +1,21 @@
 ---
-title: "keywords in python"
-description: "Keywords are python reserved words"
+title: "keywords in Python"
+description: "Keywords are Python reserved words"
 date: "2022-09-06T11:25:05+09:00"
 draft: false
-link: "python keywords"
+link: "Python keywords"
 author: "harika"
 ---
 
-## introduction to `keywords` in python
+## introduction to `keywords` in Python
 
-Keywords are python reserved words.
+Keywords are Python reserved words.
 We cannot use them as constants or variables or any other identifier names.
 
-## list of Thirty-five `keywords` in python:
+## list of Thirty-five `keywords` in Python:
 
 we can list out keywords with `help()` 
-```python
+```Python
 >>> help ("keywords")
 
 Here is a list of the Python keywords.  Enter any keyword to get more help.
@@ -35,7 +35,7 @@ you can use help() again by passing in the specific keyword that you need more i
 
 ### Example: let's try with another keyword  `lambda`
 
-```python
+```Python
 >>> help("lambda")
 Lambdas
 *******
@@ -58,7 +58,7 @@ statements or annotations.
 Related help topics: FUNCTIONS
 ```
 
-## `keywords types` in python:
+## `keywords types` in Python:
 
 According to their usage of keywords,they can divided in to these 7 types.
    

@@ -1,19 +1,19 @@
 ---
-title: "python str() function syntax,usage and examples"
-description: "The 'str()' function is a one of the built-in functions in python"
+title: "Python str() function syntax,usage and examples"
+description: "The 'str()' function is a one of the built-in functions in Python"
 date: "2022-08-17T10:00:05+09:00"
 draft: false
 link: "str() Built-in functions"
 author: "harika"
 ---
 
-## `str()` function in python:
-The `str()` function is a one of the built-in functions in python.
+## `str()` function in Python:
+The `str()` function is a one of the built-in functions in Python.
 `str()` is used for	`Returns a string object`.
 
 ## `str()` Syntax:
 
-```python
+```Python
 str(object, encoding=encoding, errors=errors)
 ```
 ## `str()` parameters
@@ -28,13 +28,13 @@ a printable string representation of a given object
 string representation of a given byte object in the provided encoding
  
 ### Example:
-```python
-print(str('pythonshiksha'))
+```Python
+print(str('Pythonshiksha'))
 print(str('50'))
 ```
 output:
-```python
-pythonshiksha
+```Python
+Pythonshiksha
 50
 ```
 ## Summary
