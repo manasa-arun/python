@@ -19,7 +19,7 @@ Depending on the version of Python you're using, there are several ways to creat
 `os.path.exists`.
 
 
-## Example : using os.makedirs
+## Example : using `os.makedirs`
 
 ```python
 import os
