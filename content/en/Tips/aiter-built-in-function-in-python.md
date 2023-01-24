@@ -15,7 +15,7 @@ author: "harika"
 
 ## `aiter()` function Syntax 
 
-The syntax `aiter()` function is 
+The syntax of `aiter()` function is 
 
 ```Python
 aiter(iter)
