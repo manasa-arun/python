@@ -26,7 +26,7 @@ Many functions and modules in the Python standard library make it easier to sear
 3. enumerate method
 4. mmap 
 
-1. `find()` and `read()` method to search for a string in text files:
+## `find()` and `read()` method to search for a string in text files:
      
     If a file is small, read it into a string and use the `find()` method to see if it contains a string or word. 
 
@@ -35,17 +35,17 @@ Many functions and modules in the Python standard library make it easier to sear
     The `find()` method will return -1 if the given text is not present in a file Print line and line number.
 
 
-2. `readline/redlines` method to search for a string in text files:
+## `readline/redlines` method to search for a string in text files:
      
     If you want to print line and line number information, use the `readlines()` method instead of the `read()` method. 
     using for loop and `readlines()` method to iterate each line from a file.
 
 
 
-3. `enumerate` method to search for a string in text files:
+##  `enumerate` method to search for a string in text files:
     
     The `enumerate` method is the Efficient way to search `string in a large text file`.
-    
+
     The `enumerate()` function adds a counter to an iterable and returns it in enumerate object. Pass the file pointer returned by the open() function to the enumerate().
 
 
@@ -121,10 +121,11 @@ nothing will display here
 ```
 so laptop is word not there in grocery text file.
 
-### `mmap` method  to `search for a string in text file`
+## `mmap` method  to `search for a string in text file`
 
     `mmap` method is the  fastest and most memory-efficient way to search a string in a large text file.
 
+### Example 3: `mmap` to search for a string in text file
 ```python
 import mmap
 
