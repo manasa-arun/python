@@ -1,7 +1,7 @@
 ---
 title: "variable naming rules in Python "
 description: "when declaring a variables we must follow these variable naming rules"
-date: "2023-02-12T11:15:05+09:00"
+date: "2023-02-13T11:15:05+09:00"
 draft: false
 link: "how to declare a variable in python"
 author: "harika"
