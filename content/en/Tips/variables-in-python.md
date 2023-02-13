@@ -1,84 +1,83 @@
 ---
 title: "variables in Python"
-description: "Python variables in detail"
-date: "2022-09-05T11:15:05+09:00"
+description: "A `variable` is a name that represents a value stored in the computer's memory."
+date: "2023-02-12T11:15:05+09:00"
 draft: false
-link: "variables in Python"
+link: "variables and variable creation in Python"
 author: "harika"
 ---
 
-## introduction to variables:
-A variable is a name that represents a value stored in the computer's memory.
-programs usually store data in the computer's memory and perform operations on that data through variables.
+## Introduction to `variables` in python
 
-## Example:
+1. A `variable` is a name that represents a value stored in the computer's memory.
+2. programs usually store data in the computer's memory and perform operations on that data through variables.
+
+
+## How to create a `variables` in python
+
+1. We can create a 'variable' in Python with assignment statement to create a variable and assign a value.
+2. To create a variable in Python, you simply give it a name and assign it a value using the assignment operator (=). For example:
+
+num = 25
+a = 10
+
+here `num,a` are variable names `25 and 10` is assigned the numbers to that `num and a `variables.
+
+### Example 1:
+```python
 a=45
 b=20.5
 c=a+b
-
+print(c)
+```
+output:
+```python
+65.5
+```
 In the above example a,b,c are variables.
 We can not use variables without assigning any value to them. 
-In Python, variables are strongly and dynamically typed.
 
-## strong typing in Python:
-strong typing means that the type of a value can not be changed. 
-## example:
-a string containing only become a number digits doesn't become a number without casting notation.
-Every change of type requires an explicit conversion.
 
-## Dynamic typing in Python:
-Dynamic typing means that runtime values have a type,as opposed to static typing where variables have a type.
 
-## How to create a variables:
-We can create a variable in Python with assignment statement to create a variable and assign a value.
+In Python, variables are `strongly and dynamically typed`.
+## strong typing in Python
 
-## Example:
-num = 25
+1. strong typing means that the type of a value can not be changed. 
+2. a string containing only become a number digits doesn't become a number without casting notation.
+3. Every change of type requires an explicit conversion.
 
-## How to declare a variable in Python:
-        or
-## what are the variable naming rules in Python:
+## Example 2:
 
-when declaring a variables we must follow these rules:
-1.we can not use Python's key words as a variable name.
-## Example:
-  class,continue,lambda Python have more number of keywords
-  these names are not allowed to use as variable name
-
-2.A variable name cannot contain spaces
-## Example:
-  Studentname is correct format
-  Studnt name is not correct(spaces are not allowed in variable name)
-3.The first character must be one of the letters of the alphabet or an underscore(_).
-
-## Example:
-  _num is correct format
-  #num is not correct format(first letter should be _ or any letter in alphabets)
-  num is correct format
-  3num is not correct (should not begin ith number)
-  
-4.After the first character we may use the any letter or digit or underscore.
-## Example:
-  my_num is correct
-  num1 is correct 1num is not correct(first letter of variable does't contain digit)
-
-5.Uppercase and lowercase characters are distinct.
-## Example:
-  variable name `CollegeName` is not same as `collegename` 
-  age is not same as Age
-  X is not same as x
-
-## Example:
+```python
+x = 22
+print(x) # Output: 22
+x = 28
+print(x) # Output: 28
 ```
-x = 30
-y = "aaa"
-print(x)
-print(y)
+
+## Dynamic typing in Python
+
+1. Dynamic typing means that runtime values have a type,as opposed to static typing where variables have a type.
+2. Python is a dynamically typed language, there is no need to declare the type of a variable before using it.
+3. That is, a variable's type is determined automatically based on the value assigned to it.
+
+### Example 3: 
+```python
+x = 22
+print(type(x)) # Output: <class 'int'>
+x = "india"
+print(type(x)) # Output: <class 'str'>
 ```
-## output:
+`x= 22` is int type variable 
+`x = `india`` is a str type variable but we can not declared here why because variables are dynamically typed in python.
+
+### Example 4: 
+```python
+Var1 = "python shiksha"
+print(Var1)
 ```
-30
-aaa
+output:
+```python
+python shiksha
 ```
-in this Example x and y are variables.
 
